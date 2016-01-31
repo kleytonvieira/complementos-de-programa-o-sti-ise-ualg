@@ -1,6 +1,8 @@
 // TODO: Auto-generated Javadoc
 /**
  * The Class Car.
+ *
+ * @author pcardoso
  */
 public class Car {
   
