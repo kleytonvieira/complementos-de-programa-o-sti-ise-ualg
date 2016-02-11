@@ -8,22 +8,22 @@ public class Car {
   
   /** The car color. */
   String carColor;
-  
+         
   /** The car brand. */
   String carBrand;
-  
+         
   /** The car model. */
   String carModel;
-  
+         
   /** The car owner. */
   String carOwner;
-  
+         
   /** The Liters per hundred km. */
   double carConsumption;
-  
+         
   /** The car kms. */
   double carKms;
-  
+         
   /**
    * Prints the owner.
    */
@@ -54,8 +54,8 @@ public class Car {
    *
    * @param kmsIn the kms in
    */
-  void addKms(double kmsIn) {
-    carKms += kmsIn;
+  void addKms(double carKms) {
+    this.carKms += carKms;
   }
   
 }
