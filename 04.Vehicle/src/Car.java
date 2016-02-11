@@ -16,7 +16,7 @@ public class Car {
   String carModel;
          
   /** The car owner. */
-  String carOwner;
+  Person carOwner;
          
   /** The Liters per hundred km. */
   double carConsumption;
@@ -32,7 +32,7 @@ public class Car {
   public String getCarColor() {
     return carColor;
   }
-
+  
   /**
    * Sets the car color.
    *
@@ -41,7 +41,7 @@ public class Car {
   public void setCarColor(String carColor) {
     this.carColor = carColor;
   }
-
+  
   /**
    * Gets the car brand.
    *
@@ -50,7 +50,7 @@ public class Car {
   public String getCarBrand() {
     return carBrand;
   }
-
+  
   /**
    * Sets the car brand.
    *
@@ -59,7 +59,7 @@ public class Car {
   public void setCarBrand(String carBrand) {
     this.carBrand = carBrand;
   }
-
+  
   /**
    * Gets the car model.
    *
@@ -68,7 +68,7 @@ public class Car {
   public String getCarModel() {
     return carModel;
   }
-
+  
   /**
    * Sets the car model.
    *
@@ -77,25 +77,25 @@ public class Car {
   public void setCarModel(String carModel) {
     this.carModel = carModel;
   }
-
+  
   /**
    * Gets the car owner.
    *
    * @return the car owner
    */
-  public String getCarOwner() {
+  public Person getCarOwner() {
     return carOwner;
   }
-
+  
   /**
    * Sets the car owner.
    *
    * @param carOwner the new car owner
    */
-  public void setCarOwner(String carOwner) {
+  public void setCarOwner(Person carOwner) {
     this.carOwner = carOwner;
   }
-
+  
   /**
    * Gets the car consumption.
    *
@@ -104,7 +104,7 @@ public class Car {
   public double getCarConsumption() {
     return carConsumption;
   }
-
+  
   /**
    * Sets the car consumption.
    *
@@ -113,7 +113,7 @@ public class Car {
   public void setCarConsumption(double carConsumption) {
     this.carConsumption = carConsumption;
   }
-
+  
   /**
    * Gets the car kms.
    *
@@ -122,7 +122,7 @@ public class Car {
   public double getCarKms() {
     return carKms;
   }
-
+  
   /**
    * Sets the car kms.
    *
@@ -130,17 +130,18 @@ public class Car {
    * @return true, if successful
    */
   public boolean setCarKms(double carKms) {
-    if (carKms < 0)
+    if (carKms < 0) {
       return false;
+    }
     this.carKms = carKms;
     return true;
   }
-
+  
   /**
    * Prints the owner.
    */
   void printOwner() {
-    System.out.println(carOwner);
+    System.out.println(carOwner.getForename() + " " + carOwner.getSurname());
   }
   
   /**
@@ -148,7 +149,7 @@ public class Car {
    *
    * @return the owner
    */
-  String getOwner() {
+  Person getOwner() {
     return carOwner;
   }
   
@@ -157,7 +158,7 @@ public class Car {
    *
    * @param carOwnerIn the new owner
    */
-  void setOwner(String carOwnerIn) {
+  void setOwner(Person carOwnerIn) {
     carOwner = carOwnerIn;
   }
   
@@ -167,7 +168,9 @@ public class Car {
    * @param carKms the car kms
    */
   void addKms(double carKms) {
-    this.carKms += carKms;    //The most common reason for using the 'this' keyword is because a field is shadowed by a method/constructor argument.
+    //The most common reason for using the 'this' keyword is because a 
+    //field is shadowed by a method/constructor argument.
+    this.carKms += carKms; 
   }
   
 }
