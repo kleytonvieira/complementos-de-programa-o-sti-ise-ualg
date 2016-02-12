@@ -170,7 +170,7 @@ public class Car {
   void addKms(double carKms) {
     //The most common reason for using the 'this' keyword is because a 
     //field is shadowed by a method/constructor argument.
-    this.carKms += carKms; 
+    this.carKms += carKms;
   }
   
 }
