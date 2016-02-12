@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_AK8UwNCqEeW6X_Jxb8Wqeg">
+  <modelElement href="04.Vehicle.uml#_AKLfwNCqEeW6X_Jxb8Wqeg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_BF_AsdCqEeW6X_Jxb8Wqeg" targetItem="_BGIxsNCqEeW6X_Jxb8Wqeg" sourceItem="_BF_AsNCqEeW6X_Jxb8Wqeg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_BGAO0NCqEeW6X_Jxb8Wqeg" targetItem="_BGIx0dCqEeW6X_Jxb8Wqeg" sourceItem="_BF_nwNCqEeW6X_Jxb8Wqeg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_BGA14dCqEeW6X_Jxb8Wqeg" targetItem="_BGIx1NCqEeW6X_Jxb8Wqeg" sourceItem="_BGA14NCqEeW6X_Jxb8Wqeg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_BGEgQNCqEeW6X_Jxb8Wqeg" targetItem="_BGIx2dCqEeW6X_Jxb8Wqeg" sourceItem="_BGD5MNCqEeW6X_Jxb8Wqeg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_BGFHUdCqEeW6X_Jxb8Wqeg" targetItem="_BGIx39CqEeW6X_Jxb8Wqeg" sourceItem="_BGFHUNCqEeW6X_Jxb8Wqeg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_BGR7odCqEeW6X_Jxb8Wqeg" targetItem="_BGTJwNCqEeW6X_Jxb8Wqeg" sourceItem="_BGR7oNCqEeW6X_Jxb8Wqeg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_MMZ-sdCuEeW6X_Jxb8Wqeg" targetItem="_MMVtQNCuEeW6X_Jxb8Wqeg" sourceItem="_MMZ-sNCuEeW6X_Jxb8Wqeg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_MMalwdCuEeW6X_Jxb8Wqeg" targetItem="_MMVtQdCuEeW6X_Jxb8Wqeg" sourceItem="_MMalwNCuEeW6X_Jxb8Wqeg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_MMbM0dCuEeW6X_Jxb8Wqeg" targetItem="_MMVtQtCuEeW6X_Jxb8Wqeg" sourceItem="_MMbM0NCuEeW6X_Jxb8Wqeg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_MMbz4NCuEeW6X_Jxb8Wqeg" targetItem="_MMVtQ9CuEeW6X_Jxb8Wqeg" sourceItem="_MMbM1tCuEeW6X_Jxb8Wqeg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_MMbz5tCuEeW6X_Jxb8Wqeg" targetItem="_MMVtRNCuEeW6X_Jxb8Wqeg" sourceItem="_MMbz5dCuEeW6X_Jxb8Wqeg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_MMca9dCuEeW6X_Jxb8Wqeg" targetItem="_MMWUUNCuEeW6X_Jxb8Wqeg" sourceItem="_MMca9NCuEeW6X_Jxb8Wqeg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_MMdCBdCuEeW6X_Jxb8Wqeg" targetItem="_MMWUUdCuEeW6X_Jxb8Wqeg" sourceItem="_MMdCBNCuEeW6X_Jxb8Wqeg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_MMdpFNCuEeW6X_Jxb8Wqeg" targetItem="_MMWUUtCuEeW6X_Jxb8Wqeg" sourceItem="_MMdpE9CuEeW6X_Jxb8Wqeg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_MMeQI9CuEeW6X_Jxb8Wqeg" targetItem="_MMWUU9CuEeW6X_Jxb8Wqeg" sourceItem="_MMeQItCuEeW6X_Jxb8Wqeg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_MMe3NNCuEeW6X_Jxb8Wqeg" targetItem="_MMWUVNCuEeW6X_Jxb8Wqeg" sourceItem="_MMe3M9CuEeW6X_Jxb8Wqeg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_MMgFUtCuEeW6X_Jxb8Wqeg" targetItem="_MMWUVdCuEeW6X_Jxb8Wqeg" sourceItem="_MMgFUdCuEeW6X_Jxb8Wqeg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_MMgsZNCuEeW6X_Jxb8Wqeg" targetItem="_MMWUVtCuEeW6X_Jxb8Wqeg" sourceItem="_MMgsY9CuEeW6X_Jxb8Wqeg"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_BF_AsNCqEeW6X_Jxb8Wqeg" sourceConnectionVisual="_BF_AsdCqEeW6X_Jxb8Wqeg" text="The Class Car.&#xA; *&#xA;@author pcardoso" item="_BGIxsNCqEeW6X_Jxb8Wqeg">
+    <modelElement href="04.Vehicle.uml#_AmXFcNCqEeW6X_Jxb8Wqeg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_BF_nwNCqEeW6X_Jxb8Wqeg" sourceConnectionVisual="_BGAO0NCqEeW6X_Jxb8Wqeg" text="Prints the owner." item="_BGIx0dCqEeW6X_Jxb8Wqeg">
+    <modelElement href="04.Vehicle.uml#_AmXFcdCqEeW6X_Jxb8Wqeg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_BGA14NCqEeW6X_Jxb8Wqeg" sourceConnectionVisual="_BGA14dCqEeW6X_Jxb8Wqeg" text="Gets the owner.&#xA;   *&#xA;   * @return the owner" item="_BGIx1NCqEeW6X_Jxb8Wqeg">
+    <modelElement href="04.Vehicle.uml#_AmXFctCqEeW6X_Jxb8Wqeg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_BGD5MNCqEeW6X_Jxb8Wqeg" sourceConnectionVisual="_BGEgQNCqEeW6X_Jxb8Wqeg" text="Sets the owner.&#xA;   *&#xA;   * @param carOwnerIn the new owner" item="_BGIx2dCqEeW6X_Jxb8Wqeg">
+    <modelElement href="04.Vehicle.uml#_AmXsgNCqEeW6X_Jxb8Wqeg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_BGFHUNCqEeW6X_Jxb8Wqeg" sourceConnectionVisual="_BGFHUdCqEeW6X_Jxb8Wqeg" text="Adds kmsIn to the carKms.&#xA;   *&#xA;   * @param carKms the car kms" item="_BGIx39CqEeW6X_Jxb8Wqeg">
+    <modelElement href="04.Vehicle.uml#_AmXsgdCqEeW6X_Jxb8Wqeg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_BGR7oNCqEeW6X_Jxb8Wqeg" sourceConnectionVisual="_BGR7odCqEeW6X_Jxb8Wqeg" text="The Class Program." item="_BGTJwNCqEeW6X_Jxb8Wqeg">
+    <modelElement href="04.Vehicle.uml#_AmXsgtCqEeW6X_Jxb8Wqeg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_MMZ-sNCuEeW6X_Jxb8Wqeg" sourceConnectionVisual="_MMZ-sdCuEeW6X_Jxb8Wqeg" text="Gets the car color.&#xA;   *&#xA;   * @return the car color" item="_MMVtQNCuEeW6X_Jxb8Wqeg">
+    <modelElement href="04.Vehicle.uml#_xLn48NCtEeW6X_Jxb8Wqeg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_MMalwNCuEeW6X_Jxb8Wqeg" sourceConnectionVisual="_MMalwdCuEeW6X_Jxb8Wqeg" text="Gets the car brand.&#xA;   *&#xA;   * @return the car brand" item="_MMVtQdCuEeW6X_Jxb8Wqeg">
+    <modelElement href="04.Vehicle.uml#_xLogAdCtEeW6X_Jxb8Wqeg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_MMbM0NCuEeW6X_Jxb8Wqeg" sourceConnectionVisual="_MMbM0dCuEeW6X_Jxb8Wqeg" text="Gets the car model.&#xA;   *&#xA;   * @return the car model" item="_MMVtQtCuEeW6X_Jxb8Wqeg">
+    <modelElement href="04.Vehicle.uml#_xLogA9CtEeW6X_Jxb8Wqeg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_MMbM1tCuEeW6X_Jxb8Wqeg" sourceConnectionVisual="_MMbz4NCuEeW6X_Jxb8Wqeg" text="Gets the car owner.&#xA;   *&#xA;   * @return the car owner" item="_MMVtQ9CuEeW6X_Jxb8Wqeg">
+    <modelElement href="04.Vehicle.uml#_xLogBdCtEeW6X_Jxb8Wqeg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_MMbz5dCuEeW6X_Jxb8Wqeg" sourceConnectionVisual="_MMbz5tCuEeW6X_Jxb8Wqeg" text="Gets the car consumption.&#xA;   *&#xA;   * @return the car consumption" item="_MMVtRNCuEeW6X_Jxb8Wqeg">
+    <modelElement href="04.Vehicle.uml#_xLpHENCtEeW6X_Jxb8Wqeg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_MMca9NCuEeW6X_Jxb8Wqeg" sourceConnectionVisual="_MMca9dCuEeW6X_Jxb8Wqeg" text="Gets the car kms.&#xA;   *&#xA;   * @return the car kms" item="_MMWUUNCuEeW6X_Jxb8Wqeg">
+    <modelElement href="04.Vehicle.uml#_xLpHEtCtEeW6X_Jxb8Wqeg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_MMdCBNCuEeW6X_Jxb8Wqeg" sourceConnectionVisual="_MMdCBdCuEeW6X_Jxb8Wqeg" text="Sets the car color.&#xA;   *&#xA;   * @param carColor the new car color" item="_MMWUUdCuEeW6X_Jxb8Wqeg">
+    <modelElement href="04.Vehicle.uml#_xLogANCtEeW6X_Jxb8Wqeg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_MMdpE9CuEeW6X_Jxb8Wqeg" sourceConnectionVisual="_MMdpFNCuEeW6X_Jxb8Wqeg" text="Sets the car brand.&#xA;   *&#xA;   * @param carBrand the new car brand" item="_MMWUUtCuEeW6X_Jxb8Wqeg">
+    <modelElement href="04.Vehicle.uml#_xLogAtCtEeW6X_Jxb8Wqeg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_MMeQItCuEeW6X_Jxb8Wqeg" sourceConnectionVisual="_MMeQI9CuEeW6X_Jxb8Wqeg" text="Sets the car model.&#xA;   *&#xA;   * @param carModel the new car model" item="_MMWUU9CuEeW6X_Jxb8Wqeg">
+    <modelElement href="04.Vehicle.uml#_xLogBNCtEeW6X_Jxb8Wqeg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_MMe3M9CuEeW6X_Jxb8Wqeg" sourceConnectionVisual="_MMe3NNCuEeW6X_Jxb8Wqeg" text="Sets the car owner.&#xA;   *&#xA;   * @param carOwner the new car owner" item="_MMWUVNCuEeW6X_Jxb8Wqeg">
+    <modelElement href="04.Vehicle.uml#_xLogBtCtEeW6X_Jxb8Wqeg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_MMgFUdCuEeW6X_Jxb8Wqeg" sourceConnectionVisual="_MMgFUtCuEeW6X_Jxb8Wqeg" text="Sets the car consumption.&#xA;   *&#xA;   * @param carConsumption the new car consumption" item="_MMWUVdCuEeW6X_Jxb8Wqeg">
+    <modelElement href="04.Vehicle.uml#_xLpHEdCtEeW6X_Jxb8Wqeg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_MMgsY9CuEeW6X_Jxb8Wqeg" sourceConnectionVisual="_MMgsZNCuEeW6X_Jxb8Wqeg" text="Sets the car kms.&#xA;   *&#xA;   * @param carKms the new car kms&#xA;   * @return true, if successful" item="_MMWUVtCuEeW6X_Jxb8Wqeg">
+    <modelElement href="04.Vehicle.uml#_xLpHE9CtEeW6X_Jxb8Wqeg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_BGTJwNCqEeW6X_Jxb8Wqeg" comments="_BGR7oNCqEeW6X_Jxb8Wqeg" targetConnectionVisual="_BGR7odCqEeW6X_Jxb8Wqeg" name="Program">
+    <modelElement href="04.Vehicle.uml#_AmExkNCqEeW6X_Jxb8Wqeg"/>
+    <visualProperties xmi:id="_BGTJwdCqEeW6X_Jxb8Wqeg" position="422.0,233.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_BGTJwtCqEeW6X_Jxb8Wqeg" label="+"/>
+    <operations xmi:id="_BGTJw9CqEeW6X_Jxb8Wqeg" name="main" staticOperation="true">
+      <modelElement href="04.Vehicle.uml#_AmF_sNCqEeW6X_Jxb8Wqeg"/>
+      <visibility xmi:id="_BGTJxNCqEeW6X_Jxb8Wqeg" label="+"/>
+      <cardinality xmi:id="_BGTJxdCqEeW6X_Jxb8Wqeg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_BGTJxtCqEeW6X_Jxb8Wqeg" name="args">
+        <modelElement href="04.Vehicle.uml#_AmF_sdCqEeW6X_Jxb8Wqeg"/>
+        <cardinality xmi:id="_BGTJx9CqEeW6X_Jxb8Wqeg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_BGTJyNCqEeW6X_Jxb8Wqeg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_BGIxsNCqEeW6X_Jxb8Wqeg" comments="_BF_AsNCqEeW6X_Jxb8Wqeg" targetConnectionVisual="_BF_AsdCqEeW6X_Jxb8Wqeg" name="Car">
+    <modelElement href="04.Vehicle.uml#_AlxPkNCqEeW6X_Jxb8Wqeg"/>
+    <visualProperties xmi:id="_BGIxsdCqEeW6X_Jxb8Wqeg" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_BGIxstCqEeW6X_Jxb8Wqeg" label="+"/>
+    <attributes xmi:id="_BGIxs9CqEeW6X_Jxb8Wqeg" name="carColor">
+      <modelElement href="04.Vehicle.uml#_AmLfQNCqEeW6X_Jxb8Wqeg"/>
+      <stereotypes xmi:id="_BGIxtNCqEeW6X_Jxb8Wqeg" name="LegacyStyledElement">
+        <modelElement href="04.Vehicle.uml#_AmMGUNCqEeW6X_Jxb8Wqeg"/>
+      </stereotypes>
+      <visibility xmi:id="_BGIxtdCqEeW6X_Jxb8Wqeg" label="~"/>
+      <cardinality xmi:id="_BGIxttCqEeW6X_Jxb8Wqeg" label="1" max="1" min="1"/>
+      <type xmi:id="_BGIxt9CqEeW6X_Jxb8Wqeg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_BGIxuNCqEeW6X_Jxb8Wqeg" name="carBrand">
+      <modelElement href="04.Vehicle.uml#_AmMtYNCqEeW6X_Jxb8Wqeg"/>
+      <stereotypes xmi:id="_BGIxudCqEeW6X_Jxb8Wqeg" name="LegacyStyledElement">
+        <modelElement href="04.Vehicle.uml#_AmN7gNCqEeW6X_Jxb8Wqeg"/>
+      </stereotypes>
+      <visibility xmi:id="_BGIxutCqEeW6X_Jxb8Wqeg" label="~"/>
+      <cardinality xmi:id="_BGIxu9CqEeW6X_Jxb8Wqeg" label="1" max="1" min="1"/>
+      <type xmi:id="_BGIxvNCqEeW6X_Jxb8Wqeg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_BGIxvdCqEeW6X_Jxb8Wqeg" name="carModel">
+      <modelElement href="04.Vehicle.uml#_AmN7gdCqEeW6X_Jxb8Wqeg"/>
+      <stereotypes xmi:id="_BGIxvtCqEeW6X_Jxb8Wqeg" name="LegacyStyledElement">
+        <modelElement href="04.Vehicle.uml#_AmOikNCqEeW6X_Jxb8Wqeg"/>
+      </stereotypes>
+      <visibility xmi:id="_BGIxv9CqEeW6X_Jxb8Wqeg" label="~"/>
+      <cardinality xmi:id="_BGIxwNCqEeW6X_Jxb8Wqeg" label="1" max="1" min="1"/>
+      <type xmi:id="_BGIxwdCqEeW6X_Jxb8Wqeg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_BGIxwtCqEeW6X_Jxb8Wqeg" name="carOwner">
+      <modelElement href="04.Vehicle.uml#_AmOikdCqEeW6X_Jxb8Wqeg"/>
+      <stereotypes xmi:id="_BGIxw9CqEeW6X_Jxb8Wqeg" name="LegacyStyledElement">
+        <modelElement href="04.Vehicle.uml#_AmPwsNCqEeW6X_Jxb8Wqeg"/>
+      </stereotypes>
+      <visibility xmi:id="_BGIxxNCqEeW6X_Jxb8Wqeg" label="~"/>
+      <cardinality xmi:id="_BGIxxdCqEeW6X_Jxb8Wqeg" label="1" max="1" min="1"/>
+      <type xmi:id="_BGIxxtCqEeW6X_Jxb8Wqeg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_BGIxx9CqEeW6X_Jxb8Wqeg" name="carConsumption">
+      <modelElement href="04.Vehicle.uml#_AmPwsdCqEeW6X_Jxb8Wqeg"/>
+      <stereotypes xmi:id="_BGIxyNCqEeW6X_Jxb8Wqeg" name="LegacyStyledElement">
+        <modelElement href="04.Vehicle.uml#_AmQXwNCqEeW6X_Jxb8Wqeg"/>
+      </stereotypes>
+      <visibility xmi:id="_BGIxydCqEeW6X_Jxb8Wqeg" label="~"/>
+      <cardinality xmi:id="_BGIxytCqEeW6X_Jxb8Wqeg" label="1" max="1" min="1"/>
+      <type xmi:id="_BGIxy9CqEeW6X_Jxb8Wqeg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_BGIxzNCqEeW6X_Jxb8Wqeg" name="carKms">
+      <modelElement href="04.Vehicle.uml#_AmQXwdCqEeW6X_Jxb8Wqeg"/>
+      <stereotypes xmi:id="_BGIxzdCqEeW6X_Jxb8Wqeg" name="LegacyStyledElement">
+        <modelElement href="04.Vehicle.uml#_AmRl4NCqEeW6X_Jxb8Wqeg"/>
+      </stereotypes>
+      <visibility xmi:id="_BGIxztCqEeW6X_Jxb8Wqeg" label="~"/>
+      <cardinality xmi:id="_BGIxz9CqEeW6X_Jxb8Wqeg" label="1" max="1" min="1"/>
+      <type xmi:id="_BGIx0NCqEeW6X_Jxb8Wqeg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_BGIx0dCqEeW6X_Jxb8Wqeg" comments="_BF_nwNCqEeW6X_Jxb8Wqeg" targetConnectionVisual="_BGAO0NCqEeW6X_Jxb8Wqeg" name="printOwner">
+      <modelElement href="04.Vehicle.uml#_Al5ycNCqEeW6X_Jxb8Wqeg"/>
+      <visibility xmi:id="_BGIx0tCqEeW6X_Jxb8Wqeg" label="~"/>
+      <cardinality xmi:id="_BGIx09CqEeW6X_Jxb8Wqeg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_BGIx1NCqEeW6X_Jxb8Wqeg" comments="_BGA14NCqEeW6X_Jxb8Wqeg" targetConnectionVisual="_BGA14dCqEeW6X_Jxb8Wqeg" name="getOwner">
+      <modelElement href="04.Vehicle.uml#_Al7AkNCqEeW6X_Jxb8Wqeg"/>
+      <visibility xmi:id="_BGIx1dCqEeW6X_Jxb8Wqeg" label="~"/>
+      <cardinality xmi:id="_BGIx1tCqEeW6X_Jxb8Wqeg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_BGIx19CqEeW6X_Jxb8Wqeg">
+        <modelElement href="04.Vehicle.uml#_Al7noNCqEeW6X_Jxb8Wqeg"/>
+        <type xmi:id="_BGIx2NCqEeW6X_Jxb8Wqeg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_BGIx2dCqEeW6X_Jxb8Wqeg" comments="_BGD5MNCqEeW6X_Jxb8Wqeg" targetConnectionVisual="_BGEgQNCqEeW6X_Jxb8Wqeg" name="setOwner">
+      <modelElement href="04.Vehicle.uml#_Al81wNCqEeW6X_Jxb8Wqeg"/>
+      <visibility xmi:id="_BGIx2tCqEeW6X_Jxb8Wqeg" label="~"/>
+      <cardinality xmi:id="_BGIx29CqEeW6X_Jxb8Wqeg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_BGIx3NCqEeW6X_Jxb8Wqeg" name="carOwnerIn">
+        <modelElement href="04.Vehicle.uml#_Al81wdCqEeW6X_Jxb8Wqeg"/>
+        <cardinality xmi:id="_BGIx3dCqEeW6X_Jxb8Wqeg" label="1" max="1" min="1"/>
+        <type xmi:id="_BGIx3tCqEeW6X_Jxb8Wqeg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_BGIx39CqEeW6X_Jxb8Wqeg" comments="_BGFHUNCqEeW6X_Jxb8Wqeg" targetConnectionVisual="_BGFHUdCqEeW6X_Jxb8Wqeg" name="addKms">
+      <modelElement href="04.Vehicle.uml#_Al-D4NCqEeW6X_Jxb8Wqeg"/>
+      <visibility xmi:id="_BGIx4NCqEeW6X_Jxb8Wqeg" label="~"/>
+      <cardinality xmi:id="_BGIx4dCqEeW6X_Jxb8Wqeg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_BGIx4tCqEeW6X_Jxb8Wqeg" name="carKms">
+        <modelElement href="04.Vehicle.uml#_Al-q8NCqEeW6X_Jxb8Wqeg"/>
+        <cardinality xmi:id="_BGIx49CqEeW6X_Jxb8Wqeg" label="1" max="1" min="1"/>
+        <type xmi:id="_BGIx5NCqEeW6X_Jxb8Wqeg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MMVtQNCuEeW6X_Jxb8Wqeg" comments="_MMZ-sNCuEeW6X_Jxb8Wqeg" targetConnectionVisual="_MMZ-sdCuEeW6X_Jxb8Wqeg" name="getCarColor">
+      <modelElement href="04.Vehicle.uml#_vFSekNCtEeW6X_Jxb8Wqeg"/>
+      <visibility xmi:id="_MMZXo9CuEeW6X_Jxb8Wqeg" label="+"/>
+      <cardinality xmi:id="_MMZXotCuEeW6X_Jxb8Wqeg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MMZXoNCuEeW6X_Jxb8Wqeg">
+        <modelElement href="04.Vehicle.uml#_vFeEwNCtEeW6X_Jxb8Wqeg"/>
+        <type xmi:id="_MMZXodCuEeW6X_Jxb8Wqeg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_MMVtQdCuEeW6X_Jxb8Wqeg" comments="_MMalwNCuEeW6X_Jxb8Wqeg" targetConnectionVisual="_MMalwdCuEeW6X_Jxb8Wqeg" name="getCarBrand">
+      <modelElement href="04.Vehicle.uml#_vFTFoNCtEeW6X_Jxb8Wqeg"/>
+      <visibility xmi:id="_MMZ-tdCuEeW6X_Jxb8Wqeg" label="+"/>
+      <cardinality xmi:id="_MMZ-tNCuEeW6X_Jxb8Wqeg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MMZ-stCuEeW6X_Jxb8Wqeg">
+        <modelElement href="04.Vehicle.uml#_vFiWMNCtEeW6X_Jxb8Wqeg"/>
+        <type xmi:id="_MMZ-s9CuEeW6X_Jxb8Wqeg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_MMVtQtCuEeW6X_Jxb8Wqeg" comments="_MMbM0NCuEeW6X_Jxb8Wqeg" targetConnectionVisual="_MMbM0dCuEeW6X_Jxb8Wqeg" name="getCarModel">
+      <modelElement href="04.Vehicle.uml#_vFTFodCtEeW6X_Jxb8Wqeg"/>
+      <visibility xmi:id="_MMalxdCuEeW6X_Jxb8Wqeg" label="+"/>
+      <cardinality xmi:id="_MMalxNCuEeW6X_Jxb8Wqeg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MMalwtCuEeW6X_Jxb8Wqeg">
+        <modelElement href="04.Vehicle.uml#_vFkLYNCtEeW6X_Jxb8Wqeg"/>
+        <type xmi:id="_MMalw9CuEeW6X_Jxb8Wqeg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_MMVtQ9CuEeW6X_Jxb8Wqeg" comments="_MMbM1tCuEeW6X_Jxb8Wqeg" targetConnectionVisual="_MMbz4NCuEeW6X_Jxb8Wqeg" name="getCarOwner">
+      <modelElement href="04.Vehicle.uml#_vFTssNCtEeW6X_Jxb8Wqeg"/>
+      <visibility xmi:id="_MMbM1dCuEeW6X_Jxb8Wqeg" label="+"/>
+      <cardinality xmi:id="_MMbM1NCuEeW6X_Jxb8Wqeg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MMbM0tCuEeW6X_Jxb8Wqeg">
+        <modelElement href="04.Vehicle.uml#_vFmAkNCtEeW6X_Jxb8Wqeg"/>
+        <type xmi:id="_MMbM09CuEeW6X_Jxb8Wqeg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_MMVtRNCuEeW6X_Jxb8Wqeg" comments="_MMbz5dCuEeW6X_Jxb8Wqeg" targetConnectionVisual="_MMbz5tCuEeW6X_Jxb8Wqeg" name="getCarConsumption">
+      <modelElement href="04.Vehicle.uml#_vFTssdCtEeW6X_Jxb8Wqeg"/>
+      <visibility xmi:id="_MMbz5NCuEeW6X_Jxb8Wqeg" label="+"/>
+      <cardinality xmi:id="_MMbz49CuEeW6X_Jxb8Wqeg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MMbz4dCuEeW6X_Jxb8Wqeg">
+        <modelElement href="04.Vehicle.uml#_vFmnoNCtEeW6X_Jxb8Wqeg"/>
+        <type xmi:id="_MMbz4tCuEeW6X_Jxb8Wqeg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_MMWUUNCuEeW6X_Jxb8Wqeg" comments="_MMca9NCuEeW6X_Jxb8Wqeg" targetConnectionVisual="_MMca9dCuEeW6X_Jxb8Wqeg" name="getCarKms">
+      <modelElement href="04.Vehicle.uml#_vFTsstCtEeW6X_Jxb8Wqeg"/>
+      <visibility xmi:id="_MMca89CuEeW6X_Jxb8Wqeg" label="+"/>
+      <cardinality xmi:id="_MMca8tCuEeW6X_Jxb8Wqeg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MMca8NCuEeW6X_Jxb8Wqeg">
+        <modelElement href="04.Vehicle.uml#_vFqSAdCtEeW6X_Jxb8Wqeg"/>
+        <type xmi:id="_MMca8dCuEeW6X_Jxb8Wqeg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_MMWUUdCuEeW6X_Jxb8Wqeg" comments="_MMdCBNCuEeW6X_Jxb8Wqeg" targetConnectionVisual="_MMdCBdCuEeW6X_Jxb8Wqeg" name="setCarColor">
+      <modelElement href="04.Vehicle.uml#_vFf58NCtEeW6X_Jxb8Wqeg"/>
+      <visibility xmi:id="_MMdCA9CuEeW6X_Jxb8Wqeg" label="+"/>
+      <cardinality xmi:id="_MMdCAtCuEeW6X_Jxb8Wqeg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_MMdCANCuEeW6X_Jxb8Wqeg" name="carColor">
+        <modelElement href="04.Vehicle.uml#_vFghANCtEeW6X_Jxb8Wqeg"/>
+        <cardinality xmi:id="_MMhTcNCuEeW6X_Jxb8Wqeg" label="1" max="1" min="1"/>
+        <type xmi:id="_MMdCAdCuEeW6X_Jxb8Wqeg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MMWUUtCuEeW6X_Jxb8Wqeg" comments="_MMdpE9CuEeW6X_Jxb8Wqeg" targetConnectionVisual="_MMdpFNCuEeW6X_Jxb8Wqeg" name="setCarBrand">
+      <modelElement href="04.Vehicle.uml#_vFiWMdCtEeW6X_Jxb8Wqeg"/>
+      <visibility xmi:id="_MMdpEtCuEeW6X_Jxb8Wqeg" label="+"/>
+      <cardinality xmi:id="_MMdpEdCuEeW6X_Jxb8Wqeg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_MMdCBtCuEeW6X_Jxb8Wqeg" name="carBrand">
+        <modelElement href="04.Vehicle.uml#_vFi9QNCtEeW6X_Jxb8Wqeg"/>
+        <cardinality xmi:id="_MMhTcdCuEeW6X_Jxb8Wqeg" label="1" max="1" min="1"/>
+        <type xmi:id="_MMdpENCuEeW6X_Jxb8Wqeg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MMWUU9CuEeW6X_Jxb8Wqeg" comments="_MMeQItCuEeW6X_Jxb8Wqeg" targetConnectionVisual="_MMeQI9CuEeW6X_Jxb8Wqeg" name="setCarModel">
+      <modelElement href="04.Vehicle.uml#_vFlZgNCtEeW6X_Jxb8Wqeg"/>
+      <visibility xmi:id="_MMeQIdCuEeW6X_Jxb8Wqeg" label="+"/>
+      <cardinality xmi:id="_MMeQINCuEeW6X_Jxb8Wqeg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_MMdpFdCuEeW6X_Jxb8Wqeg" name="carModel">
+        <modelElement href="04.Vehicle.uml#_vFlZgdCtEeW6X_Jxb8Wqeg"/>
+        <cardinality xmi:id="_MMh6gNCuEeW6X_Jxb8Wqeg" label="1" max="1" min="1"/>
+        <type xmi:id="_MMdpFtCuEeW6X_Jxb8Wqeg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MMWUVNCuEeW6X_Jxb8Wqeg" comments="_MMe3M9CuEeW6X_Jxb8Wqeg" targetConnectionVisual="_MMe3NNCuEeW6X_Jxb8Wqeg" name="setCarOwner">
+      <modelElement href="04.Vehicle.uml#_vFmAkdCtEeW6X_Jxb8Wqeg"/>
+      <visibility xmi:id="_MMe3MtCuEeW6X_Jxb8Wqeg" label="+"/>
+      <cardinality xmi:id="_MMe3MdCuEeW6X_Jxb8Wqeg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_MMeQJNCuEeW6X_Jxb8Wqeg" name="carOwner">
+        <modelElement href="04.Vehicle.uml#_vFmAktCtEeW6X_Jxb8Wqeg"/>
+        <cardinality xmi:id="_MMh6gdCuEeW6X_Jxb8Wqeg" label="1" max="1" min="1"/>
+        <type xmi:id="_MMe3MNCuEeW6X_Jxb8Wqeg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MMWUVdCuEeW6X_Jxb8Wqeg" comments="_MMgFUdCuEeW6X_Jxb8Wqeg" targetConnectionVisual="_MMgFUtCuEeW6X_Jxb8Wqeg" name="setCarConsumption">
+      <modelElement href="04.Vehicle.uml#_vFpq8NCtEeW6X_Jxb8Wqeg"/>
+      <visibility xmi:id="_MMgFUNCuEeW6X_Jxb8Wqeg" label="+"/>
+      <cardinality xmi:id="_MMfeQtCuEeW6X_Jxb8Wqeg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_MMfeQNCuEeW6X_Jxb8Wqeg" name="carConsumption">
+        <modelElement href="04.Vehicle.uml#_vFqSANCtEeW6X_Jxb8Wqeg"/>
+        <cardinality xmi:id="_MMh6gtCuEeW6X_Jxb8Wqeg" label="1" max="1" min="1"/>
+        <type xmi:id="_MMfeQdCuEeW6X_Jxb8Wqeg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MMWUVtCuEeW6X_Jxb8Wqeg" comments="_MMgsY9CuEeW6X_Jxb8Wqeg" targetConnectionVisual="_MMgsZNCuEeW6X_Jxb8Wqeg" name="setCarKms">
+      <modelElement href="04.Vehicle.uml#_vFq5ENCtEeW6X_Jxb8Wqeg"/>
+      <visibility xmi:id="_MMgsYtCuEeW6X_Jxb8Wqeg" label="+"/>
+      <cardinality xmi:id="_MMgsYdCuEeW6X_Jxb8Wqeg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MMgFVdCuEeW6X_Jxb8Wqeg">
+        <modelElement href="04.Vehicle.uml#_6NKK4NCtEeW6X_Jxb8Wqeg"/>
+        <type xmi:id="_MMgsYNCuEeW6X_Jxb8Wqeg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MMgFU9CuEeW6X_Jxb8Wqeg" name="carKms">
+        <modelElement href="04.Vehicle.uml#_vFsHMNCtEeW6X_Jxb8Wqeg"/>
+        <cardinality xmi:id="_MMh6g9CuEeW6X_Jxb8Wqeg" label="1" max="1" min="1"/>
+        <type xmi:id="_MMgFVNCuEeW6X_Jxb8Wqeg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

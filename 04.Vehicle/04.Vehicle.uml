@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_AKLfwNCqEeW6X_Jxb8Wqeg" name="_04_Vehicle">
+    <eAnnotations xmi:id="_AT6qkNCqEeW6X_Jxb8Wqeg" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_AT6qkdCqEeW6X_Jxb8Wqeg" source="codegen">
+        <details xmi:id="_AT6qktCqEeW6X_Jxb8Wqeg" key="codegenDirectory" value="/04.Vehicle/src"/>
+        <details xmi:id="_BFFo0NCqEeW6X_Jxb8Wqeg" key="AssociatedSourceCode" value="/04.Vehicle/src/Car.java;2830580355/1;/04.Vehicle/src/Program.java;1101083932/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_Al1hANCqEeW6X_Jxb8Wqeg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_Al2IENCqEeW6X_Jxb8Wqeg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_Al2IEdCqEeW6X_Jxb8Wqeg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_Al2IEtCqEeW6X_Jxb8Wqeg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_Al2IE9CqEeW6X_Jxb8Wqeg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_Al2IFNCqEeW6X_Jxb8Wqeg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_Al2vINCqEeW6X_Jxb8Wqeg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_Al2vIdCqEeW6X_Jxb8Wqeg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_Al3WMNCqEeW6X_Jxb8Wqeg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_AlxPkNCqEeW6X_Jxb8Wqeg" name="Car">
+      <ownedComment xmi:id="_AmXFcNCqEeW6X_Jxb8Wqeg">
+        <body>The Class Car.
+ *
+@author pcardoso</body>
+      </ownedComment>
+      <ownedAttribute xmi:id="_AmLfQNCqEeW6X_Jxb8Wqeg" name="carColor" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_AmMtYNCqEeW6X_Jxb8Wqeg" name="carBrand" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_AmN7gdCqEeW6X_Jxb8Wqeg" name="carModel" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_AmOikdCqEeW6X_Jxb8Wqeg" name="carOwner" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_AmPwsdCqEeW6X_Jxb8Wqeg" name="carConsumption" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_AmQXwdCqEeW6X_Jxb8Wqeg" name="carKms" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AmTbENCqEeW6X_Jxb8Wqeg" name="printOwner" specification="_Al5ycNCqEeW6X_Jxb8Wqeg">
+        <language>java</language>
+        <body>System.out.println(carOwner);
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AmUCINCqEeW6X_Jxb8Wqeg" name="getOwner" specification="_Al7AkNCqEeW6X_Jxb8Wqeg">
+        <ownedParameter xmi:id="_AmUCIdCqEeW6X_Jxb8Wqeg" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return carOwner;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AmUpMNCqEeW6X_Jxb8Wqeg" name="setOwner" specification="_Al81wNCqEeW6X_Jxb8Wqeg">
+        <ownedParameter xmi:id="_AmUpMdCqEeW6X_Jxb8Wqeg" name="carOwnerIn">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>carOwner = carOwnerIn;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AmVQQNCqEeW6X_Jxb8Wqeg" name="addKms" specification="_Al-D4NCqEeW6X_Jxb8Wqeg">
+        <ownedParameter xmi:id="_AmVQQdCqEeW6X_Jxb8Wqeg" name="carKms">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>this.carKms += carKms; //The most common reason for using the 'this' keyword is because a field is shadowed by a method/constructor argument.
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vFvxkNCtEeW6X_Jxb8Wqeg" name="getCarColor" specification="_vFSekNCtEeW6X_Jxb8Wqeg">
+        <ownedParameter xmi:id="_vFvxkdCtEeW6X_Jxb8Wqeg" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return carColor;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vFvxktCtEeW6X_Jxb8Wqeg" name="setCarColor" specification="_vFf58NCtEeW6X_Jxb8Wqeg">
+        <ownedParameter xmi:id="_vFvxk9CtEeW6X_Jxb8Wqeg" name="carColor">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>this.carColor = carColor;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vFwYoNCtEeW6X_Jxb8Wqeg" name="getCarBrand" specification="_vFTFoNCtEeW6X_Jxb8Wqeg">
+        <ownedParameter xmi:id="_vFwYodCtEeW6X_Jxb8Wqeg" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return carBrand;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vFwYotCtEeW6X_Jxb8Wqeg" name="setCarBrand" specification="_vFiWMdCtEeW6X_Jxb8Wqeg">
+        <ownedParameter xmi:id="_vFwYo9CtEeW6X_Jxb8Wqeg" name="carBrand">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>this.carBrand = carBrand;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vFwYpNCtEeW6X_Jxb8Wqeg" name="getCarModel" specification="_vFTFodCtEeW6X_Jxb8Wqeg">
+        <ownedParameter xmi:id="_vFwYpdCtEeW6X_Jxb8Wqeg" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return carModel;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vFw_sNCtEeW6X_Jxb8Wqeg" name="setCarModel" specification="_vFlZgNCtEeW6X_Jxb8Wqeg">
+        <ownedParameter xmi:id="_vFw_sdCtEeW6X_Jxb8Wqeg" name="carModel">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>this.carModel = carModel;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vFw_stCtEeW6X_Jxb8Wqeg" name="getCarOwner" specification="_vFTssNCtEeW6X_Jxb8Wqeg">
+        <ownedParameter xmi:id="_vFw_s9CtEeW6X_Jxb8Wqeg" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return carOwner;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vFyN0NCtEeW6X_Jxb8Wqeg" name="setCarOwner" specification="_vFmAkdCtEeW6X_Jxb8Wqeg">
+        <ownedParameter xmi:id="_vFyN0dCtEeW6X_Jxb8Wqeg" name="carOwner">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>this.carOwner = carOwner;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vFyN0tCtEeW6X_Jxb8Wqeg" name="getCarConsumption" specification="_vFTssdCtEeW6X_Jxb8Wqeg">
+        <ownedParameter xmi:id="_vFyN09CtEeW6X_Jxb8Wqeg" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return carConsumption;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vF0qENCtEeW6X_Jxb8Wqeg" name="setCarConsumption" specification="_vFpq8NCtEeW6X_Jxb8Wqeg">
+        <ownedParameter xmi:id="_vF0qEdCtEeW6X_Jxb8Wqeg" name="carConsumption">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>this.carConsumption = carConsumption;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vF14MNCtEeW6X_Jxb8Wqeg" name="getCarKms" specification="_vFTsstCtEeW6X_Jxb8Wqeg">
+        <ownedParameter xmi:id="_vF14MdCtEeW6X_Jxb8Wqeg" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return carKms;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vF2fQNCtEeW6X_Jxb8Wqeg" name="setCarKms" specification="_vFq5ENCtEeW6X_Jxb8Wqeg">
+        <ownedParameter xmi:id="_6NMnINCtEeW6X_Jxb8Wqeg" name="carKms">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_6NNOMNCtEeW6X_Jxb8Wqeg" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>if (carKms &lt; 0)
+   return false;
+ this.carKms = carKms;
+ return true;
+  </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_Al5ycNCqEeW6X_Jxb8Wqeg" name="printOwner" visibility="package" method="_AmTbENCqEeW6X_Jxb8Wqeg">
+        <ownedComment xmi:id="_AmXFcdCqEeW6X_Jxb8Wqeg">
+          <body>Prints the owner.</body>
+        </ownedComment>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Al7AkNCqEeW6X_Jxb8Wqeg" name="getOwner" visibility="package" method="_AmUCINCqEeW6X_Jxb8Wqeg">
+        <ownedComment xmi:id="_AmXFctCqEeW6X_Jxb8Wqeg">
+          <body>Gets the owner.
+   *
+   * @return the owner</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_Al7noNCqEeW6X_Jxb8Wqeg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Al81wNCqEeW6X_Jxb8Wqeg" name="setOwner" visibility="package" method="_AmUpMNCqEeW6X_Jxb8Wqeg">
+        <ownedComment xmi:id="_AmXsgNCqEeW6X_Jxb8Wqeg">
+          <body>Sets the owner.
+   *
+   * @param carOwnerIn the new owner</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_Al81wdCqEeW6X_Jxb8Wqeg" name="carOwnerIn">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Al-D4NCqEeW6X_Jxb8Wqeg" name="addKms" visibility="package" method="_AmVQQNCqEeW6X_Jxb8Wqeg">
+        <ownedComment xmi:id="_AmXsgdCqEeW6X_Jxb8Wqeg">
+          <body>Adds kmsIn to the carKms.
+   *
+   * @param carKms the car kms</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_Al-q8NCqEeW6X_Jxb8Wqeg" name="carKms">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_vFSekNCtEeW6X_Jxb8Wqeg" name="getCarColor" method="_vFvxkNCtEeW6X_Jxb8Wqeg">
+        <ownedComment xmi:id="_xLn48NCtEeW6X_Jxb8Wqeg">
+          <body>Gets the car color.
+   *
+   * @return the car color</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_vFeEwNCtEeW6X_Jxb8Wqeg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_vFTFoNCtEeW6X_Jxb8Wqeg" name="getCarBrand" method="_vFwYoNCtEeW6X_Jxb8Wqeg">
+        <ownedComment xmi:id="_xLogAdCtEeW6X_Jxb8Wqeg">
+          <body>Gets the car brand.
+   *
+   * @return the car brand</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_vFiWMNCtEeW6X_Jxb8Wqeg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_vFTFodCtEeW6X_Jxb8Wqeg" name="getCarModel" method="_vFwYpNCtEeW6X_Jxb8Wqeg">
+        <ownedComment xmi:id="_xLogA9CtEeW6X_Jxb8Wqeg">
+          <body>Gets the car model.
+   *
+   * @return the car model</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_vFkLYNCtEeW6X_Jxb8Wqeg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_vFTssNCtEeW6X_Jxb8Wqeg" name="getCarOwner" method="_vFw_stCtEeW6X_Jxb8Wqeg">
+        <ownedComment xmi:id="_xLogBdCtEeW6X_Jxb8Wqeg">
+          <body>Gets the car owner.
+   *
+   * @return the car owner</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_vFmAkNCtEeW6X_Jxb8Wqeg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_vFTssdCtEeW6X_Jxb8Wqeg" name="getCarConsumption" method="_vFyN0tCtEeW6X_Jxb8Wqeg">
+        <ownedComment xmi:id="_xLpHENCtEeW6X_Jxb8Wqeg">
+          <body>Gets the car consumption.
+   *
+   * @return the car consumption</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_vFmnoNCtEeW6X_Jxb8Wqeg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_vFTsstCtEeW6X_Jxb8Wqeg" name="getCarKms" method="_vF14MNCtEeW6X_Jxb8Wqeg">
+        <ownedComment xmi:id="_xLpHEtCtEeW6X_Jxb8Wqeg">
+          <body>Gets the car kms.
+   *
+   * @return the car kms</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_vFqSAdCtEeW6X_Jxb8Wqeg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_vFf58NCtEeW6X_Jxb8Wqeg" name="setCarColor" method="_vFvxktCtEeW6X_Jxb8Wqeg">
+        <ownedComment xmi:id="_xLogANCtEeW6X_Jxb8Wqeg">
+          <body>Sets the car color.
+   *
+   * @param carColor the new car color</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_vFghANCtEeW6X_Jxb8Wqeg" name="carColor">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_vFiWMdCtEeW6X_Jxb8Wqeg" name="setCarBrand" method="_vFwYotCtEeW6X_Jxb8Wqeg">
+        <ownedComment xmi:id="_xLogAtCtEeW6X_Jxb8Wqeg">
+          <body>Sets the car brand.
+   *
+   * @param carBrand the new car brand</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_vFi9QNCtEeW6X_Jxb8Wqeg" name="carBrand">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_vFlZgNCtEeW6X_Jxb8Wqeg" name="setCarModel" method="_vFw_sNCtEeW6X_Jxb8Wqeg">
+        <ownedComment xmi:id="_xLogBNCtEeW6X_Jxb8Wqeg">
+          <body>Sets the car model.
+   *
+   * @param carModel the new car model</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_vFlZgdCtEeW6X_Jxb8Wqeg" name="carModel">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_vFmAkdCtEeW6X_Jxb8Wqeg" name="setCarOwner" method="_vFyN0NCtEeW6X_Jxb8Wqeg">
+        <ownedComment xmi:id="_xLogBtCtEeW6X_Jxb8Wqeg">
+          <body>Sets the car owner.
+   *
+   * @param carOwner the new car owner</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_vFmAktCtEeW6X_Jxb8Wqeg" name="carOwner">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_vFpq8NCtEeW6X_Jxb8Wqeg" name="setCarConsumption" method="_vF0qENCtEeW6X_Jxb8Wqeg">
+        <ownedComment xmi:id="_xLpHEdCtEeW6X_Jxb8Wqeg">
+          <body>Sets the car consumption.
+   *
+   * @param carConsumption the new car consumption</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_vFqSANCtEeW6X_Jxb8Wqeg" name="carConsumption">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_vFq5ENCtEeW6X_Jxb8Wqeg" name="setCarKms" method="_vF2fQNCtEeW6X_Jxb8Wqeg">
+        <ownedComment xmi:id="_xLpHE9CtEeW6X_Jxb8Wqeg">
+          <body>Sets the car kms.
+   *
+   * @param carKms the new car kms
+   * @return true, if successful</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_vFsHMNCtEeW6X_Jxb8Wqeg" name="carKms">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_6NKK4NCtEeW6X_Jxb8Wqeg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_AmExkNCqEeW6X_Jxb8Wqeg" name="Program">
+      <ownedComment xmi:id="_AmXsgtCqEeW6X_Jxb8Wqeg">
+        <body>The Class Program.</body>
+      </ownedComment>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AmV3UNCqEeW6X_Jxb8Wqeg" name="main" specification="_AmF_sNCqEeW6X_Jxb8Wqeg">
+        <ownedParameter xmi:id="_AmV3UdCqEeW6X_Jxb8Wqeg" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AmV3UtCqEeW6X_Jxb8Wqeg" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>new Car(); // Unuseful!
+ Car car = new Car(); // 1 car!
+ Car[] cars = new Car[10]; // 10 cars! But this is only creating pointers
+ // (references) to Car and not 10 objects.
+ System.out.println(&quot;by now, we've a lot of 'Cars'!&quot;);
+ 
+ car.carBrand = &quot;Fiat&quot;;
+ car.carOwner = &quot;Margarida&quot;;
+ car.carColor = &quot;White&quot;;
+ car.carModel = &quot;500&quot;;
+ car.carConsumption = 6.1;
+ 
+ cars[0] = new Car();
+ cars[0].carBrand = &quot;Audi&quot;;
+ cars[0].carOwner = &quot;Maria&quot;;
+ cars[0].carColor = &quot;White&quot;;
+ cars[0].carModel = &quot;A6&quot;;
+ cars[0].carConsumption = 6.1;
+ 
+ System.out.println(car.carOwner + &quot; owns a &quot; + car.carBrand + &quot; &quot; + car.carModel);
+ System.out.println(cars[0].carOwner + &quot; owns a &quot; + cars[0].carBrand + &quot; &quot; + cars[0].carModel);
+ 
+ car.printOwner();
+ cars[0].printOwner();
+ 
+ car.setOwner(&quot;Pedro&quot;);
+ car.printOwner();
+ System.out.println(car.carOwner + &quot; owns a &quot; + cars[0].carBrand + &quot; &quot; + cars[0].carModel);
+ 
+  </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_AmF_sNCqEeW6X_Jxb8Wqeg" name="main" isStatic="true" method="_AmV3UNCqEeW6X_Jxb8Wqeg">
+        <ownedParameter xmi:id="_AmF_sdCqEeW6X_Jxb8Wqeg" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AmGmwNCqEeW6X_Jxb8Wqeg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <profileApplication xmi:id="_AT8fwNCqEeW6X_Jxb8Wqeg">
+      <eAnnotations xmi:id="_AUAxMNCqEeW6X_Jxb8Wqeg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_AUDNcNCqEeW6X_Jxb8Wqeg" base_Package="_AKLfwNCqEeW6X_Jxb8Wqeg">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AmMGUNCqEeW6X_Jxb8Wqeg" base_Element="_AmLfQNCqEeW6X_Jxb8Wqeg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AmN7gNCqEeW6X_Jxb8Wqeg" base_Element="_AmMtYNCqEeW6X_Jxb8Wqeg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AmOikNCqEeW6X_Jxb8Wqeg" base_Element="_AmN7gdCqEeW6X_Jxb8Wqeg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AmPwsNCqEeW6X_Jxb8Wqeg" base_Element="_AmOikdCqEeW6X_Jxb8Wqeg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AmQXwNCqEeW6X_Jxb8Wqeg" base_Element="_AmPwsdCqEeW6X_Jxb8Wqeg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AmRl4NCqEeW6X_Jxb8Wqeg" base_Element="_AmQXwdCqEeW6X_Jxb8Wqeg"/>
+</xmi:XMI>
