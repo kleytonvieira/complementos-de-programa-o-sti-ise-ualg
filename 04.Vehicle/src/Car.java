@@ -6,8 +6,10 @@
  */
 public class Car {
   
+  Engine engine = new Engine();
+                
   /** The car color. */
-  String carColor;
+  Color  carColor;
          
   /** The car brand. */
   String carBrand;
@@ -29,7 +31,7 @@ public class Car {
    *
    * @return the car color
    */
-  public String getCarColor() {
+  public Color getCarColor() {
     return carColor;
   }
   
@@ -38,7 +40,7 @@ public class Car {
    *
    * @param carColor the new car color
    */
-  public void setCarColor(String carColor) {
+  public void setCarColor(Color carColor) {
     this.carColor = carColor;
   }
   
