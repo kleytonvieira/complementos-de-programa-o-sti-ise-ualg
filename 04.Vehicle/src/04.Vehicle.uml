@@ -4,7 +4,7 @@
     <eAnnotations xmi:id="_zS1bYNHREeWtYpUBJyavmA" source="http://ns.yatta.de/umllab">
       <contents xmi:type="ecore:EAnnotation" xmi:id="_zS1bYdHREeWtYpUBJyavmA" source="codegen">
         <details xmi:id="_zS1bYtHREeWtYpUBJyavmA" key="codegenDirectory" value="/04.Vehicle/src"/>
-        <details xmi:id="_zqqskNHREeWtYpUBJyavmA" key="AssociatedSourceCode" value="/04.Vehicle/src/Program2.java;1160967633/1;/04.Vehicle/src/Color.java;778330843/1;/04.Vehicle/src/Engine.java;2697948528/1;/04.Vehicle/src/Person.java;537533610/1;/04.Vehicle/src/Program.java;1838878414/1;/04.Vehicle/src/Car.java;1249036319/1;"/>
+        <details xmi:id="_zqqskNHREeWtYpUBJyavmA" key="AssociatedSourceCode" value="/04.Vehicle/src/Program2.java;1160967633/1;/04.Vehicle/src/Color.java;778330843/1;/04.Vehicle/src/Engine.java;2697948528/1;/04.Vehicle/src/Person.java;537533610/1;/04.Vehicle/src/Program.java;1260735717/1;/04.Vehicle/src/Car.java;1249036319/1;"/>
       </contents>
     </eAnnotations>
     <elementImport xmi:id="_zj258NHREeWtYpUBJyavmA">
@@ -721,11 +721,13 @@
         <language>java</language>
         <body>new Car(); // Unuseful!
  Car car = new Car(); // 1 car!
- Car[] cars = new Car[10]; // 10 cars! But this is only creating pointers
  // (references) to Car and not 10 objects.
  System.out.println(&quot;by now, we've a lot of 'Cars'!&quot;);
  
  car.carBrand = &quot;Fiat&quot;;
+ car.carModel = &quot;500&quot;;
+ car.carConsumption = 6.1;
+
  Person p1 = new Person();
  p1.setForename(&quot;Margarida&quot;);
  p1.setSurname(&quot;Herdeiro&quot;);
@@ -733,15 +735,23 @@
  p1.setCC(&quot;238921739&quot;);
  p1.setPhoneNumber(&quot;289800100&quot;);
  car.carOwner = p1;
+ 
  Color color = new Color();
  color.setColorName(&quot;Red&quot;);
  color.setRGB(255, 0, 0);
  car.carColor = color;
- car.carModel = &quot;500&quot;;
- car.carConsumption = 6.1;
  
+ Car[] cars = new Car[10]; // 10 cars! But this is only creating pointers
  cars[0] = new Car();
  cars[0].carBrand = &quot;Audi&quot;;
+ cars[0].carModel = &quot;A6&quot;;
+ cars[0].carConsumption = 6.1;
+
+ Color color2 = new Color();
+ color2.setColorName(&quot;white&quot;);
+ color2.setRGB(255, 255, 255);
+ cars[0].carColor = color2;
+ 
  Person p2 = new Person();
  p2.setForename(&quot;Maria&quot;);
  p2.setSurname(&quot;Herdeiro&quot;);
@@ -749,23 +759,18 @@
  p2.setCC(&quot;2398908888&quot;);
  p2.setPhoneNumber(&quot;289800100&quot;);
  cars[0].carOwner = p2;
- Color color2 = new Color();
- ;
- color2.setColorName(&quot;white&quot;);
- color2.setRGB(255, 255, 255);
- cars[0].carColor = color2;
- cars[0].carModel = &quot;A6&quot;;
- cars[0].carConsumption = 6.1;
  
  System.out.println(car.carOwner.getForename() + &quot; owns a &quot; + car.carBrand + &quot; &quot; + car.carModel);
- System.out.println(cars[0].carOwner.getForename() + &quot; owns a &quot; + cars[0].carBrand + &quot; &quot; + cars[0].carModel);
+ System.out.println(cars[0].carOwner.getForename() + 
+     &quot; owns a &quot; + cars[0].carBrand + &quot; &quot; + cars[0].carModel);
  
  car.printOwner();
  cars[0].printOwner();
  
  car.setOwner(p2);
  car.printOwner();
- System.out.println(car.carOwner.getForename() + &quot; owns a &quot; + cars[0].carBrand + &quot; &quot; + cars[0].carModel);
+ System.out.println(car.carOwner.getForename() + 
+     &quot; owns a &quot; + cars[0].carBrand + &quot; &quot; + cars[0].carModel);
  
   </body>
       </ownedBehavior>

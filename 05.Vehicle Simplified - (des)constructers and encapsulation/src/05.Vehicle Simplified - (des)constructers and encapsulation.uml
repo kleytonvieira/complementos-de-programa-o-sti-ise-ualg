@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_blEFcNJIEeWDmKTDo30u9g" name="_05_Vehicle_Simplified____des_constructers_and_encapsulation">
+    <eAnnotations xmi:id="_bz6ZwNJIEeWDmKTDo30u9g" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_bz7A0NJIEeWDmKTDo30u9g" source="codegen">
+        <details xmi:id="_bz7A0dJIEeWDmKTDo30u9g" key="codegenDirectory" value="/05.Vehicle Simplified - (des)constructers and encapsulation/src"/>
+        <details xmi:id="_b9vEINJIEeWDmKTDo30u9g" key="AssociatedSourceCode" value="/05.Vehicle Simplified - (des)constructers and encapsulation/src/Car.java;1271416506/1;/05.Vehicle Simplified - (des)constructers and encapsulation/src/Engine.java;805122266/1;/05.Vehicle Simplified - (des)constructers and encapsulation/src/Person.java;506198357/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_b6VK0NJIEeWDmKTDo30u9g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_b6VK0dJIEeWDmKTDo30u9g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_b6Vx4NJIEeWDmKTDo30u9g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_b6cfkNJIEeWDmKTDo30u9g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_b6cfkdJIEeWDmKTDo30u9g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_b6cfktJIEeWDmKTDo30u9g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_b6cfk9JIEeWDmKTDo30u9g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_b6cflNJIEeWDmKTDo30u9g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_b6dGoNJIEeWDmKTDo30u9g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_b6T8sNJIEeWDmKTDo30u9g" name="Car">
+      <ownedComment xmi:id="_b65ykNJIEeWDmKTDo30u9g">
+        <body>The Class Car.</body>
+      </ownedComment>
+      <ownedAttribute xmi:id="_b6zr8NJIEeWDmKTDo30u9g" name="brand">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_b60TANJIEeWDmKTDo30u9g" name="engine" type="_b6hYENJIEeWDmKTDo30u9g" association="_b65ykdJIEeWDmKTDo30u9g"/>
+      <ownedAttribute xmi:id="_b606ENJIEeWDmKTDo30u9g" name="model">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_b606EdJIEeWDmKTDo30u9g" name="owner" type="_b6m3oNJIEeWDmKTDo30u9g" association="_b66ZoNJIEeWDmKTDo30u9g"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_b639YNJIEeWDmKTDo30u9g" name="Car" specification="_b6wBkNJIEeWDmKTDo30u9g">
+        <ownedParameter xmi:id="_b639YdJIEeWDmKTDo30u9g" name="brand">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_b639YtJIEeWDmKTDo30u9g" name="model">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_b639Y9JIEeWDmKTDo30u9g" name="owner" type="_b6m3oNJIEeWDmKTDo30u9g"/>
+        <ownedParameter xmi:id="_b639ZNJIEeWDmKTDo30u9g" name="engine" type="_b6hYENJIEeWDmKTDo30u9g"/>
+        <ownedParameter xmi:id="_b639ZdJIEeWDmKTDo30u9g" type="_b6T8sNJIEeWDmKTDo30u9g" direction="return"/>
+        <language>java</language>
+        <body>super();
+ this.brand = brand;
+ this.model = model;
+ this.owner = owner;
+ this.engine = engine;
+  </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_b6wBkNJIEeWDmKTDo30u9g" name="Car" method="_b639YNJIEeWDmKTDo30u9g">
+        <eAnnotations xmi:id="_b6xPsNJIEeWDmKTDo30u9g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_b6xPsdJIEeWDmKTDo30u9g" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_b6wooNJIEeWDmKTDo30u9g" name="brand">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_b6woodJIEeWDmKTDo30u9g" name="model">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_b6wootJIEeWDmKTDo30u9g" name="owner" type="_b6m3oNJIEeWDmKTDo30u9g"/>
+        <ownedParameter xmi:id="_b6woo9JIEeWDmKTDo30u9g" name="engine" type="_b6hYENJIEeWDmKTDo30u9g"/>
+        <ownedParameter xmi:id="_b6xPstJIEeWDmKTDo30u9g" type="_b6T8sNJIEeWDmKTDo30u9g" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_b6hYENJIEeWDmKTDo30u9g" name="Engine">
+      <ownedComment xmi:id="_b66ZotJIEeWDmKTDo30u9g">
+        <body>The Class Engine.</body>
+      </ownedComment>
+      <ownedAttribute xmi:id="_b61hINJIEeWDmKTDo30u9g" name="fuel" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_b61hIdJIEeWDmKTDo30u9g" name="horsepower" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_b62IMNJIEeWDmKTDo30u9g" name="numberCylinders" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_b64kcNJIEeWDmKTDo30u9g" name="Engine" specification="_b6kbYNJIEeWDmKTDo30u9g">
+        <ownedParameter xmi:id="_b64kcdJIEeWDmKTDo30u9g" name="fuel">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_b64kctJIEeWDmKTDo30u9g" name="horsepower">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_b64kc9JIEeWDmKTDo30u9g" name="numberCylinders">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_b64kdNJIEeWDmKTDo30u9g" type="_b6hYENJIEeWDmKTDo30u9g" direction="return"/>
+        <language>java</language>
+        <body>super();
+ this.setFuel(fuel);
+ this.setHorsepower(horsepower);
+ this.setNumberCylinders(numberCylinders);
+  </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_b6kbYNJIEeWDmKTDo30u9g" name="Engine" method="_b64kcNJIEeWDmKTDo30u9g">
+        <eAnnotations xmi:id="_b6lCcdJIEeWDmKTDo30u9g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_b6lCctJIEeWDmKTDo30u9g" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_b6kbYdJIEeWDmKTDo30u9g" name="fuel">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_b6kbYtJIEeWDmKTDo30u9g" name="horsepower">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_b6lCcNJIEeWDmKTDo30u9g" name="numberCylinders">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_b6lCc9JIEeWDmKTDo30u9g" type="_b6hYENJIEeWDmKTDo30u9g" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_b6m3oNJIEeWDmKTDo30u9g" name="Person">
+      <ownedAttribute xmi:id="_b62vQNJIEeWDmKTDo30u9g" name="birthdate">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_b62vQdJIEeWDmKTDo30u9g" name="name">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_b65LgNJIEeWDmKTDo30u9g" name="Person" specification="_b6oFwNJIEeWDmKTDo30u9g">
+        <ownedParameter xmi:id="_b65LgdJIEeWDmKTDo30u9g" name="name">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_b65LgtJIEeWDmKTDo30u9g" name="birthdate">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_b65Lg9JIEeWDmKTDo30u9g" type="_b6m3oNJIEeWDmKTDo30u9g" direction="return"/>
+        <language>java</language>
+        <body>super();
+ this.name = name;
+ this.birthdate = birthdate;
+  </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_b6oFwNJIEeWDmKTDo30u9g" name="Person" method="_b65LgNJIEeWDmKTDo30u9g">
+        <eAnnotations xmi:id="_b6oFw9JIEeWDmKTDo30u9g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_b6oFxNJIEeWDmKTDo30u9g" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_b6oFwdJIEeWDmKTDo30u9g" name="name">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_b6oFwtJIEeWDmKTDo30u9g" name="birthdate">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_b6oFxdJIEeWDmKTDo30u9g" type="_b6m3oNJIEeWDmKTDo30u9g" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_b65ykdJIEeWDmKTDo30u9g" name="" memberEnd="_b60TANJIEeWDmKTDo30u9g _b65yktJIEeWDmKTDo30u9g">
+      <ownedEnd xmi:id="_b65yktJIEeWDmKTDo30u9g" name="" type="_b6T8sNJIEeWDmKTDo30u9g" association="_b65ykdJIEeWDmKTDo30u9g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_b66ZoNJIEeWDmKTDo30u9g" name="" memberEnd="_b606EdJIEeWDmKTDo30u9g _b66ZodJIEeWDmKTDo30u9g">
+      <ownedEnd xmi:id="_b66ZodJIEeWDmKTDo30u9g" name="" type="_b6T8sNJIEeWDmKTDo30u9g" association="_b66ZoNJIEeWDmKTDo30u9g"/>
+    </packagedElement>
+    <profileApplication xmi:id="_bz7n4NJIEeWDmKTDo30u9g">
+      <eAnnotations xmi:id="_bz8O8NJIEeWDmKTDo30u9g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_bz8O8dJIEeWDmKTDo30u9g" base_Package="_blEFcNJIEeWDmKTDo30u9g">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+</xmi:XMI>

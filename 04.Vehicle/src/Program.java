@@ -19,7 +19,7 @@ public class Program {
     car.carBrand = "Fiat";
     car.carModel = "500";
     car.carConsumption = 6.1;
-
+    
     Person p1 = new Person();
     p1.setForename("Margarida");
     p1.setSurname("Herdeiro");
@@ -38,7 +38,7 @@ public class Program {
     cars[0].carBrand = "Audi";
     cars[0].carModel = "A6";
     cars[0].carConsumption = 6.1;
-
+    
     Color color2 = new Color();
     color2.setColorName("white");
     color2.setRGB(255, 255, 255);
@@ -53,16 +53,14 @@ public class Program {
     cars[0].carOwner = p2;
     
     System.out.println(car.carOwner.getForename() + " owns a " + car.carBrand + " " + car.carModel);
-    System.out.println(cars[0].carOwner.getForename() + 
-        " owns a " + cars[0].carBrand + " " + cars[0].carModel);
+    System.out.println(cars[0].carOwner.getForename() + " owns a " + cars[0].carBrand + " " + cars[0].carModel);
     
     car.printOwner();
     cars[0].printOwner();
     
     car.setOwner(p2);
     car.printOwner();
-    System.out.println(car.carOwner.getForename() + 
-        " owns a " + cars[0].carBrand + " " + cars[0].carModel);
+    System.out.println(car.carOwner.getForename() + " owns a " + cars[0].carBrand + " " + cars[0].carModel);
     
   }
 }

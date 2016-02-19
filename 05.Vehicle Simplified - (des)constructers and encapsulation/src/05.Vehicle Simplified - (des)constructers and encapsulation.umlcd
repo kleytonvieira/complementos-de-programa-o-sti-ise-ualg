@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_blj0sNJIEeWDmKTDo30u9g">
+  <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_blEFcNJIEeWDmKTDo30u9g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_b-t7kdJIEeWDmKTDo30u9g" targetItem="_b-vwwNJIEeWDmKTDo30u9g" sourceItem="_b-t7kNJIEeWDmKTDo30u9g"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_b-0CMNJIEeWDmKTDo30u9g" sourceAnchor="237.0,0.0" targetAnchor="238.0,115.0" target="_b-4ToNJIEeWDmKTDo30u9g" source="_b-vwwNJIEeWDmKTDo30u9g">
+    <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b65ykdJIEeWDmKTDo30u9g"/>
+    <nameVisual xmi:id="_b-1QUtJIEeWDmKTDo30u9g" text="">
+      <visualProperties xmi:id="_cA5F0NJIEeWDmKTDo30u9g" position="-17.5,-18.555555555555543"/>
+    </nameVisual>
+    <sourceRole xmi:id="_b-13YNJIEeWDmKTDo30u9g" aggregationKind="NONE" name="engine" navigable="true">
+      <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b60TANJIEeWDmKTDo30u9g"/>
+      <visualProperties xmi:id="_cA4ewNJIEeWDmKTDo30u9g" position="-55.5,-84.5"/>
+      <visibility xmi:id="_b-3FgdJIEeWDmKTDo30u9g" label="+"/>
+      <cardinality xmi:id="_b-3FgNJIEeWDmKTDo30u9g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_b-13YdJIEeWDmKTDo30u9g" aggregationKind="NONE" name="">
+      <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b65yktJIEeWDmKTDo30u9g"/>
+      <visualProperties xmi:id="_cA5F0dJIEeWDmKTDo30u9g" position="2.5,31.5"/>
+      <visibility xmi:id="_b-3Fg9JIEeWDmKTDo30u9g" label="+"/>
+      <cardinality xmi:id="_b-3FgtJIEeWDmKTDo30u9g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_b-0pQNJIEeWDmKTDo30u9g" sourceAnchor="0.0,58.0" targetAnchor="477.0,58.0" target="_b-4ToNJIEeWDmKTDo30u9g" source="_b-pqINJIEeWDmKTDo30u9g">
+    <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b66ZoNJIEeWDmKTDo30u9g"/>
+    <nameVisual xmi:id="_b-13YtJIEeWDmKTDo30u9g" text="">
+      <visualProperties xmi:id="_cA33sNJIEeWDmKTDo30u9g" position="-21.0,-10.999999999999957"/>
+    </nameVisual>
+    <sourceRole xmi:id="_b-13Y9JIEeWDmKTDo30u9g" aggregationKind="NONE" name="owner" navigable="true">
+      <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b606EdJIEeWDmKTDo30u9g"/>
+      <visualProperties xmi:id="_cA3QoNJIEeWDmKTDo30u9g" position="-57.0,12.0"/>
+      <visibility xmi:id="_b-3skdJIEeWDmKTDo30u9g" label="+"/>
+      <cardinality xmi:id="_b-3skNJIEeWDmKTDo30u9g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_b-13ZNJIEeWDmKTDo30u9g" aggregationKind="NONE" name="">
+      <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b66ZodJIEeWDmKTDo30u9g"/>
+      <visualProperties xmi:id="_cA33sdJIEeWDmKTDo30u9g" position="5.0,-65.99999999999991"/>
+      <visibility xmi:id="_b-3sk9JIEeWDmKTDo30u9g" label="+"/>
+      <cardinality xmi:id="_b-3sktJIEeWDmKTDo30u9g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_b-1QUdJIEeWDmKTDo30u9g" targetItem="_b-4ToNJIEeWDmKTDo30u9g" sourceItem="_b-1QUNJIEeWDmKTDo30u9g"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_b-t7kNJIEeWDmKTDo30u9g" sourceConnectionVisual="_b-t7kdJIEeWDmKTDo30u9g" text="The Class Engine." item="_b-vwwNJIEeWDmKTDo30u9g">
+    <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b66ZotJIEeWDmKTDo30u9g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_b-1QUNJIEeWDmKTDo30u9g" sourceConnectionVisual="_b-1QUdJIEeWDmKTDo30u9g" text="The Class Car." item="_b-4ToNJIEeWDmKTDo30u9g">
+    <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b65ykNJIEeWDmKTDo30u9g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_b-pqINJIEeWDmKTDo30u9g" name="Person" associationsOut="_b-0pQNJIEeWDmKTDo30u9g">
+    <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b6m3oNJIEeWDmKTDo30u9g"/>
+    <visualProperties xmi:id="_b-pqIdJIEeWDmKTDo30u9g" position="661.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_b-pqItJIEeWDmKTDo30u9g" label="+"/>
+    <attributes xmi:id="_b-pqI9JIEeWDmKTDo30u9g" name="birthdate">
+      <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b62vQNJIEeWDmKTDo30u9g"/>
+      <visibility xmi:id="_b-pqJNJIEeWDmKTDo30u9g" label="+"/>
+      <cardinality xmi:id="_b-pqJdJIEeWDmKTDo30u9g" label="1" max="1" min="1"/>
+      <type xmi:id="_b-pqJtJIEeWDmKTDo30u9g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_b-pqJ9JIEeWDmKTDo30u9g" name="name">
+      <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b62vQdJIEeWDmKTDo30u9g"/>
+      <visibility xmi:id="_b-pqKNJIEeWDmKTDo30u9g" label="+"/>
+      <cardinality xmi:id="_b-pqKdJIEeWDmKTDo30u9g" label="1" max="1" min="1"/>
+      <type xmi:id="_b-pqKtJIEeWDmKTDo30u9g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_b-pqK9JIEeWDmKTDo30u9g" name="Person">
+      <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b6oFwNJIEeWDmKTDo30u9g"/>
+      <keywords xmi:id="_b-pqLNJIEeWDmKTDo30u9g" keyword="create"/>
+      <visibility xmi:id="_b-pqLdJIEeWDmKTDo30u9g" label="+"/>
+      <cardinality xmi:id="_b-pqLtJIEeWDmKTDo30u9g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_b-pqL9JIEeWDmKTDo30u9g">
+        <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b6oFxdJIEeWDmKTDo30u9g"/>
+        <type xmi:id="_b-pqMNJIEeWDmKTDo30u9g" name="Person">
+          <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b6m3oNJIEeWDmKTDo30u9g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_b-pqMdJIEeWDmKTDo30u9g" name="name">
+        <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b6oFwdJIEeWDmKTDo30u9g"/>
+        <cardinality xmi:id="_b-pqMtJIEeWDmKTDo30u9g" label="1" max="1" min="1"/>
+        <type xmi:id="_b-pqM9JIEeWDmKTDo30u9g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_b-pqNNJIEeWDmKTDo30u9g" name="birthdate">
+        <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b6oFwtJIEeWDmKTDo30u9g"/>
+        <cardinality xmi:id="_b-pqNdJIEeWDmKTDo30u9g" label="1" max="1" min="1"/>
+        <type xmi:id="_b-pqNtJIEeWDmKTDo30u9g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_b-4ToNJIEeWDmKTDo30u9g" comments="_b-1QUNJIEeWDmKTDo30u9g" targetConnectionVisual="_b-1QUdJIEeWDmKTDo30u9g" name="Car" associationsIn="_b-0CMNJIEeWDmKTDo30u9g _b-0pQNJIEeWDmKTDo30u9g">
+    <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b6T8sNJIEeWDmKTDo30u9g"/>
+    <visualProperties xmi:id="_b-4TodJIEeWDmKTDo30u9g" position="11.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_b-4TotJIEeWDmKTDo30u9g" label="+"/>
+    <attributes xmi:id="_b-4To9JIEeWDmKTDo30u9g" name="brand">
+      <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b6zr8NJIEeWDmKTDo30u9g"/>
+      <visibility xmi:id="_b-4TpNJIEeWDmKTDo30u9g" label="+"/>
+      <cardinality xmi:id="_b-4TpdJIEeWDmKTDo30u9g" label="1" max="1" min="1"/>
+      <type xmi:id="_b-4TptJIEeWDmKTDo30u9g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_b-4Tp9JIEeWDmKTDo30u9g" name="engine">
+      <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b60TANJIEeWDmKTDo30u9g"/>
+      <visibility xmi:id="_b-4TqNJIEeWDmKTDo30u9g" label="+"/>
+      <cardinality xmi:id="_b-4TqdJIEeWDmKTDo30u9g" label="1" max="1" min="1"/>
+      <type xmi:id="_b-4TqtJIEeWDmKTDo30u9g" name="Engine">
+        <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b6hYENJIEeWDmKTDo30u9g"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_b-4Tq9JIEeWDmKTDo30u9g" name="model">
+      <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b606ENJIEeWDmKTDo30u9g"/>
+      <visibility xmi:id="_b-4TrNJIEeWDmKTDo30u9g" label="+"/>
+      <cardinality xmi:id="_b-4TrdJIEeWDmKTDo30u9g" label="1" max="1" min="1"/>
+      <type xmi:id="_b-4TrtJIEeWDmKTDo30u9g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_b-4Tr9JIEeWDmKTDo30u9g" name="owner">
+      <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b606EdJIEeWDmKTDo30u9g"/>
+      <visibility xmi:id="_b-4TsNJIEeWDmKTDo30u9g" label="+"/>
+      <cardinality xmi:id="_b-4TsdJIEeWDmKTDo30u9g" label="1" max="1" min="1"/>
+      <type xmi:id="_b-4TstJIEeWDmKTDo30u9g" name="Person">
+        <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b6m3oNJIEeWDmKTDo30u9g"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_b-4Ts9JIEeWDmKTDo30u9g" name="Car">
+      <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b6wBkNJIEeWDmKTDo30u9g"/>
+      <keywords xmi:id="_b-4TtNJIEeWDmKTDo30u9g" keyword="create"/>
+      <visibility xmi:id="_b-4TtdJIEeWDmKTDo30u9g" label="+"/>
+      <cardinality xmi:id="_b-4TttJIEeWDmKTDo30u9g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_b-4Tt9JIEeWDmKTDo30u9g">
+        <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b6xPstJIEeWDmKTDo30u9g"/>
+        <type xmi:id="_b-4TuNJIEeWDmKTDo30u9g" name="Car">
+          <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b6T8sNJIEeWDmKTDo30u9g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_b-4TudJIEeWDmKTDo30u9g" name="brand">
+        <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b6wooNJIEeWDmKTDo30u9g"/>
+        <cardinality xmi:id="_b-4TutJIEeWDmKTDo30u9g" label="1" max="1" min="1"/>
+        <type xmi:id="_b-4Tu9JIEeWDmKTDo30u9g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_b-4TvNJIEeWDmKTDo30u9g" name="model">
+        <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b6woodJIEeWDmKTDo30u9g"/>
+        <cardinality xmi:id="_b-4TvdJIEeWDmKTDo30u9g" label="1" max="1" min="1"/>
+        <type xmi:id="_b-4TvtJIEeWDmKTDo30u9g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_b-4Tv9JIEeWDmKTDo30u9g" name="owner">
+        <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b6wootJIEeWDmKTDo30u9g"/>
+        <cardinality xmi:id="_b-4TwNJIEeWDmKTDo30u9g" label="1" max="1" min="1"/>
+        <type xmi:id="_b-4TwdJIEeWDmKTDo30u9g" name="Person">
+          <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b6m3oNJIEeWDmKTDo30u9g"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_b-4TwtJIEeWDmKTDo30u9g" name="engine">
+        <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b6woo9JIEeWDmKTDo30u9g"/>
+        <cardinality xmi:id="_b-4Tw9JIEeWDmKTDo30u9g" label="1" max="1" min="1"/>
+        <type xmi:id="_b-4TxNJIEeWDmKTDo30u9g" name="Engine">
+          <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b6hYENJIEeWDmKTDo30u9g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_b-vwwNJIEeWDmKTDo30u9g" comments="_b-t7kNJIEeWDmKTDo30u9g" targetConnectionVisual="_b-t7kdJIEeWDmKTDo30u9g" name="Engine" associationsOut="_b-0CMNJIEeWDmKTDo30u9g">
+    <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b6hYENJIEeWDmKTDo30u9g"/>
+    <visualProperties xmi:id="_b-vwwdJIEeWDmKTDo30u9g" position="12.0,322.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_b-vwwtJIEeWDmKTDo30u9g" label="+"/>
+    <attributes xmi:id="_b-vww9JIEeWDmKTDo30u9g" name="fuel">
+      <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b61hINJIEeWDmKTDo30u9g"/>
+      <visibility xmi:id="_b-vwxNJIEeWDmKTDo30u9g" label="~"/>
+      <cardinality xmi:id="_b-vwxdJIEeWDmKTDo30u9g" label="1" max="1" min="1"/>
+      <type xmi:id="_b-vwxtJIEeWDmKTDo30u9g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_b-vwx9JIEeWDmKTDo30u9g" name="horsepower">
+      <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b61hIdJIEeWDmKTDo30u9g"/>
+      <visibility xmi:id="_b-vwyNJIEeWDmKTDo30u9g" label="~"/>
+      <cardinality xmi:id="_b-vwydJIEeWDmKTDo30u9g" label="1" max="1" min="1"/>
+      <type xmi:id="_b-vwytJIEeWDmKTDo30u9g" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_b-vwy9JIEeWDmKTDo30u9g" name="numberCylinders">
+      <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b62IMNJIEeWDmKTDo30u9g"/>
+      <visibility xmi:id="_b-vwzNJIEeWDmKTDo30u9g" label="~"/>
+      <cardinality xmi:id="_b-vwzdJIEeWDmKTDo30u9g" label="1" max="1" min="1"/>
+      <type xmi:id="_b-vwztJIEeWDmKTDo30u9g" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_b-vwz9JIEeWDmKTDo30u9g" name="Engine">
+      <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b6kbYNJIEeWDmKTDo30u9g"/>
+      <keywords xmi:id="_b-vw0NJIEeWDmKTDo30u9g" keyword="create"/>
+      <visibility xmi:id="_b-vw0dJIEeWDmKTDo30u9g" label="+"/>
+      <cardinality xmi:id="_b-vw0tJIEeWDmKTDo30u9g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_b-vw09JIEeWDmKTDo30u9g">
+        <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b6lCc9JIEeWDmKTDo30u9g"/>
+        <type xmi:id="_b-vw1NJIEeWDmKTDo30u9g" name="Engine">
+          <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b6hYENJIEeWDmKTDo30u9g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_b-vw1dJIEeWDmKTDo30u9g" name="fuel">
+        <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b6kbYdJIEeWDmKTDo30u9g"/>
+        <cardinality xmi:id="_b-vw1tJIEeWDmKTDo30u9g" label="1" max="1" min="1"/>
+        <type xmi:id="_b-vw19JIEeWDmKTDo30u9g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_b-vw2NJIEeWDmKTDo30u9g" name="horsepower">
+        <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b6kbYtJIEeWDmKTDo30u9g"/>
+        <cardinality xmi:id="_b-vw2dJIEeWDmKTDo30u9g" label="1" max="1" min="1"/>
+        <type xmi:id="_b-vw2tJIEeWDmKTDo30u9g" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_b-vw29JIEeWDmKTDo30u9g" name="numberCylinders">
+        <modelElement href="05.Vehicle%20Simplified%20-%20(des)constructers%20and%20encapsulation.uml#_b6lCcNJIEeWDmKTDo30u9g"/>
+        <cardinality xmi:id="_b-vw3NJIEeWDmKTDo30u9g" label="1" max="1" min="1"/>
+        <type xmi:id="_b-vw3dJIEeWDmKTDo30u9g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
