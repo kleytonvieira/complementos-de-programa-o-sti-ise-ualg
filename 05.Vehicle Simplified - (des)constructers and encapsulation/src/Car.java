@@ -34,6 +34,20 @@ public class Car {
   }
   
   /**
+   * Instantiates a new car.
+   *
+   * @param brand
+   * @param engine
+   * @param model
+   */
+  public Car(String brand, String model, Engine engine) {
+    super();
+    this.brand = brand;
+    this.engine = engine;
+    this.model = model;
+  }
+
+  /**
    * Gets the brand.
    *
    * @return the brand
@@ -70,12 +84,17 @@ public class Car {
   }
   
   /**
-   * Sets the brand.
+   * Sets the brand - values accepted are Fiat or Audi (to be improved...).
    *
    * @param brand the new brand
+   * @return true, if successful
    */
-  public void setBrand(String brand) {
-    this.brand = brand;
+  public boolean setBrand(String brand) {
+    if (brand == "Fiat" || brand == "Audi"){
+      this.brand = brand;
+      return true;
+    }    
+    return false;
   }
   
   /**
