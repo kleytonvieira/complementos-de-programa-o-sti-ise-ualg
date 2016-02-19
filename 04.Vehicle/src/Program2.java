@@ -19,7 +19,7 @@ public class Program2 {
     p1.setPhoneNumber("289800100");
     Car car = new Car();
     car.setOwner(p1);
-    System.out.println("The owner of the car is " + car.getOwner());
+    System.out.println("The owner of the car is " + car.getOwner().getSurname() + ", " + car.getOwner().getForename());
     
     if (car.setCarKms(-100)) {
       System.out.println("kms setted");
