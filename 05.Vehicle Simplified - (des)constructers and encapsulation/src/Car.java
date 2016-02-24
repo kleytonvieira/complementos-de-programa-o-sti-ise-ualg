@@ -5,6 +5,8 @@
  */
 public class Car {
   
+  static private int carCreated = 0;
+  
   /** The brand. */
   private String brand;
                  
@@ -27,10 +29,11 @@ public class Car {
    */
   public Car(String brand, String model, Person owner, Engine engine) {
     super();
-    this.brand = brand;
-    this.model = model;
-    this.owner = owner;
-    this.engine = engine;
+    this.setBrand(brand);
+    this.setModel(model);
+    this.setOwner(owner);
+    this.setEngine(engine);
+    carCreated++;
   }
   
   /**
@@ -42,11 +45,17 @@ public class Car {
    */
   public Car(String brand, String model, Engine engine) {
     super();
-    this.brand = brand;
-    this.engine = engine;
-    this.model = model;
+    this.setBrand(brand);
+    this.setModel(model);
+    this.setEngine(engine);
+    carCreated++;
   }
 
+  
+  public static int howManyCars(){
+    return carCreated;
+  }
+  
   /**
    * Gets the brand.
    *
@@ -94,6 +103,7 @@ public class Car {
       this.brand = brand;
       return true;
     }    
+    this.brand = null;
     return false;
   }
   

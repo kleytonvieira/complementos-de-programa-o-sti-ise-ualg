@@ -13,5 +13,11 @@ public class Main {
    
     Car anotherCar = new Car("Audi", "A4", engine); // the one with 3 args
     anotherCar.setOwner(owner);
+    System.out.println("There are " + Car.howManyCars() + " cars in the system");
+
+    Car andAnotherCar = new Car("Audi", "A4", engine); // the one with 3 args
+    anotherCar.setOwner(owner);
+    System.out.println("There are " + Car.howManyCars() + " cars in the system");
+    
   }  
 }
