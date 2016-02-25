@@ -125,4 +125,9 @@ public class Vehicle {
   public String toString() {
     return "This " + this.getBrand() + " " + this.getModel() + " is owned by " + this.getOwner().getName();
   }
+  
+  public String vehicleInfo(){
+	  return "This vehicle is a " + this.getBrand() + " " + this.getModel() + " owned by " + this.getOwner().getName();
+  }
+  
 }

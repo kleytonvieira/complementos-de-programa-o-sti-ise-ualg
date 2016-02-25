@@ -103,4 +103,12 @@ public class LandVehicle extends Vehicle {
   public void setWheels(Wheel wheels) {
     this.wheels = wheels;
   }
+  
+  @Override 
+  public String vehicleInfo(){
+	  return "This vehicle is a " + this.getBrand() + " " + this.getModel() 
+	  	+ " has "+ this.getNumberOfWheels() + " wheels and is "
+	  	+ "owned by " + this.getOwner().getName();
+  }
+
 }

@@ -72,4 +72,11 @@ public class Car extends LandVehicle {
         + this.getLandVelocity());
   }
   
+  @Override
+  public String vehicleInfo(){
+	  return "This vehicle is a " + this.getBrand() + " " + this.getModel() 
+	  	+ " has "+ this.getNumberOfWheels() + " wheels, an engine with "
+	  	+ this.getEngine().getNumberCylinders() + " cylinders and is owned by " + this.getOwner().getName();
+  }
+  
 }
