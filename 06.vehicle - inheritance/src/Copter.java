@@ -7,6 +7,7 @@ public class Copter extends AirVehicle {
   
   /** The number of rotors. */
   private int numberOfRotors;
+  private Engine engine; 
   
   /**
    * Instantiates a new multicopter.
@@ -19,9 +20,10 @@ public class Copter extends AirVehicle {
    * @param numberOfRotors the number of rotors
    */
   public Copter(Person owner, String brand, String model, int numberOfPassengers, float airVelocity,
-      int numberOfRotors) {
+      int numberOfRotors, Engine engine) {
     super(owner, brand, model, numberOfPassengers, airVelocity);
     this.numberOfRotors = numberOfRotors;
+    this.engine = engine;
   }
   
   /**
@@ -40,6 +42,33 @@ public class Copter extends AirVehicle {
    */
   public void setNumberOfRotors(int numberOfRotors) {
     this.numberOfRotors = numberOfRotors;
+  }
+  
+
+  /* (non-Javadoc)
+   * @see Vehicle#vehicleInfo()
+   */
+  @Override
+  public String vehicleInfo(){
+    return "This vehicle is a " + this.getBrand() + " " + this.getModel() 
+    + " has "+ this.getNumberOfRotors() + " rotors, an engine with "
+    + this.getEngine().getNumberCylinders() + " cylinders and is owned by " + this.getOwner().getName();
+  }
+
+  /**
+   * Gets the engine.
+   *
+   * @return the engine
+   */
+  public Engine getEngine() {
+    return engine;
+  }
+
+  /**
+   * @param engine the engine to set
+   */
+  public void setEngine(Engine engine) {
+    this.engine = engine;
   }
   
 }
