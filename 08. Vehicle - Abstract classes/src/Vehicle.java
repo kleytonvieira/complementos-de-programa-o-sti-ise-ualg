@@ -15,7 +15,7 @@ abstract class Vehicle {
                  
   /** The owner. */
   private Person owner;
-   
+                 
   /**
    * Instantiates a new vehicle.
    *
@@ -57,21 +57,18 @@ abstract class Vehicle {
   public int getNumberOfPassengers() {
     return numberOfPassengers;
   }
-
+  
   public Person getOwner() {
     return owner;
   }
   
-
   public void setBrand(String brand) {
     this.brand = brand;
   }
   
-
   public void setModel(String model) {
     this.model = model;
   }
-  
   
   public void setNumberOfPassengers(int numberOfPassengers) {
     this.numberOfPassengers = numberOfPassengers;
@@ -80,7 +77,7 @@ abstract class Vehicle {
   public void setOwner(Person owner) {
     this.owner = owner;
   }
-
+  
   /**
    * Vehicle info.
    *

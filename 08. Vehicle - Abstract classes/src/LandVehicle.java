@@ -21,7 +21,7 @@ abstract class LandVehicle extends Vehicle {
    * @param landVelocity the land velocity
    * @param numberOfWheels the number of wheels
    */
-  public LandVehicle(Person owner, String brand, String model, int numberOfPassengers, float landVelocity, 
+  public LandVehicle(Person owner, String brand, String model, int numberOfPassengers, float landVelocity,
       int numberOfWheels) {
     super(owner, brand, model, numberOfPassengers);
     this.landVelocity = landVelocity;
@@ -39,7 +39,7 @@ abstract class LandVehicle extends Vehicle {
    */
   public LandVehicle(Person owner, String brand, String model, int numberOfPassengers, int numberOfWheels) {
     super(owner, brand, model, numberOfPassengers);
-
+    
     this.numberOfWheels = numberOfWheels;
   }
   
@@ -50,7 +50,7 @@ abstract class LandVehicle extends Vehicle {
   public int getNumberOfWheels() {
     return numberOfWheels;
   }
- 
+  
   public void setLandVelocity(float landVelocity) {
     this.landVelocity = landVelocity;
   }
@@ -58,8 +58,7 @@ abstract class LandVehicle extends Vehicle {
   public void setNumberOfWheels(int numberOfWheels) {
     this.numberOfWheels = numberOfWheels;
   }
- 
-
+  
   /* (non-Javadoc)
    * @see Vehicle#vehicleInfo()
    */
