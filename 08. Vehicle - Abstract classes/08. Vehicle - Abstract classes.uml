@@ -41,23 +41,23 @@
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_eQUHIuPVEeWLvtKsMC9WKg" value="*"/>
         </ownedParameter>
         <language>java</language>
-        <body>Person owner = new Person(&quot;Margarida&quot;,&quot;1998/12/12&quot;);
-		
-		Vehicle v;
-		LandVehicle lv;
-		Car c;
-		
-		// v = new Vehicle(owner, &quot;Audi&quot;, &quot;A4&quot;, 5); //ERROR: Cannot instantiate the type Vehicle
-		// lv = new LandVehicle(owner, &quot;Audi&quot;, &quot;A4&quot;, 5, 200, 4); // ERRO: Cannot instantiate the type LandVehicle
-		
-		c = new Car(owner, &quot;Audi&quot;, &quot;A4&quot;, 5, 200, 4, 5);
-		v = new Car(owner, &quot;Audi&quot;, &quot;A4&quot;, 5, 200, 4, 5);
-		lv = new Car(owner, &quot;Audi&quot;, &quot;A4&quot;, 5, 200, 4, 5);
-		
-		System.out.println(v.vehicleInfo());
-		System.out.println(lv.vehicleInfo());
-		System.out.println(c.vehicleInfo());
-	</body>
+        <body>Person owner = new Person(&quot;Margarida&quot;, &quot;1998/12/12&quot;);
+ 
+ Vehicle v;
+ LandVehicle lv;
+ Car c;
+ 
+ // v = new Vehicle(owner, &quot;Audi&quot;, &quot;A4&quot;, 5); //ERROR: Cannot instantiate the type Vehicle
+ // lv = new LandVehicle(owner, &quot;Audi&quot;, &quot;A4&quot;, 5, 200, 4); // ERRO: Cannot instantiate the type LandVehicle
+ 
+ c = new Car(owner, &quot;Audi&quot;, &quot;A4&quot;, 5, 200, 4, 5);
+ v = new Car(owner, &quot;Audi&quot;, &quot;A4&quot;, 5, 200, 4, 5);
+ lv = new Car(owner, &quot;Audi&quot;, &quot;A4&quot;, 5, 200, 4, 5);
+ 
+ System.out.println(v.vehicleInfo());
+ System.out.println(lv.vehicleInfo());
+ System.out.println(c.vehicleInfo());
+  </body>
       </ownedBehavior>
       <ownedOperation xmi:id="_eND-0OPVEeWLvtKsMC9WKg" name="main" isStatic="true" method="_eQUHIOPVEeWLvtKsMC9WKg">
         <ownedParameter xmi:id="_eNEl4OPVEeWLvtKsMC9WKg" name="args">
@@ -94,7 +94,9 @@
         <ownedParameter xmi:id="_eQd4JuPVEeWLvtKsMC9WKg" name="numberOfWheels">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         </ownedParameter>
-        <ownedParameter xmi:id="_eQd4J-PVEeWLvtKsMC9WKg" type="_eNLTkOPVEeWLvtKsMC9WKg" direction="return"/>
+        <ownedParameter xmi:id="_eQd4J-PVEeWLvtKsMC9WKg" type="_eNLTkOPVEeWLvtKsMC9WKg" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
         <language>java</language>
         <body>super(owner, brand, model, numberOfPassengers);
  this.landVelocity = landVelocity;
@@ -115,10 +117,12 @@
         <ownedParameter xmi:id="_eQfGRePVEeWLvtKsMC9WKg" name="numberOfWheels">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         </ownedParameter>
-        <ownedParameter xmi:id="_eQfGRuPVEeWLvtKsMC9WKg" type="_eNLTkOPVEeWLvtKsMC9WKg" direction="return"/>
+        <ownedParameter xmi:id="_eQfGRuPVEeWLvtKsMC9WKg" type="_eNLTkOPVEeWLvtKsMC9WKg" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
         <language>java</language>
         <body>super(owner, brand, model, numberOfPassengers);
-
+ 
  this.numberOfWheels = numberOfWheels;
   </body>
       </ownedBehavior>
@@ -228,7 +232,9 @@
         <ownedParameter xmi:id="_eQgUZOPVEeWLvtKsMC9WKg" name="numberOfPassengers">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         </ownedParameter>
-        <ownedParameter xmi:id="_eQgUZePVEeWLvtKsMC9WKg" type="_eNgDsOPVEeWLvtKsMC9WKg" direction="return"/>
+        <ownedParameter xmi:id="_eQgUZePVEeWLvtKsMC9WKg" type="_eNgDsOPVEeWLvtKsMC9WKg" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
         <language>java</language>
         <body>super();
  this.owner = owner;
@@ -247,7 +253,9 @@
         <ownedParameter xmi:id="_eQg7c-PVEeWLvtKsMC9WKg" name="numberOfPassengers">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         </ownedParameter>
-        <ownedParameter xmi:id="_eQg7dOPVEeWLvtKsMC9WKg" type="_eNgDsOPVEeWLvtKsMC9WKg" direction="return"/>
+        <ownedParameter xmi:id="_eQg7dOPVEeWLvtKsMC9WKg" type="_eNgDsOPVEeWLvtKsMC9WKg" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
         <language>java</language>
         <body>super();
  this.brand = brand;
@@ -326,31 +334,35 @@
         <ownedParameter xmi:id="_eQiJl-PVEeWLvtKsMC9WKg" name="numberOfDoors">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         </ownedParameter>
-        <ownedParameter xmi:id="_eQiJmOPVEeWLvtKsMC9WKg" type="_eNrp4OPVEeWLvtKsMC9WKg" direction="return"/>
+        <ownedParameter xmi:id="_eQiJmOPVEeWLvtKsMC9WKg" type="_eNrp4OPVEeWLvtKsMC9WKg" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
         <language>java</language>
         <body>super(owner, brand, model, numberOfPassengers, landVelocity, numberOfWheels);
-
-		this.numberOfDoors = numberOfDoors;
-	</body>
+ 
+ this.numberOfDoors = numberOfDoors;
+  </body>
       </ownedBehavior>
       <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_eQiwoOPVEeWLvtKsMC9WKg" name="consumption" specification="_eNutMOPVEeWLvtKsMC9WKg">
         <ownedParameter xmi:id="_eQiwoePVEeWLvtKsMC9WKg" direction="return">
+          <name xsi:nil="true"/>
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
         </ownedParameter>
         <language>java</language>
         <body>return this.filledFuel / this.kms * 100;
-	</body>
+  </body>
       </ownedBehavior>
       <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_eQlM4OPVEeWLvtKsMC9WKg" name="consumption" specification="_eNv7UOPVEeWLvtKsMC9WKg">
         <ownedParameter xmi:id="_eQlM4ePVEeWLvtKsMC9WKg" name="kms">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
         </ownedParameter>
         <ownedParameter xmi:id="_eQlM4uPVEeWLvtKsMC9WKg" direction="return">
+          <name xsi:nil="true"/>
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
         </ownedParameter>
         <language>java</language>
-        <body>return this.filledFuel / this.kms *  kms ;
-	</body>
+        <body>return this.filledFuel / this.kms * kms;
+  </body>
       </ownedBehavior>
       <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_eQqscOPVEeWLvtKsMC9WKg" name="consumption" specification="_eNxJcOPVEeWLvtKsMC9WKg">
         <ownedParameter xmi:id="_eQqscePVEeWLvtKsMC9WKg" name="kms">
@@ -360,20 +372,22 @@
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
         </ownedParameter>
         <ownedParameter xmi:id="_eQqsc-PVEeWLvtKsMC9WKg" direction="return">
+          <name xsi:nil="true"/>
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
         </ownedParameter>
         <language>java</language>
-        <body>return this.filledFuel / this.kms *  kms  * loadFactor;
-	</body>
+        <body>return this.filledFuel / this.kms * kms * loadFactor;
+  </body>
       </ownedBehavior>
       <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_eQrTgOPVEeWLvtKsMC9WKg" name="vehicleInfo" specification="_eN0z0OPVEeWLvtKsMC9WKg">
         <ownedParameter xmi:id="_eQrTgePVEeWLvtKsMC9WKg" direction="return">
+          <name xsi:nil="true"/>
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedParameter>
         <language>java</language>
-        <body>return &quot;This vehicle is a &quot; + this.getBrand() + &quot; &quot; + this.getModel() 
-		+ &quot; has &quot;+ this.getNumberOfWheels() + &quot; wheels and is owned by &quot; + this.getOwner().getName();
-	</body>
+        <body>return &quot;This vehicle is a &quot; + this.getBrand() + &quot; &quot; + this.getModel() + &quot; has &quot; + this.getNumberOfWheels()
+     + &quot; wheels and is owned by &quot; + this.getOwner().getName();
+  </body>
       </ownedBehavior>
       <ownedOperation xmi:id="_eNutMOPVEeWLvtKsMC9WKg" name="consumption" method="_eQiwoOPVEeWLvtKsMC9WKg">
         <ownedParameter xmi:id="_eNvUQOPVEeWLvtKsMC9WKg" direction="return">
