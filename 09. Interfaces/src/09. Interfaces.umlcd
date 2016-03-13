@@ -1,46 +1,210 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_jPrR8OlYEeWS0qS7xioXEg">
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_jPrR8OlYEeWS0qS7xioXEg">
+  <eAnnotations xmi:id="_ZzDE0OlrEeW5ls_UjEHEFA" source="http://ns.yatta.de/umllab">
+    <contents xsi:type="ecore:EAnnotation" xmi:id="_ZzfJsOlrEeW5ls_UjEHEFA" source="dangling-refs">
+      <contents xsi:type="UMLLabProfile:LegacyStyledElement" xmi:id="_xPgPkOloEeW5ls_UjEHEFA">
+        <base_Element xsi:type="uml:Property" href="09.%20Interfaces.uml#_xPfogOloEeW5ls_UjEHEFA"/>
+      </contents>
+      <contents xsi:type="UMLLabProfile:LegacyStyledElement" xmi:id="_xPPw4OloEeW5ls_UjEHEFA">
+        <base_Element xsi:type="uml:Operation" href="09.%20Interfaces.uml#_xPOiwOloEeW5ls_UjEHEFA"/>
+      </contents>
+      <contents xsi:type="UMLLabProfile:LegacyStyledElement" xmi:id="_xPg2oOloEeW5ls_UjEHEFA">
+        <base_Element xsi:type="uml:Property" href="09.%20Interfaces.uml#_xPgPkeloEeW5ls_UjEHEFA"/>
+      </contents>
+      <contents xsi:type="UMLLabProfile:LegacyStyledElement" xmi:id="_xPRmEuloEeW5ls_UjEHEFA">
+        <base_Element xsi:type="uml:Operation" href="09.%20Interfaces.uml#_xPRmEOloEeW5ls_UjEHEFA"/>
+      </contents>
+    </contents>
+  </eAnnotations>
   <modelElement href="09.%20Interfaces.uml#_jMlhsOlYEeWS0qS7xioXEg"/>
   <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_lZ_NYOlYEeWS0qS7xioXEg" targetItem="_laC3xelYEeWS0qS7xioXEg" sourceItem="_lZ-mUOlYEeWS0qS7xioXEg"/>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_lah_8OlYEeWS0qS7xioXEg" sourceAnchor="0.0,51.0" targetAnchor="606.0,47.0" superClass="_lalDQOlYEeWS0qS7xioXEg" subClass="_laCQsOlYEeWS0qS7xioXEg">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_lah_8OlYEeWS0qS7xioXEg" sourceAnchor="85.0,0.0" targetAnchor="240.0,94.0" superClass="_lalDQOlYEeWS0qS7xioXEg" subClass="_laCQsOlYEeWS0qS7xioXEg">
     <modelElement href="09.%20Interfaces.uml#_kfkMgOlYEeWS0qS7xioXEg"/>
-    <bendpoints xmi:id="_lmAQIOlYEeWS0qS7xioXEg" sourceX="-68" targetX="15" targetY="30"/>
-    <bendpoints xmi:id="_lmG90OlYEeWS0qS7xioXEg" sourceX="-68" sourceY="-30" targetX="15"/>
+    <visualProperties xmi:id="_Q4RNEOlpEeW5ls_UjEHEFA" position="122.0,69.0"/>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_laotoOlYEeWS0qS7xioXEg" sourceAnchor="443.0,0.0" targetAnchor="357.0,115.0" superClass="_lasYAOlYEeWS0qS7xioXEg" subClass="_laY2AOlYEeWS0qS7xioXEg">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_laotoOlYEeWS0qS7xioXEg" sourceAnchor="190.0,0.0" targetAnchor="212.0,114.0" superClass="_lasYAOlYEeWS0qS7xioXEg" subClass="_laY2AOlYEeWS0qS7xioXEg">
     <modelElement href="09.%20Interfaces.uml#_kfc3wOlYEeWS0qS7xioXEg"/>
-    <bendpoints xmi:id="_lmHk4OlYEeWS0qS7xioXEg" sourceY="-28" targetX="-770" targetY="27"/>
-    <bendpoints xmi:id="_lmHk4elYEeWS0qS7xioXEg" sourceX="770" sourceY="-28" targetY="27"/>
+    <bendpoints xmi:id="_ZNt1EOlpEeW5ls_UjEHEFA" sourceY="-26" targetX="-136" targetY="26"/>
+    <bendpoints xmi:id="_ZNt1EelpEeW5ls_UjEHEFA" sourceX="136" sourceY="-26" targetY="26"/>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_laotoelYEeWS0qS7xioXEg" sourceAnchor="733.0,47.0" targetAnchor="357.0,115.0" superClass="_lasYAOlYEeWS0qS7xioXEg" subClass="_laeVkOlYEeWS0qS7xioXEg">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_laotoelYEeWS0qS7xioXEg" sourceAnchor="184.0,0.0" targetAnchor="212.0,114.0" superClass="_lasYAOlYEeWS0qS7xioXEg" subClass="_laeVkOlYEeWS0qS7xioXEg">
     <modelElement href="09.%20Interfaces.uml#_kfes8OlYEeWS0qS7xioXEg"/>
-    <bendpoints xmi:id="_lmHk4ulYEeWS0qS7xioXEg" sourceX="224" targetX="-180" targetY="306"/>
-    <bendpoints xmi:id="_lmHk4-lYEeWS0qS7xioXEg" sourceX="224" sourceY="-279" targetX="-180" targetY="27"/>
-    <bendpoints xmi:id="_lmHk5OlYEeWS0qS7xioXEg" sourceX="404" sourceY="-279" targetY="27"/>
+    <bendpoints xmi:id="_ZNt1EulpEeW5ls_UjEHEFA" sourceY="-33" targetX="288" targetY="26"/>
+    <bendpoints xmi:id="_ZNt1E-lpEeW5ls_UjEHEFA" sourceX="-288" sourceY="-33" targetY="26"/>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_lawpcOlYEeWS0qS7xioXEg" sourceAnchor="0.0,47.0" targetAnchor="606.0,47.0" superClass="_lalDQOlYEeWS0qS7xioXEg" subClass="_lazswOlYEeWS0qS7xioXEg">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_lawpcOlYEeWS0qS7xioXEg" sourceAnchor="230.0,0.0" targetAnchor="197.0,94.0" superClass="_lalDQOlYEeWS0qS7xioXEg" subClass="_lazswOlYEeWS0qS7xioXEg">
     <modelElement href="09.%20Interfaces.uml#_kfjlcOlYEeWS0qS7xioXEg"/>
-    <bendpoints xmi:id="_lmIzAelYEeWS0qS7xioXEg" sourceX="-62" targetX="-32" targetY="596"/>
-    <bendpoints xmi:id="_lmIzAulYEeWS0qS7xioXEg" sourceX="-62" sourceY="-461" targetX="-32" targetY="135"/>
-    <bendpoints xmi:id="_lmIzA-lYEeWS0qS7xioXEg" sourceX="-15" sourceY="-461" targetX="15" targetY="135"/>
-    <bendpoints xmi:id="_lmIzBOlYEeWS0qS7xioXEg" sourceX="-15" sourceY="-596" targetX="15"/>
+    <visualProperties xmi:id="_Q4QmAOlpEeW5ls_UjEHEFA" position="122.0,69.0"/>
+    <bendpoints xmi:id="_ZNucIelpEeW5ls_UjEHEFA" sourceY="-30" targetX="-293" targetY="34"/>
+    <bendpoints xmi:id="_ZNucIulpEeW5ls_UjEHEFA" sourceX="293" sourceY="-30" targetY="34"/>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_la3-MOlYEeWS0qS7xioXEg" sourceAnchor="357.0,0.0" targetAnchor="203.0,137.0" superClass="_la7BgOlYEeWS0qS7xioXEg" subClass="_lasYAOlYEeWS0qS7xioXEg">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_la3-MOlYEeWS0qS7xioXEg" sourceAnchor="212.0,0.0" targetAnchor="200.0,158.0" superClass="_la7BgOlYEeWS0qS7xioXEg" subClass="_lasYAOlYEeWS0qS7xioXEg">
     <modelElement href="09.%20Interfaces.uml#_kffUAOlYEeWS0qS7xioXEg"/>
-    <bendpoints xmi:id="_lmIL8ulYEeWS0qS7xioXEg" sourceY="-84" targetX="750" targetY="28"/>
-    <bendpoints xmi:id="_lmIzAOlYEeWS0qS7xioXEg" sourceX="-750" sourceY="-84" targetY="28"/>
+    <bendpoints xmi:id="_ZNtOAOlpEeW5ls_UjEHEFA" sourceY="-31" targetX="228" targetY="75"/>
+    <bendpoints xmi:id="_ZNtOAelpEeW5ls_UjEHEFA" sourceX="-228" sourceY="-31" targetY="75"/>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_la3-MelYEeWS0qS7xioXEg" sourceAnchor="303.0,0.0" targetAnchor="203.0,137.0" superClass="_la7BgOlYEeWS0qS7xioXEg" subClass="_lalDQOlYEeWS0qS7xioXEg">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_la3-MelYEeWS0qS7xioXEg" sourceAnchor="196.0,0.0" targetAnchor="200.0,158.0" superClass="_la7BgOlYEeWS0qS7xioXEg" subClass="_lalDQOlYEeWS0qS7xioXEg">
     <modelElement href="09.%20Interfaces.uml#_kfmBsOlYEeWS0qS7xioXEg"/>
-    <bendpoints xmi:id="_lmIL8OlYEeWS0qS7xioXEg" sourceY="-27" targetX="-749" targetY="28"/>
-    <bendpoints xmi:id="_lmIL8elYEeWS0qS7xioXEg" sourceX="749" sourceY="-27" targetY="28"/>
+    <visualProperties xmi:id="_RY6cAOlpEeW5ls_UjEHEFA" position="122.0,69.0"/>
+    <bendpoints xmi:id="_ZNtOAulpEeW5ls_UjEHEFA" sourceY="-30" targetX="-264" targetY="75"/>
+    <bendpoints xmi:id="_ZNtOA-lpEeW5ls_UjEHEFA" sourceX="264" sourceY="-30" targetY="75"/>
   </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_xhtZ4eloEeW5ls_UjEHEFA" targetItem="_lazsx-lYEeWS0qS7xioXEg" sourceItem="_xhtZ4OloEeW5ls_UjEHEFA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_S8fHkOlpEeW5ls_UjEHEFA" sourceAnchor="187.0,180.0" targetAnchor="72.0,0.0" dashed="true" superClass="_S8gVsOlpEeW5ls_UjEHEFA" subClass="_laeVkOlYEeWS0qS7xioXEg">
+    <modelElement href="09.%20Interfaces.uml#_xPdzUeloEeW5ls_UjEHEFA"/>
+    <bendpoints xmi:id="_ZNt1FOlpEeW5ls_UjEHEFA" sourceY="30" targetX="611" targetY="-36"/>
+    <bendpoints xmi:id="_ZNucIOlpEeW5ls_UjEHEFA" sourceX="-611" sourceY="30" targetY="-36"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_S8fHkelpEeW5ls_UjEHEFA" sourceAnchor="231.0,180.0" targetAnchor="72.0,0.0" dashed="true" superClass="_S8gVsOlpEeW5ls_UjEHEFA" subClass="_lazswOlYEeWS0qS7xioXEg">
+    <modelElement href="09.%20Interfaces.uml#_xPeaYOloEeW5ls_UjEHEFA"/>
+    <bendpoints xmi:id="_ZNucI-lpEeW5ls_UjEHEFA" sourceY="46" targetX="-463" targetY="-36"/>
+    <bendpoints xmi:id="_ZNucJOlpEeW5ls_UjEHEFA" sourceX="463" sourceY="46" targetY="-36"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Vln3kOlqEeW5ls_UjEHEFA" targetItem="_S8gVsOlpEeW5ls_UjEHEFA" sourceItem="_VlnQgOlqEeW5ls_UjEHEFA"/>
   <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_lZ-mUOlYEeWS0qS7xioXEg" sourceConnectionVisual="_lZ_NYOlYEeWS0qS7xioXEg" text="@param brand&#xA;   * @param model&#xA;   * @param price&#xA;   * @param waterVelocity&#xA;   * @param numberOfRows" item="_laC3xelYEeWS0qS7xioXEg">
     <modelElement href="09.%20Interfaces.uml#_kf5jsOlYEeWS0qS7xioXEg"/>
   </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_xhtZ4OloEeW5ls_UjEHEFA" sourceConnectionVisual="_xhtZ4eloEeW5ls_UjEHEFA" text="@param brand&#xA;   * @param model&#xA;   * @param price&#xA;   * @param waterVelocity&#xA;   * @param engineHorsePower" item="_lazsx-lYEeWS0qS7xioXEg">
+    <modelElement href="09.%20Interfaces.uml#_xPkhAOloEeW5ls_UjEHEFA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_lasYAOlYEeWS0qS7xioXEg" name="LandVehicle" abstractClass="true" generalizations="_la3-MOlYEeWS0qS7xioXEg" subclassedBy="_laotoOlYEeWS0qS7xioXEg _laotoelYEeWS0qS7xioXEg">
+    <modelElement href="09.%20Interfaces.uml#_kemjMOlYEeWS0qS7xioXEg"/>
+    <visualProperties xmi:id="_lasYAelYEeWS0qS7xioXEg" position="400.0,23.0" size="430.0,115.0"/>
+    <visibility xmi:id="_lasYAulYEeWS0qS7xioXEg" label="+"/>
+    <attributes xmi:id="_lasYA-lYEeWS0qS7xioXEg" name="landVelocity">
+      <modelElement href="09.%20Interfaces.uml#_kfsIUOlYEeWS0qS7xioXEg"/>
+      <visibility xmi:id="_lasYBOlYEeWS0qS7xioXEg" label="+"/>
+      <cardinality xmi:id="_lasYBelYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
+      <type xmi:id="_lasYBulYEeWS0qS7xioXEg" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lasYB-lYEeWS0qS7xioXEg" name="numberOfWheels">
+      <modelElement href="09.%20Interfaces.uml#_kfsvYOlYEeWS0qS7xioXEg"/>
+      <visibility xmi:id="_lasYCOlYEeWS0qS7xioXEg" label="+"/>
+      <cardinality xmi:id="_lasYCelYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
+      <type xmi:id="_lasYCulYEeWS0qS7xioXEg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_lasYC-lYEeWS0qS7xioXEg" name="LandVehicle">
+      <modelElement href="09.%20Interfaces.uml#_keo_cOlYEeWS0qS7xioXEg"/>
+      <keywords xmi:id="_lasYDOlYEeWS0qS7xioXEg" keyword="create"/>
+      <visibility xmi:id="_lasYDelYEeWS0qS7xioXEg" label="+"/>
+      <cardinality xmi:id="_lasYDulYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lasYD-lYEeWS0qS7xioXEg">
+        <modelElement href="09.%20Interfaces.uml#_keqNkulYEeWS0qS7xioXEg"/>
+        <type xmi:id="_lasYEOlYEeWS0qS7xioXEg" name="LandVehicle">
+          <modelElement href="09.%20Interfaces.uml#_kemjMOlYEeWS0qS7xioXEg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lasYEelYEeWS0qS7xioXEg" name="brand">
+        <modelElement href="09.%20Interfaces.uml#_keo_celYEeWS0qS7xioXEg"/>
+        <cardinality xmi:id="_lasYEulYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
+        <type xmi:id="_lasYE-lYEeWS0qS7xioXEg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lasYFOlYEeWS0qS7xioXEg" name="model">
+        <modelElement href="09.%20Interfaces.uml#_kepmgOlYEeWS0qS7xioXEg"/>
+        <cardinality xmi:id="_lasYFelYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
+        <type xmi:id="_lasYFulYEeWS0qS7xioXEg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lasYF-lYEeWS0qS7xioXEg" name="price">
+        <modelElement href="09.%20Interfaces.uml#_kepmgelYEeWS0qS7xioXEg"/>
+        <cardinality xmi:id="_lasYGOlYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
+        <type xmi:id="_lasYGelYEeWS0qS7xioXEg" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lasYGulYEeWS0qS7xioXEg" name="landVelocity">
+        <modelElement href="09.%20Interfaces.uml#_kepmgulYEeWS0qS7xioXEg"/>
+        <cardinality xmi:id="_lasYG-lYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
+        <type xmi:id="_lasYHOlYEeWS0qS7xioXEg" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lasYHelYEeWS0qS7xioXEg" name="numberOfWheels">
+        <modelElement href="09.%20Interfaces.uml#_kepmg-lYEeWS0qS7xioXEg"/>
+        <cardinality xmi:id="_lasYHulYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
+        <type xmi:id="_lasYH-lYEeWS0qS7xioXEg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_la7BgOlYEeWS0qS7xioXEg" name="Vehicle" abstractClass="true" subclassedBy="_la3-MOlYEeWS0qS7xioXEg _la3-MelYEeWS0qS7xioXEg">
+    <modelElement href="09.%20Interfaces.uml#_ke6FMOlYEeWS0qS7xioXEg"/>
+    <visualProperties xmi:id="_la7BgelYEeWS0qS7xioXEg" position="184.0,-242.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_la7BgulYEeWS0qS7xioXEg" label="+"/>
+    <attributes xmi:id="_la7Bg-lYEeWS0qS7xioXEg" name="brand">
+      <modelElement href="09.%20Interfaces.uml#_kfvysOlYEeWS0qS7xioXEg"/>
+      <visibility xmi:id="_la7BhOlYEeWS0qS7xioXEg" label="+"/>
+      <cardinality xmi:id="_la7BhelYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
+      <type xmi:id="_la7BhulYEeWS0qS7xioXEg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_la7Bh-lYEeWS0qS7xioXEg" name="model">
+      <modelElement href="09.%20Interfaces.uml#_kfwZwOlYEeWS0qS7xioXEg"/>
+      <visibility xmi:id="_la7BiOlYEeWS0qS7xioXEg" label="+"/>
+      <cardinality xmi:id="_la7BielYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
+      <type xmi:id="_la7BiulYEeWS0qS7xioXEg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_la7Bi-lYEeWS0qS7xioXEg" name="price">
+      <modelElement href="09.%20Interfaces.uml#_kfwZwelYEeWS0qS7xioXEg"/>
+      <visibility xmi:id="_la7BjOlYEeWS0qS7xioXEg" label="+"/>
+      <cardinality xmi:id="_la7BjelYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
+      <type xmi:id="_la7BjulYEeWS0qS7xioXEg" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_la7Bj-lYEeWS0qS7xioXEg" name="Vehicle">
+      <modelElement href="09.%20Interfaces.uml#_ke9IgOlYEeWS0qS7xioXEg"/>
+      <keywords xmi:id="_la7BkOlYEeWS0qS7xioXEg" keyword="create"/>
+      <visibility xmi:id="_la7BkelYEeWS0qS7xioXEg" label="+"/>
+      <cardinality xmi:id="_la7BkulYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_la7Bk-lYEeWS0qS7xioXEg">
+        <modelElement href="09.%20Interfaces.uml#_ke9vkulYEeWS0qS7xioXEg"/>
+        <type xmi:id="_la7okOlYEeWS0qS7xioXEg" name="Vehicle">
+          <modelElement href="09.%20Interfaces.uml#_ke6FMOlYEeWS0qS7xioXEg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_la7okelYEeWS0qS7xioXEg" name="brand">
+        <modelElement href="09.%20Interfaces.uml#_ke9IgelYEeWS0qS7xioXEg"/>
+        <cardinality xmi:id="_la7okulYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
+        <type xmi:id="_la7ok-lYEeWS0qS7xioXEg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_la7olOlYEeWS0qS7xioXEg" name="model">
+        <modelElement href="09.%20Interfaces.uml#_ke9IgulYEeWS0qS7xioXEg"/>
+        <cardinality xmi:id="_la7olelYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
+        <type xmi:id="_la7olulYEeWS0qS7xioXEg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_la7ol-lYEeWS0qS7xioXEg" name="price">
+        <modelElement href="09.%20Interfaces.uml#_ke9Ig-lYEeWS0qS7xioXEg"/>
+        <cardinality xmi:id="_la7omOlYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
+        <type xmi:id="_la7omelYEeWS0qS7xioXEg" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_xgkxcOloEeW5ls_UjEHEFA" abstractOperation="true" name="vehicleInfo">
+      <modelElement href="09.%20Interfaces.uml#_xPFY0OloEeW5ls_UjEHEFA"/>
+      <visibility xmi:id="_xgkxceloEeW5ls_UjEHEFA" label="~"/>
+      <cardinality xmi:id="_xgkxculoEeW5ls_UjEHEFA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_laY2AOlYEeWS0qS7xioXEg" name="Bicycle" generalizations="_laotoOlYEeWS0qS7xioXEg">
     <modelElement href="09.%20Interfaces.uml#_keDwoOlYEeWS0qS7xioXEg"/>
-    <visualProperties xmi:id="_laY2AelYEeWS0qS7xioXEg" position="-70.0,231.0" size="-1.0,-1.0"/>
+    <visualProperties xmi:id="_laY2AelYEeWS0qS7xioXEg" position="286.0,190.0" size="380.0,136.0"/>
     <visibility xmi:id="_laY2AulYEeWS0qS7xioXEg" label="+"/>
     <attributes xmi:id="_laY2A-lYEeWS0qS7xioXEg" name="hasBasket">
       <modelElement href="09.%20Interfaces.uml#_kfpFAOlYEeWS0qS7xioXEg"/>
@@ -119,10 +283,21 @@
         </type>
       </parameters>
     </operations>
+    <operations xmi:id="_xPnkUOloEeW5ls_UjEHEFA" name="vehicleInfo">
+      <modelElement href="09.%20Interfaces.uml#_xO2vUOloEeW5ls_UjEHEFA"/>
+      <stereotypes xmi:id="_xPnkUeloEeW5ls_UjEHEFA" name="Annotations">
+        <modelElement href="09.%20Interfaces.uml#_xO4kgOloEeW5ls_UjEHEFA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_xPnkUuloEeW5ls_UjEHEFA" name="LegacyStyledElement">
+        <modelElement href="09.%20Interfaces.uml#_xPHOAOloEeW5ls_UjEHEFA"/>
+      </stereotypes>
+      <visibility xmi:id="_xPnkU-loEeW5ls_UjEHEFA" label="~"/>
+      <cardinality xmi:id="_xPnkVOloEeW5ls_UjEHEFA" label="1" max="1" min="1"/>
+    </operations>
   </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_laeVkOlYEeWS0qS7xioXEg" name="Car" generalizations="_laotoelYEeWS0qS7xioXEg">
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_laeVkOlYEeWS0qS7xioXEg" name="Car" generalizations="_laotoelYEeWS0qS7xioXEg _S8fHkOlpEeW5ls_UjEHEFA">
     <modelElement href="09.%20Interfaces.uml#_kefOcOlYEeWS0qS7xioXEg"/>
-    <visualProperties xmi:id="_laeVkelYEeWS0qS7xioXEg" position="6.0,435.0" size="-1.0,-1.0"/>
+    <visualProperties xmi:id="_laeVkelYEeWS0qS7xioXEg" position="716.0,197.0" size="375.0,180.0"/>
     <visibility xmi:id="_laeVkulYEeWS0qS7xioXEg" label="+"/>
     <attributes xmi:id="_laeVk-lYEeWS0qS7xioXEg" name="numberOfDoor">
       <modelElement href="09.%20Interfaces.uml#_kfrhQOlYEeWS0qS7xioXEg"/>
@@ -130,6 +305,15 @@
       <cardinality xmi:id="_laeVlelYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
       <type xmi:id="_laeVlulYEeWS0qS7xioXEg" name="int">
         <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xeXyAOloEeW5ls_UjEHEFA" name="carAnualTax">
+      <modelElement href="09.%20Interfaces.uml#_xPfogOloEeW5ls_UjEHEFA"/>
+      <stereotypes xmi:id="_xeXyAeloEeW5ls_UjEHEFA" modelElement="_xPgPkOloEeW5ls_UjEHEFA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_xeXyAuloEeW5ls_UjEHEFA" label="-"/>
+      <cardinality xmi:id="_xeXyA-loEeW5ls_UjEHEFA" label="1" max="1" min="1"/>
+      <type xmi:id="_xeXyBOloEeW5ls_UjEHEFA" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
       </type>
     </attributes>
     <operations xmi:id="_laeVl-lYEeWS0qS7xioXEg" name="Car">
@@ -186,193 +370,54 @@
         </type>
       </parameters>
     </operations>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_lalDQOlYEeWS0qS7xioXEg" name="WaterVehicle" generalizations="_la3-MelYEeWS0qS7xioXEg" subclassedBy="_lah_8OlYEeWS0qS7xioXEg _lawpcOlYEeWS0qS7xioXEg">
-    <modelElement href="09.%20Interfaces.uml#_ke_kwOlYEeWS0qS7xioXEg"/>
-    <visualProperties xmi:id="_lalDQelYEeWS0qS7xioXEg" position="-659.0,4.0" size="-1.0,-1.0"/>
-    <visibility xmi:id="_lalDQulYEeWS0qS7xioXEg" label="+"/>
-    <attributes xmi:id="_lalDQ-lYEeWS0qS7xioXEg" name="waterVelocity">
-      <modelElement href="09.%20Interfaces.uml#_kfxA0OlYEeWS0qS7xioXEg"/>
-      <visibility xmi:id="_lalDROlYEeWS0qS7xioXEg" label="+"/>
-      <cardinality xmi:id="_lalDRelYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
-      <type xmi:id="_lalDRulYEeWS0qS7xioXEg" name="float">
-        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
-      </type>
-    </attributes>
-    <operations xmi:id="_lalDR-lYEeWS0qS7xioXEg" name="WaterVehicle">
-      <modelElement href="09.%20Interfaces.uml#_kfAy4OlYEeWS0qS7xioXEg"/>
-      <keywords xmi:id="_lalDSOlYEeWS0qS7xioXEg" keyword="create"/>
-      <visibility xmi:id="_lalDSelYEeWS0qS7xioXEg" label="+"/>
-      <cardinality xmi:id="_lalDSulYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_lalDS-lYEeWS0qS7xioXEg">
-        <modelElement href="09.%20Interfaces.uml#_kfCoEulYEeWS0qS7xioXEg"/>
-        <type xmi:id="_lalDTOlYEeWS0qS7xioXEg" name="WaterVehicle">
-          <modelElement href="09.%20Interfaces.uml#_ke_kwOlYEeWS0qS7xioXEg"/>
-        </type>
-      </outParameters>
-      <parameters xmi:id="_lalDTelYEeWS0qS7xioXEg" name="brand">
-        <modelElement href="09.%20Interfaces.uml#_kfAy4elYEeWS0qS7xioXEg"/>
-        <cardinality xmi:id="_lalDTulYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
-        <type xmi:id="_lalDT-lYEeWS0qS7xioXEg" name="String">
-          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </type>
-      </parameters>
-      <parameters xmi:id="_lalDUOlYEeWS0qS7xioXEg" name="model">
-        <modelElement href="09.%20Interfaces.uml#_kfBZ8OlYEeWS0qS7xioXEg"/>
-        <cardinality xmi:id="_lalDUelYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
-        <type xmi:id="_lalDUulYEeWS0qS7xioXEg" name="String">
-          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </type>
-      </parameters>
-      <parameters xmi:id="_lalDU-lYEeWS0qS7xioXEg" name="price">
-        <modelElement href="09.%20Interfaces.uml#_kfBZ8elYEeWS0qS7xioXEg"/>
-        <cardinality xmi:id="_lalDVOlYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
-        <type xmi:id="_lalDVelYEeWS0qS7xioXEg" name="float">
+    <operations xmi:id="_xce7oOloEeW5ls_UjEHEFA" name="vehicleInfo">
+      <modelElement href="09.%20Interfaces.uml#_xO7n0OloEeW5ls_UjEHEFA"/>
+      <stereotypes xmi:id="_xce7oeloEeW5ls_UjEHEFA" name="Annotations">
+        <modelElement href="09.%20Interfaces.uml#_xO7n0eloEeW5ls_UjEHEFA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_xce7ouloEeW5ls_UjEHEFA" name="LegacyStyledElement">
+        <modelElement href="09.%20Interfaces.uml#_xPH1EOloEeW5ls_UjEHEFA"/>
+      </stereotypes>
+      <visibility xmi:id="_xce7o-loEeW5ls_UjEHEFA" label="~"/>
+      <cardinality xmi:id="_xce7pOloEeW5ls_UjEHEFA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_cfCmcOlqEeW5ls_UjEHEFA" name="getAnualTax">
+      <modelElement href="09.%20Interfaces.uml#_xO8O4eloEeW5ls_UjEHEFA"/>
+      <stereotypes xmi:id="_cfCmcelqEeW5ls_UjEHEFA" name="Annotations">
+        <modelElement href="09.%20Interfaces.uml#_xO818OloEeW5ls_UjEHEFA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_cfCmculqEeW5ls_UjEHEFA" name="LegacyStyledElement">
+        <modelElement href="09.%20Interfaces.uml#_xPH1EeloEeW5ls_UjEHEFA"/>
+      </stereotypes>
+      <visibility xmi:id="_cfCmc-lqEeW5ls_UjEHEFA" label="+"/>
+      <cardinality xmi:id="_cfCmdOlqEeW5ls_UjEHEFA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_cfCmdelqEeW5ls_UjEHEFA">
+        <modelElement href="09.%20Interfaces.uml#_juWiQOlpEeW5ls_UjEHEFA"/>
+        <type xmi:id="_cfCmdulqEeW5ls_UjEHEFA" name="float">
           <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
         </type>
-      </parameters>
-      <parameters xmi:id="_lalDVulYEeWS0qS7xioXEg" name="waterVelocity">
-        <modelElement href="09.%20Interfaces.uml#_kfBZ8ulYEeWS0qS7xioXEg"/>
-        <cardinality xmi:id="_lalDV-lYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
-        <type xmi:id="_lalDWOlYEeWS0qS7xioXEg" name="float">
+      </outParameters>
+    </operations>
+    <operations xmi:id="_cjGnEOlqEeW5ls_UjEHEFA" name="setAnualTax">
+      <modelElement href="09.%20Interfaces.uml#_xPOiwOloEeW5ls_UjEHEFA"/>
+      <stereotypes xmi:id="_cjGnEelqEeW5ls_UjEHEFA" modelElement="_xPPw4OloEeW5ls_UjEHEFA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_cjGnEulqEeW5ls_UjEHEFA" name="Annotations">
+        <modelElement href="09.%20Interfaces.uml#_xPPw4eloEeW5ls_UjEHEFA"/>
+      </stereotypes>
+      <visibility xmi:id="_cjGnE-lqEeW5ls_UjEHEFA" label="+"/>
+      <cardinality xmi:id="_cjGnFOlqEeW5ls_UjEHEFA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_cjGnFelqEeW5ls_UjEHEFA" name="tax">
+        <modelElement href="09.%20Interfaces.uml#_xPiExOloEeW5ls_UjEHEFA"/>
+        <cardinality xmi:id="_cjGnFulqEeW5ls_UjEHEFA" label="1" max="1" min="1"/>
+        <type xmi:id="_cjGnF-lqEeW5ls_UjEHEFA" name="float">
           <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
         </type>
       </parameters>
     </operations>
   </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_lasYAOlYEeWS0qS7xioXEg" name="LandVehicle" generalizations="_la3-MOlYEeWS0qS7xioXEg" subclassedBy="_laotoOlYEeWS0qS7xioXEg _laotoelYEeWS0qS7xioXEg">
-    <modelElement href="09.%20Interfaces.uml#_kemjMOlYEeWS0qS7xioXEg"/>
-    <visualProperties xmi:id="_lasYAelYEeWS0qS7xioXEg" position="786.0,61.0" size="-1.0,-1.0"/>
-    <visibility xmi:id="_lasYAulYEeWS0qS7xioXEg" label="+"/>
-    <attributes xmi:id="_lasYA-lYEeWS0qS7xioXEg" name="landVelocity">
-      <modelElement href="09.%20Interfaces.uml#_kfsIUOlYEeWS0qS7xioXEg"/>
-      <visibility xmi:id="_lasYBOlYEeWS0qS7xioXEg" label="+"/>
-      <cardinality xmi:id="_lasYBelYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
-      <type xmi:id="_lasYBulYEeWS0qS7xioXEg" name="float">
-        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_lasYB-lYEeWS0qS7xioXEg" name="numberOfWheels">
-      <modelElement href="09.%20Interfaces.uml#_kfsvYOlYEeWS0qS7xioXEg"/>
-      <visibility xmi:id="_lasYCOlYEeWS0qS7xioXEg" label="+"/>
-      <cardinality xmi:id="_lasYCelYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
-      <type xmi:id="_lasYCulYEeWS0qS7xioXEg" name="int">
-        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-      </type>
-    </attributes>
-    <operations xmi:id="_lasYC-lYEeWS0qS7xioXEg" name="LandVehicle">
-      <modelElement href="09.%20Interfaces.uml#_keo_cOlYEeWS0qS7xioXEg"/>
-      <keywords xmi:id="_lasYDOlYEeWS0qS7xioXEg" keyword="create"/>
-      <visibility xmi:id="_lasYDelYEeWS0qS7xioXEg" label="+"/>
-      <cardinality xmi:id="_lasYDulYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_lasYD-lYEeWS0qS7xioXEg">
-        <modelElement href="09.%20Interfaces.uml#_keqNkulYEeWS0qS7xioXEg"/>
-        <type xmi:id="_lasYEOlYEeWS0qS7xioXEg" name="LandVehicle">
-          <modelElement href="09.%20Interfaces.uml#_kemjMOlYEeWS0qS7xioXEg"/>
-        </type>
-      </outParameters>
-      <parameters xmi:id="_lasYEelYEeWS0qS7xioXEg" name="brand">
-        <modelElement href="09.%20Interfaces.uml#_keo_celYEeWS0qS7xioXEg"/>
-        <cardinality xmi:id="_lasYEulYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
-        <type xmi:id="_lasYE-lYEeWS0qS7xioXEg" name="String">
-          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </type>
-      </parameters>
-      <parameters xmi:id="_lasYFOlYEeWS0qS7xioXEg" name="model">
-        <modelElement href="09.%20Interfaces.uml#_kepmgOlYEeWS0qS7xioXEg"/>
-        <cardinality xmi:id="_lasYFelYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
-        <type xmi:id="_lasYFulYEeWS0qS7xioXEg" name="String">
-          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </type>
-      </parameters>
-      <parameters xmi:id="_lasYF-lYEeWS0qS7xioXEg" name="price">
-        <modelElement href="09.%20Interfaces.uml#_kepmgelYEeWS0qS7xioXEg"/>
-        <cardinality xmi:id="_lasYGOlYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
-        <type xmi:id="_lasYGelYEeWS0qS7xioXEg" name="float">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
-        </type>
-      </parameters>
-      <parameters xmi:id="_lasYGulYEeWS0qS7xioXEg" name="landVelocity">
-        <modelElement href="09.%20Interfaces.uml#_kepmgulYEeWS0qS7xioXEg"/>
-        <cardinality xmi:id="_lasYG-lYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
-        <type xmi:id="_lasYHOlYEeWS0qS7xioXEg" name="float">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
-        </type>
-      </parameters>
-      <parameters xmi:id="_lasYHelYEeWS0qS7xioXEg" name="numberOfWheels">
-        <modelElement href="09.%20Interfaces.uml#_kepmg-lYEeWS0qS7xioXEg"/>
-        <cardinality xmi:id="_lasYHulYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
-        <type xmi:id="_lasYH-lYEeWS0qS7xioXEg" name="int">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-        </type>
-      </parameters>
-    </operations>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_la7BgOlYEeWS0qS7xioXEg" name="Vehicle" subclassedBy="_la3-MOlYEeWS0qS7xioXEg _la3-MelYEeWS0qS7xioXEg">
-    <modelElement href="09.%20Interfaces.uml#_ke6FMOlYEeWS0qS7xioXEg"/>
-    <visualProperties xmi:id="_la7BgelYEeWS0qS7xioXEg" position="190.0,-188.0" size="-1.0,-1.0"/>
-    <visibility xmi:id="_la7BgulYEeWS0qS7xioXEg" label="+"/>
-    <attributes xmi:id="_la7Bg-lYEeWS0qS7xioXEg" name="brand">
-      <modelElement href="09.%20Interfaces.uml#_kfvysOlYEeWS0qS7xioXEg"/>
-      <visibility xmi:id="_la7BhOlYEeWS0qS7xioXEg" label="+"/>
-      <cardinality xmi:id="_la7BhelYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
-      <type xmi:id="_la7BhulYEeWS0qS7xioXEg" name="String">
-        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_la7Bh-lYEeWS0qS7xioXEg" name="model">
-      <modelElement href="09.%20Interfaces.uml#_kfwZwOlYEeWS0qS7xioXEg"/>
-      <visibility xmi:id="_la7BiOlYEeWS0qS7xioXEg" label="+"/>
-      <cardinality xmi:id="_la7BielYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
-      <type xmi:id="_la7BiulYEeWS0qS7xioXEg" name="String">
-        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_la7Bi-lYEeWS0qS7xioXEg" name="price">
-      <modelElement href="09.%20Interfaces.uml#_kfwZwelYEeWS0qS7xioXEg"/>
-      <visibility xmi:id="_la7BjOlYEeWS0qS7xioXEg" label="+"/>
-      <cardinality xmi:id="_la7BjelYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
-      <type xmi:id="_la7BjulYEeWS0qS7xioXEg" name="float">
-        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
-      </type>
-    </attributes>
-    <operations xmi:id="_la7Bj-lYEeWS0qS7xioXEg" name="Vehicle">
-      <modelElement href="09.%20Interfaces.uml#_ke9IgOlYEeWS0qS7xioXEg"/>
-      <keywords xmi:id="_la7BkOlYEeWS0qS7xioXEg" keyword="create"/>
-      <visibility xmi:id="_la7BkelYEeWS0qS7xioXEg" label="+"/>
-      <cardinality xmi:id="_la7BkulYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_la7Bk-lYEeWS0qS7xioXEg">
-        <modelElement href="09.%20Interfaces.uml#_ke9vkulYEeWS0qS7xioXEg"/>
-        <type xmi:id="_la7okOlYEeWS0qS7xioXEg" name="Vehicle">
-          <modelElement href="09.%20Interfaces.uml#_ke6FMOlYEeWS0qS7xioXEg"/>
-        </type>
-      </outParameters>
-      <parameters xmi:id="_la7okelYEeWS0qS7xioXEg" name="brand">
-        <modelElement href="09.%20Interfaces.uml#_ke9IgelYEeWS0qS7xioXEg"/>
-        <cardinality xmi:id="_la7okulYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
-        <type xmi:id="_la7ok-lYEeWS0qS7xioXEg" name="String">
-          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </type>
-      </parameters>
-      <parameters xmi:id="_la7olOlYEeWS0qS7xioXEg" name="model">
-        <modelElement href="09.%20Interfaces.uml#_ke9IgulYEeWS0qS7xioXEg"/>
-        <cardinality xmi:id="_la7olelYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
-        <type xmi:id="_la7olulYEeWS0qS7xioXEg" name="String">
-          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </type>
-      </parameters>
-      <parameters xmi:id="_la7ol-lYEeWS0qS7xioXEg" name="price">
-        <modelElement href="09.%20Interfaces.uml#_ke9Ig-lYEeWS0qS7xioXEg"/>
-        <cardinality xmi:id="_la7omOlYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
-        <type xmi:id="_la7omelYEeWS0qS7xioXEg" name="float">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
-        </type>
-      </parameters>
-    </operations>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_lazswOlYEeWS0qS7xioXEg" name="MotorBoat" generalizations="_lawpcOlYEeWS0qS7xioXEg">
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_lazswOlYEeWS0qS7xioXEg" name="MotorBoat" generalizations="_lawpcOlYEeWS0qS7xioXEg _S8fHkelpEeW5ls_UjEHEFA">
     <modelElement href="09.%20Interfaces.uml#_keufAOlYEeWS0qS7xioXEg"/>
-    <visualProperties xmi:id="_lazswelYEeWS0qS7xioXEg" position="-23.0,600.0" size="-1.0,-1.0"/>
+    <visualProperties xmi:id="_lazswelYEeWS0qS7xioXEg" position="-402.0,181.0" size="462.0,180.0"/>
     <visibility xmi:id="_lazswulYEeWS0qS7xioXEg" label="+"/>
     <attributes xmi:id="_lazsw-lYEeWS0qS7xioXEg" name="engineHorsePower">
       <modelElement href="09.%20Interfaces.uml#_kfsvYelYEeWS0qS7xioXEg"/>
@@ -382,7 +427,16 @@
         <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
       </type>
     </attributes>
-    <operations xmi:id="_lazsx-lYEeWS0qS7xioXEg" name="MotorBoat">
+    <attributes xmi:id="_xfz8cOloEeW5ls_UjEHEFA" name="boatAnualTax">
+      <modelElement href="09.%20Interfaces.uml#_xPgPkeloEeW5ls_UjEHEFA"/>
+      <stereotypes xmi:id="_znch4OlpEeW5ls_UjEHEFA" modelElement="_xPg2oOloEeW5ls_UjEHEFA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_xfz8culoEeW5ls_UjEHEFA" label="-"/>
+      <cardinality xmi:id="_xfz8c-loEeW5ls_UjEHEFA" label="1" max="1" min="1"/>
+      <type xmi:id="_xfz8dOloEeW5ls_UjEHEFA" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_lazsx-lYEeWS0qS7xioXEg" comments="_xhtZ4OloEeW5ls_UjEHEFA" targetConnectionVisual="_xhtZ4eloEeW5ls_UjEHEFA" name="MotorBoat">
       <modelElement href="09.%20Interfaces.uml#_kevtIOlYEeWS0qS7xioXEg"/>
       <keywords xmi:id="_lazsyOlYEeWS0qS7xioXEg" keyword="create"/>
       <visibility xmi:id="_lazsyelYEeWS0qS7xioXEg" label="+"/>
@@ -429,10 +483,54 @@
         </type>
       </parameters>
     </operations>
+    <operations xmi:id="_xfE8oOloEeW5ls_UjEHEFA" name="vehicleInfo">
+      <modelElement href="09.%20Interfaces.uml#_xPBHYOloEeW5ls_UjEHEFA"/>
+      <stereotypes xmi:id="_xfE8oeloEeW5ls_UjEHEFA" name="Annotations">
+        <modelElement href="09.%20Interfaces.uml#_xPBHYeloEeW5ls_UjEHEFA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_xfE8ouloEeW5ls_UjEHEFA" name="LegacyStyledElement">
+        <modelElement href="09.%20Interfaces.uml#_xPJDMOloEeW5ls_UjEHEFA"/>
+      </stereotypes>
+      <visibility xmi:id="_xfE8o-loEeW5ls_UjEHEFA" label="~"/>
+      <cardinality xmi:id="_xfE8pOloEeW5ls_UjEHEFA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_e3UFYOlqEeW5ls_UjEHEFA" name="getAnualTax">
+      <modelElement href="09.%20Interfaces.uml#_xPBuceloEeW5ls_UjEHEFA"/>
+      <stereotypes xmi:id="_e3UFYelqEeW5ls_UjEHEFA" name="Annotations">
+        <modelElement href="09.%20Interfaces.uml#_xPBuculoEeW5ls_UjEHEFA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_e3UFYulqEeW5ls_UjEHEFA" name="LegacyStyledElement">
+        <modelElement href="09.%20Interfaces.uml#_xPK4YOloEeW5ls_UjEHEFA"/>
+      </stereotypes>
+      <visibility xmi:id="_e3UFY-lqEeW5ls_UjEHEFA" label="+"/>
+      <cardinality xmi:id="_e3UFZOlqEeW5ls_UjEHEFA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_e3UFZelqEeW5ls_UjEHEFA">
+        <modelElement href="09.%20Interfaces.uml#_r7_SEOlpEeW5ls_UjEHEFA"/>
+        <type xmi:id="_e3UFZulqEeW5ls_UjEHEFA" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_e3VTgOlqEeW5ls_UjEHEFA" name="setAnualTax">
+      <modelElement href="09.%20Interfaces.uml#_xPRmEOloEeW5ls_UjEHEFA"/>
+      <stereotypes xmi:id="_e3VTgelqEeW5ls_UjEHEFA" modelElement="_xPRmEuloEeW5ls_UjEHEFA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_e3VTgulqEeW5ls_UjEHEFA" name="Annotations">
+        <modelElement href="09.%20Interfaces.uml#_xPS0MOloEeW5ls_UjEHEFA"/>
+      </stereotypes>
+      <visibility xmi:id="_e3VTg-lqEeW5ls_UjEHEFA" label="+"/>
+      <cardinality xmi:id="_e3VThOlqEeW5ls_UjEHEFA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_e3VThelqEeW5ls_UjEHEFA" name="tax">
+        <modelElement href="09.%20Interfaces.uml#_xPjS4-loEeW5ls_UjEHEFA"/>
+        <cardinality xmi:id="_e3VThulqEeW5ls_UjEHEFA" label="1" max="1" min="1"/>
+        <type xmi:id="_e3VTh-lqEeW5ls_UjEHEFA" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
   </nodes>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_laCQsOlYEeWS0qS7xioXEg" name="RowBoat" generalizations="_lah_8OlYEeWS0qS7xioXEg">
     <modelElement href="09.%20Interfaces.uml#_kez-kOlYEeWS0qS7xioXEg"/>
-    <visualProperties xmi:id="_laCQselYEeWS0qS7xioXEg" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visualProperties xmi:id="_laCQselYEeWS0qS7xioXEg" position="79.0,187.0" size="-1.0,-1.0"/>
     <visibility xmi:id="_laCQsulYEeWS0qS7xioXEg" label="+"/>
     <attributes xmi:id="_laC3wOlYEeWS0qS7xioXEg" name="numberOfRows">
       <modelElement href="09.%20Interfaces.uml#_kftWcOlYEeWS0qS7xioXEg"/>
@@ -493,5 +591,85 @@
         </type>
       </parameters>
     </operations>
+    <operations xmi:id="_xgdcsOloEeW5ls_UjEHEFA" name="vehicleInfo">
+      <modelElement href="09.%20Interfaces.uml#_xPDjoOloEeW5ls_UjEHEFA"/>
+      <stereotypes xmi:id="_xgdcseloEeW5ls_UjEHEFA" name="Annotations">
+        <modelElement href="09.%20Interfaces.uml#_xPEKsOloEeW5ls_UjEHEFA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_xgdcsuloEeW5ls_UjEHEFA" name="LegacyStyledElement">
+        <modelElement href="09.%20Interfaces.uml#_xPMGgOloEeW5ls_UjEHEFA"/>
+      </stereotypes>
+      <visibility xmi:id="_xgdcs-loEeW5ls_UjEHEFA" label="~"/>
+      <cardinality xmi:id="_xgdctOloEeW5ls_UjEHEFA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_S8gVsOlpEeW5ls_UjEHEFA" comments="_VlnQgOlqEeW5ls_UjEHEFA" targetConnectionVisual="_Vln3kOlqEeW5ls_UjEHEFA" name="CirculationTax" subclassedBy="_S8fHkOlpEeW5ls_UjEHEFA _S8fHkelpEeW5ls_UjEHEFA">
+    <modelElement href="09.%20Interfaces.uml#_xPdMQOloEeW5ls_UjEHEFA"/>
+    <visualProperties xmi:id="_S8gVselpEeW5ls_UjEHEFA" position="220.0,443.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_S8gVsulpEeW5ls_UjEHEFA" label="+"/>
+    <attributes xmi:id="_S8gVs-lpEeW5ls_UjEHEFA" name="anualTax">
+      <modelElement href="09.%20Interfaces.uml#_S3MX4OlpEeW5ls_UjEHEFA"/>
+      <visibility xmi:id="_S8gVtOlpEeW5ls_UjEHEFA" label="+"/>
+      <cardinality xmi:id="_S8gVtelpEeW5ls_UjEHEFA" label="1" max="1" min="1"/>
+      <type xmi:id="_S8gVtulpEeW5ls_UjEHEFA" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_lalDQOlYEeWS0qS7xioXEg" name="WaterVehicle" abstractClass="true" generalizations="_la3-MelYEeWS0qS7xioXEg" subclassedBy="_lah_8OlYEeWS0qS7xioXEg _lawpcOlYEeWS0qS7xioXEg">
+    <modelElement href="09.%20Interfaces.uml#_ke_kwOlYEeWS0qS7xioXEg"/>
+    <visualProperties xmi:id="_lalDQelYEeWS0qS7xioXEg" position="-76.0,22.0" size="396.0,94.0"/>
+    <visibility xmi:id="_lalDQulYEeWS0qS7xioXEg" label="+"/>
+    <attributes xmi:id="_lalDQ-lYEeWS0qS7xioXEg" name="waterVelocity">
+      <modelElement href="09.%20Interfaces.uml#_kfxA0OlYEeWS0qS7xioXEg"/>
+      <visibility xmi:id="_lalDROlYEeWS0qS7xioXEg" label="+"/>
+      <cardinality xmi:id="_lalDRelYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
+      <type xmi:id="_lalDRulYEeWS0qS7xioXEg" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_lalDR-lYEeWS0qS7xioXEg" name="WaterVehicle">
+      <modelElement href="09.%20Interfaces.uml#_kfAy4OlYEeWS0qS7xioXEg"/>
+      <keywords xmi:id="_lalDSOlYEeWS0qS7xioXEg" keyword="create"/>
+      <visibility xmi:id="_lalDSelYEeWS0qS7xioXEg" label="+"/>
+      <cardinality xmi:id="_lalDSulYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lalDS-lYEeWS0qS7xioXEg">
+        <modelElement href="09.%20Interfaces.uml#_kfCoEulYEeWS0qS7xioXEg"/>
+        <type xmi:id="_lalDTOlYEeWS0qS7xioXEg" name="WaterVehicle">
+          <modelElement href="09.%20Interfaces.uml#_ke_kwOlYEeWS0qS7xioXEg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lalDTelYEeWS0qS7xioXEg" name="brand">
+        <modelElement href="09.%20Interfaces.uml#_kfAy4elYEeWS0qS7xioXEg"/>
+        <cardinality xmi:id="_lalDTulYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
+        <type xmi:id="_lalDT-lYEeWS0qS7xioXEg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lalDUOlYEeWS0qS7xioXEg" name="model">
+        <modelElement href="09.%20Interfaces.uml#_kfBZ8OlYEeWS0qS7xioXEg"/>
+        <cardinality xmi:id="_lalDUelYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
+        <type xmi:id="_lalDUulYEeWS0qS7xioXEg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lalDU-lYEeWS0qS7xioXEg" name="price">
+        <modelElement href="09.%20Interfaces.uml#_kfBZ8elYEeWS0qS7xioXEg"/>
+        <cardinality xmi:id="_lalDVOlYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
+        <type xmi:id="_lalDVelYEeWS0qS7xioXEg" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lalDVulYEeWS0qS7xioXEg" name="waterVelocity">
+        <modelElement href="09.%20Interfaces.uml#_kfBZ8ulYEeWS0qS7xioXEg"/>
+        <cardinality xmi:id="_lalDV-lYEeWS0qS7xioXEg" label="1" max="1" min="1"/>
+        <type xmi:id="_lalDWOlYEeWS0qS7xioXEg" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_VlnQgOlqEeW5ls_UjEHEFA" sourceConnectionVisual="_Vln3kOlqEeW5ls_UjEHEFA" text="The Interface CirculationTax." item="_S8gVsOlpEeW5ls_UjEHEFA">
+    <modelElement href="09.%20Interfaces.uml#_VlmpcOlqEeW5ls_UjEHEFA"/>
   </nodes>
 </com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

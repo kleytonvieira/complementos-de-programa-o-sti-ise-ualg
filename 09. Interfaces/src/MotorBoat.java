@@ -1,7 +1,8 @@
 
-public class MotorBoat extends WaterVehicle {
+public class MotorBoat extends WaterVehicle implements CirculationTax {
   private float engineHorsePower;
-  
+  private float boatAnualTax;
+                
   /**
    * @param brand
    * @param model
@@ -32,6 +33,16 @@ public class MotorBoat extends WaterVehicle {
   void vehicleInfo() {
     System.out.println("Motor boat: " + this.getBrand() + " " + this.getModel() + " with a " + this.engineHorsePower
         + " horse power engine");
+  }
+  
+  @Override
+  public float getAnualTax() {
+    return this.boatAnualTax;
+  }
+  
+  @Override
+  public void setAnualTax(float tax) {
+    this.boatAnualTax = tax;
   }
   
 }

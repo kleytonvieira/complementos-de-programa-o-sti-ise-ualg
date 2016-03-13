@@ -380,6 +380,17 @@
         <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
       </type>
     </attributes>
+    <attributes xmi:id="_dJ_vUOlnEeW5ls_UjEHEFA" name="anualTax">
+      <modelElement href="09.%20Interfaces.uml#_dJ0JIOlnEeW5ls_UjEHEFA"/>
+      <stereotypes xmi:id="_dJ_vUelnEeW5ls_UjEHEFA" name="LegacyStyledElement">
+        <modelElement href="09.%20Interfaces.uml#_dJ0wMOlnEeW5ls_UjEHEFA"/>
+      </stereotypes>
+      <visibility xmi:id="_dJ_vUulnEeW5ls_UjEHEFA" label="+"/>
+      <cardinality xmi:id="_dJ_vU-lnEeW5ls_UjEHEFA" label="1" max="1" min="1"/>
+      <type xmi:id="_dJ_vVOlnEeW5ls_UjEHEFA" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
     <operations xmi:id="_Y0NJ5-leEeW5ls_UjEHEFA" name="Car">
       <modelElement href="09.%20Interfaces.uml#_YPM_YOleEeW5ls_UjEHEFA"/>
       <keywords xmi:id="_Y0NJ6OleEeW5ls_UjEHEFA" keyword="create"/>

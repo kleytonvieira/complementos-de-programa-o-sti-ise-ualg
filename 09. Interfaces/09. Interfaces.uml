@@ -4,7 +4,7 @@
     <eAnnotations xmi:id="_X2Q68OleEeW5ls_UjEHEFA" source="http://ns.yatta.de/umllab">
       <contents xmi:type="ecore:EAnnotation" xmi:id="_X2Q68eleEeW5ls_UjEHEFA" source="codegen">
         <details xmi:id="_X2Q68uleEeW5ls_UjEHEFA" key="codegenDirectory" value="/09. Interfaces/src"/>
-        <details xmi:id="_YyEb4OleEeW5ls_UjEHEFA" key="AssociatedSourceCode" value="/09. Interfaces/src/Bicycle.java;266488559/1;/09. Interfaces/src/Car.java;3977183388/1;/09. Interfaces/src/LandVehicle.java;3356975963/1;/09. Interfaces/src/MotorBoat.java;1682823765/1;/09. Interfaces/src/RowBoat.java;2388822883/1;/09. Interfaces/src/Vehicle.java;2483363687/1;/09. Interfaces/src/WaterVehicle.java;2685656978/1;"/>
+        <details xmi:id="_YyEb4OleEeW5ls_UjEHEFA" key="AssociatedSourceCode" value="/09. Interfaces/src/Bicycle.java;266488559/1;/09. Interfaces/src/Car.java;1156672268/1;/09. Interfaces/src/LandVehicle.java;3356975963/1;/09. Interfaces/src/MotorBoat.java;1682823765/1;/09. Interfaces/src/RowBoat.java;2388822883/1;/09. Interfaces/src/Vehicle.java;2483363687/1;/09. Interfaces/src/WaterVehicle.java;2685656978/1;"/>
       </contents>
     </eAnnotations>
     <elementImport xmi:id="_YO1L8OleEeW5ls_UjEHEFA">
@@ -119,6 +119,10 @@
       <ownedAttribute xmi:id="_YQpJ0OleEeW5ls_UjEHEFA" name="numberOfDoor">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
       </ownedAttribute>
+      <ownedAttribute xmi:id="_dJ0JIOlnEeW5ls_UjEHEFA" name="anualTax" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </ownedAttribute>
+      <interfaceRealization xmi:id="_V7FRkelnEeW5ls_UjEHEFA" client="_YPLKMOleEeW5ls_UjEHEFA" supplier="_V7DcYOlnEeW5ls_UjEHEFA" contract="_V7DcYOlnEeW5ls_UjEHEFA"/>
       <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YRPmwOleEeW5ls_UjEHEFA" name="Car" specification="_YPM_YOleEeW5ls_UjEHEFA">
         <ownedParameter xmi:id="_YRPmweleEeW5ls_UjEHEFA" name="brand">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -444,6 +448,7 @@
         <ownedParameter xmi:id="_YPyOMuleEeW5ls_UjEHEFA" type="_YPvK4OleEeW5ls_UjEHEFA" direction="return"/>
       </ownedOperation>
     </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_V7DcYOlnEeW5ls_UjEHEFA" name="CirculationTax"/>
     <profileApplication xmi:id="_X2T-QOleEeW5ls_UjEHEFA">
       <eAnnotations xmi:id="_X2aE4OleEeW5ls_UjEHEFA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
@@ -471,4 +476,38 @@
     <annotations xmi:id="_YPmA8eleEeW5ls_UjEHEFA" name="Override"/>
   </UMLLabProfile:Annotations>
   <UMLLabProfile:LegacyStyledElement xmi:id="_YQs0MOleEeW5ls_UjEHEFA" base_Element="_YQrmEOleEeW5ls_UjEHEFA"/>
+  <UMLLabProfile:Reference xmi:id="_V7FRkOlnEeW5ls_UjEHEFA" base_Element="_V7DcYOlnEeW5ls_UjEHEFA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_dJ0wMOlnEeW5ls_UjEHEFA" base_Element="_dJ0JIOlnEeW5ls_UjEHEFA">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_qYrXIOlnEeW5ls_UjEHEFA" name="setAnualTax">
+      <ownedParameter xmi:id="_qYvBgOlnEeW5ls_UjEHEFA" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_qYr-MOlnEeW5ls_UjEHEFA" name="getAnualTax" method="_qYxdwulnEeW5ls_UjEHEFA">
+      <ownedParameter xmi:id="_qYvBgelnEeW5ls_UjEHEFA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_yDaOMOlnEeW5ls_UjEHEFA" name="setAnualTax">
+      <ownedParameter xmi:id="_yDaOMelnEeW5ls_UjEHEFA" name="tax">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_qYslQOlnEeW5ls_UjEHEFA" base_Element="_qYrXIOlnEeW5ls_UjEHEFA">
+    <annotations xmi:id="_qYslQelnEeW5ls_UjEHEFA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_qYtMUOlnEeW5ls_UjEHEFA" base_Element="_qYr-MOlnEeW5ls_UjEHEFA">
+    <annotations xmi:id="_qYtMUelnEeW5ls_UjEHEFA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <uml:OpaqueBehavior xmi:id="_qYxdwulnEeW5ls_UjEHEFA" name="getAnualTax" specification="_qYr-MOlnEeW5ls_UjEHEFA">
+    <ownedParameter xmi:id="_qYxdw-lnEeW5ls_UjEHEFA" direction="return">
+      <name xsi:nil="true"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return this.anualTax;
+  </body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Annotations xmi:id="_yDa1QOlnEeW5ls_UjEHEFA" base_Element="_yDaOMOlnEeW5ls_UjEHEFA">
+    <annotations xmi:id="_yDa1QelnEeW5ls_UjEHEFA" name="Override"/>
+  </UMLLabProfile:Annotations>
 </xmi:XMI>

@@ -1,31 +1,18 @@
 
-public class Car extends LandVehicle {
+public class Car extends LandVehicle implements CirculationTax {
   
-  private int numberOfDoor;
-  
-  /**
-   * @param brand
-   * @param model
-   * @param price
-   * @param landVelocity
-   * @param numberOfWheels
-   * @param numberOfDoor
-   */
+  private int   numberOfDoor;
+  private float carAnualTax;
+                
   public Car(String brand, String model, float price, float landVelocity, int numberOfWheels, int numberOfDoor) {
     super(brand, model, price, landVelocity, numberOfWheels);
     this.numberOfDoor = numberOfDoor;
   }
   
-  /**
-   * @return the numberOfDoor
-   */
   public int getNumberOfDoor() {
     return numberOfDoor;
   }
   
-  /**
-   * @param numberOfDoor the numberOfDoor to set
-   */
   public void setNumberOfDoor(int numberOfDoor) {
     this.numberOfDoor = numberOfDoor;
   }
@@ -37,4 +24,13 @@ public class Car extends LandVehicle {
         
   }
   
+  @Override
+  public float getAnualTax() {
+    return this.carAnualTax;
+  }
+  
+  @Override
+  public void setAnualTax(float tax) {
+    this.carAnualTax = tax;
+  }
 }
