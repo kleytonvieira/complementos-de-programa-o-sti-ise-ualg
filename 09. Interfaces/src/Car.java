@@ -1,6 +1,6 @@
 import java.util.Date;
 
-public class Car extends LandVehicle implements CirculationTax, Insurance, Comparable {
+public class Car extends LandVehicle implements CirculationTax, Insurance, Comparable<Vehicle>, Cloneable {
 
   
   private int   numberOfDoor;
@@ -59,16 +59,20 @@ public class Car extends LandVehicle implements CirculationTax, Insurance, Compa
     return this.insurance;
   }
   
+
   @Override
-  public int compareTo(Object o) {
-    Vehicle v = (Vehicle) o;
-    if (this.getPrice() < v.getPrice()) {
+  public int compareTo(Vehicle o) {
+    if (this.getPrice() < o.getPrice()) {
       return -1;
     }
-    if (this.getPrice() > v.getPrice()) {
+    if (this.getPrice() > o.getPrice()) {
       return 1;
     }
     return 0;
+  }
+  
+  public Car clone(){
+    return new Car(this.getBrand(), this.getModel(), this.getPrice(), this.getLandVelocity(), this.getNumberOfWheels(), this.numberOfDoor);
   }
   
 }
