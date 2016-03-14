@@ -1,6 +1,8 @@
 import java.util.Date;
+import java.lang.*;
 
-public class Car extends LandVehicle implements CirculationTax, Insurance {
+public class Car extends LandVehicle implements CirculationTax, Insurance, Comparable {
+
   
   private int   numberOfDoor;
   private float carAnualTax;
@@ -56,6 +58,18 @@ public class Car extends LandVehicle implements CirculationTax, Insurance {
   @Override
   public float getInsuranceValue() {
     return this.insurance;
+  }
+  
+  @Override
+  public int compareTo(Object o) {
+    Vehicle v = (Vehicle) o;
+    if (this.getPrice() < v.getPrice()) {
+      return -1;
+    }
+    if (this.getPrice() > v.getPrice()) {
+      return 1;
+    }
+    return 0;
   }
   
 }
