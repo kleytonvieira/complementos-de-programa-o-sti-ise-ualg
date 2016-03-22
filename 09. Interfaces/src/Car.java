@@ -1,4 +1,5 @@
 import java.util.Date;
+import java.lang.*;
 
 public class Car extends LandVehicle implements CirculationTax, Insurance, Comparable<Vehicle>, Cloneable {
 
