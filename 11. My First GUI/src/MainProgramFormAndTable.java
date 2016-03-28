@@ -19,7 +19,7 @@ public class MainProgramFormAndTable {
   private JFrame frame;
   private JTextField Name;
   private JTextField Surname;
-  private JButton btnOk;
+  private JButton btnAdd;
   private JTable table;
   private JLabel lblAge;
   private JTextField age;
@@ -79,12 +79,8 @@ public class MainProgramFormAndTable {
     frame.getContentPane().add(age, "cell 1 2,growx");
     age.setColumns(10);
     
-    btnOk = new JButton("Add");
-    btnOk.addActionListener(new ActionListener() {
-      public void actionPerformed(ActionEvent e) {
-      }
-    });
-    btnOk.addMouseListener(new MouseAdapter() {
+    btnAdd = new JButton("Add");
+    btnAdd.addMouseListener(new MouseAdapter() {
       @Override
       public void mouseClicked(MouseEvent e) {
         frame.setTitle(getName().getText() + " " + getSurname().getText());
@@ -93,17 +89,18 @@ public class MainProgramFormAndTable {
         model.addRow(row);        
       }
     });
-    frame.getContentPane().add(btnOk, "flowx,cell 1 3");
+    frame.getContentPane().add(btnAdd, "flowx,cell 1 3");
     
     String[] columnNames = {"Name", "Surname", "age"};
     Object[][] data = {
         };
     
-    scrollPane = new JScrollPane();
-    frame.getContentPane().add(scrollPane, "cell 0 4 2 1,grow");
     
     DefaultTableModel model = new DefaultTableModel(data, columnNames);  
     table = new JTable(model);
+
+    scrollPane = new JScrollPane();
+    frame.getContentPane().add(scrollPane, "cell 0 4 2 1,grow");
     scrollPane.setViewportView(table);
     
     btnDelete = new JButton("Delete");
