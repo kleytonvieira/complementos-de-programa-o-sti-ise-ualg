@@ -62,6 +62,8 @@ public class DB_GUI {
 
     frame.getContentPane().setLayout(new MigLayout("", "[213px][213px]", "[532px]"));
     ownersTable = new JTable(getOwnerDataModel());
+    ownersTable.removeColumn(ownersTable.getColumnModel().getColumn(0));     // hide id column
+    
     ownersTable.addMouseListener(new MouseAdapter() {
       @Override
       public void mouseReleased(MouseEvent e) {
@@ -70,9 +72,10 @@ public class DB_GUI {
     });
     frame.getContentPane().add(ownersTable, "cell 0 0,grow");
 
-
     animalsTable = new JTable(getAnimalsDataModel());
+    animalsTable.removeColumn(animalsTable.getColumnModel().getColumn(0));    // hide id column 
     frame.getContentPane().add(animalsTable, "cell 1 0,grow");
+   
   }
 
   /**
@@ -134,7 +137,7 @@ public class DB_GUI {
     if (animalModel.getRowCount() > 0){
       animalModel.removeRow(0);
     }
-    
+        
     Connection c = null;
     try{
       String sDriverName = "org.sqlite.JDBC";
