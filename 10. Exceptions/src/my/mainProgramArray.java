@@ -1,12 +1,41 @@
-package my;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
 
+
+package my;
+
+/**
+ * The Class MainProgramDate.
+ */
 public class mainProgramArray {
-  public static void main(String[] args) throws FileNotFoundException, IOException  {
-    FileInputStream fis = new FileInputStream("file.txt");
-    
-    System.out.println(fis.read());
+
+  /**
+   * The main method.
+   *
+   * @param args the arguments
+   */
+  public static void main(final String[] args) {
+    int numbers[] = new int[10];
+
+    try {
+      numbers[1] = 1;
+      numbers[10] = 10;
+    } catch (Exception e) {
+      e.printStackTrace();
+    }
+    System.out.println("hello CP!"); // doesn't get here!
+    //    System.out.println(1/0);
+    //    System.out.println("hello CP!"); // doesn't get here!
+
+
+    for(int i = 0; i <=  15; ++i){
+      try {
+        numbers[i] = i;
+      } catch (ArrayIndexOutOfBoundsException e) {
+        System.out.println(e);
+      }
+      System.out.println("hello CP!"); //  now, it gets here!
+    }
   }
+
+
 }
+

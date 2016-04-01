@@ -1,15 +1,12 @@
 package my;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
 public class mainProgramFile {
-  public static void main(String[] args) {
-    int numbers[] = new int[10];
+  public static void main(String[] args) throws FileNotFoundException, IOException  {
+    FileInputStream fis = new FileInputStream("file.txt");
     
-    for(int i = 0; i <=  15; ++i){
-      try {
-        numbers[i] = i;
-      } catch (ArrayIndexOutOfBoundsException e) {
-        System.out.println(e);
-      }
-      System.out.println("hello CP!"); //  now, it gets here!
-    }
+    System.out.println(fis.read());
   }
 }
