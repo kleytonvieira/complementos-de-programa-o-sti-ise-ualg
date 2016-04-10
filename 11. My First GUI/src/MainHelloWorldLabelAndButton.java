@@ -8,12 +8,15 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import javax.swing.JTextField;
+import javax.swing.JPasswordField;
 
 public class MainHelloWorldLabelAndButton {
 
   private JFrame frame;
   private JLabel lblHelloWorld;
   private JButton btnShift;
+  private JPasswordField passwordField;
 
   /**
    * Launch the application.
@@ -45,7 +48,7 @@ public class MainHelloWorldLabelAndButton {
     frame = new JFrame();
     frame.setBounds(100, 100, 450, 300);
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    frame.getContentPane().setLayout(new MigLayout("", "[82px][67px]", "[15px][25px]"));
+    frame.getContentPane().setLayout(new MigLayout("", "[82px][67px,grow]", "[15px][25px][][]"));
     
     lblHelloWorld = new JLabel("hello world");
     frame.getContentPane().add(lblHelloWorld, "cell 0 0,alignx left,aligny top");
@@ -69,6 +72,7 @@ public class MainHelloWorldLabelAndButton {
       }
     });
     frame.getContentPane().add(btnShift, "cell 1 1,alignx left,aligny top");
+    
   }
 
   public JLabel getLblHelloWorld() {

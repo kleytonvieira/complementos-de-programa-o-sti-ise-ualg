@@ -67,7 +67,7 @@ public class HelloWorld {
       @Override
       public void mouseClicked(MouseEvent e) {
         System.out.print("mouse clicked");
-        getTextPane().setText(getTextPane().getText() + " Hello World");
+        textPane.setText(textPane.getText() + " Hello World");
       }
     });
     GridBagConstraints gbc_btnHelloWorld = new GridBagConstraints();
@@ -80,7 +80,7 @@ public class HelloWorld {
     btnClear.addMouseListener(new MouseAdapter() {
       @Override
       public void mouseClicked(MouseEvent e) {
-        getTextPane().setText("");
+        textPane.setText("");
       }
     });
     GridBagConstraints gbc_btnClear = new GridBagConstraints();
@@ -99,7 +99,5 @@ public class HelloWorld {
     frame.getContentPane().add(textPane, gbc_textPane);
   }
 
-  public JTextPane getTextPane() {
-    return textPane;
-  }
+  
 }
