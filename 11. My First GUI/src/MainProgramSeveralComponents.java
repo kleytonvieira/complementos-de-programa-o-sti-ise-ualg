@@ -14,6 +14,7 @@ import javax.swing.JCheckBox;
 import net.miginfocom.swing.MigLayout;
 import javax.swing.JRadioButton;
 import javax.swing.ButtonGroup;
+import javax.swing.DefaultListModel;
 import javax.swing.JComboBox;
 import javax.swing.JTextArea;
 import javax.swing.JFormattedTextField;
@@ -35,6 +36,7 @@ import java.io.FileOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.Vector;
+import javax.swing.JScrollPane;
 
 public class MainProgramSeveralComponents {
 
@@ -52,6 +54,11 @@ public class MainProgramSeveralComponents {
   private JSpinner spinner;
   private JTextArea textObservations;
   private JButton btnLoad;
+  private JTextField txtHobbie;
+  private JButton btnAdd;
+  private JScrollPane scrollPane;
+
+  
 
   /**
    * Launch the application.
@@ -96,7 +103,7 @@ public class MainProgramSeveralComponents {
     frame = new JFrame();
     frame.setBounds(100, 100, 450, 517);
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    frame.getContentPane().setLayout(new MigLayout("", "[][grow][]", "[][][][][][][][][grow][][][][grow][][]"));
+    frame.getContentPane().setLayout(new MigLayout("", "[][grow][]", "[][][][][][][][grow][][][grow][][]"));
 
     JLabel lblName = new JLabel("Name");
     frame.getContentPane().add(lblName, "cell 0 0,alignx trailing");
@@ -161,27 +168,71 @@ public class MainProgramSeveralComponents {
     checkPasswords();
 
     JLabel lblListOfHobbies = new JLabel("List of hobbies");
-    frame.getContentPane().add(lblListOfHobbies, "cell 0 8");
+    frame.getContentPane().add(lblListOfHobbies, "cell 0 7");
 
-    list = new JList();
-    frame.getContentPane().add(list, "cell 1 8,grow");
+    DefaultListModel<String> listModel = new DefaultListModel<String>();
+    
+    scrollPane = new JScrollPane();
+    frame.getContentPane().add(scrollPane, "cell 1 7,grow");
+    
+    list = new JList(listModel);
+    scrollPane.setViewportView(list);
+
+    
+    JButton btnDelete = new JButton("Delete");
+    btnDelete.addMouseListener(new MouseAdapter() {
+    	@Override
+    	public void mouseClicked(MouseEvent e) {
+    		int idx = list.getSelectedIndex();
+    		if ( idx != -1){
+    				try{
+    					((DefaultListModel<String>)list.getModel()).remove(idx);
+    				}finally{
+    					
+    				}
+    				
+    		}
+    	}
+    });
+    frame.getContentPane().add(btnDelete, "cell 2 7");
+    
+    txtHobbie = new JTextField();
+    frame.getContentPane().add(txtHobbie, "cell 1 8,growx");
+    txtHobbie.setColumns(10);
+    
+    btnAdd = new JButton("Add");
+    btnAdd.addActionListener(new ActionListener() {
+    	public void actionPerformed(ActionEvent arg0) {
+    	}
+    });
+    btnAdd.addMouseListener(new MouseAdapter() {
+    	@Override
+    	public void mouseClicked(MouseEvent e) {
+    		if(! txtHobbie.getText().trim().equals("")){
+				DefaultListModel<String> defaultListModel = (DefaultListModel<String>) list.getModel();
+				defaultListModel.addElement(txtHobbie.getText().trim());       		    			
+    		}
+    	}
+    });
+    frame.getContentPane().add(btnAdd, "cell 2 8,aligny baseline");
+
 
 
 
     JLabel lblAge = new JLabel("Age");
-    frame.getContentPane().add(lblAge, "cell 0 10");
+    frame.getContentPane().add(lblAge, "cell 0 9");
 
     spinner = new JSpinner();
-    frame.getContentPane().add(spinner, "cell 1 10");
+    frame.getContentPane().add(spinner, "cell 1 9");
 
     JLabel lblObservations = new JLabel("Observations");
-    frame.getContentPane().add(lblObservations, "cell 0 12");
+    frame.getContentPane().add(lblObservations, "cell 0 10");
 
     textObservations = new JTextArea();
-    frame.getContentPane().add(textObservations, "cell 1 12,grow");
+    frame.getContentPane().add(textObservations, "cell 1 10,grow");
 
     JProgressBar progressBar = new JProgressBar();
-    frame.getContentPane().add(progressBar, "cell 1 13");
+    frame.getContentPane().add(progressBar, "cell 1 11");
 
     JButton btnSave = new JButton("Save");
     btnSave.addActionListener(new ActionListener() {
@@ -272,8 +323,8 @@ public class MainProgramSeveralComponents {
 
       }
     });
-    frame.getContentPane().add(btnLoad, "cell 0 14");
-    frame.getContentPane().add(btnSave, "cell 2 14");
+    frame.getContentPane().add(btnLoad, "cell 0 12");
+    frame.getContentPane().add(btnSave, "cell 2 12");
   }
   public JPasswordField getPwdPassword() {
     return pwdPassword;
@@ -308,4 +359,7 @@ public class MainProgramSeveralComponents {
   public JTextArea getTextObservations() {
     return textObservations;
   }
+	protected JTextField getTxtHobbie() {
+		return txtHobbie;
+	}
 }
