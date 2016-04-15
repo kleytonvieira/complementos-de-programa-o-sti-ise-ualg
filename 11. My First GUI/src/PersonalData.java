@@ -1,7 +1,11 @@
 import java.io.Serializable;
 import java.util.Vector;
 
-public class Data implements Serializable {
+public class PersonalData implements Serializable {
+  /**
+   * 
+   */
+  private static final long serialVersionUID = 1L;
   public int age;
   public Vector<String> hobbies;
   public String name;
@@ -11,7 +15,7 @@ public class Data implements Serializable {
   public String title;
   public Boolean male; 
   
-  public Data(String name, String title, Boolean notification, String password,  Vector<String> hobbies, int age,
+  public PersonalData(String name, String title, Boolean notification, String password,  Vector<String> hobbies, int age,
       String observations, boolean male) {
     super();
     this.name = name;

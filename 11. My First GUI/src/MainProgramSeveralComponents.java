@@ -1,3 +1,4 @@
+
 import java.awt.Color;
 import java.awt.EventQueue;
 
@@ -46,7 +47,7 @@ public class MainProgramSeveralComponents {
   private JTextField txtEmail;
   private JPasswordField pwdPassword;
   private JPasswordField pwdPasswordagain;
-  private JComboBox Title;
+  private JComboBox titleCombo;
   private JRadioButton rdbtnMale;
   private JRadioButton rdbtnFemale;
   private JCheckBox chckbxReceiveNotifications;
@@ -58,7 +59,7 @@ public class MainProgramSeveralComponents {
   private JButton btnAdd;
   private JScrollPane scrollPane;
 
-  
+
 
   /**
    * Launch the application.
@@ -122,12 +123,12 @@ public class MainProgramSeveralComponents {
     JLabel lblTitle = new JLabel("Title");
     frame.getContentPane().add(lblTitle, "cell 0 2,alignx trailing");
 
-    Title = new JComboBox();
-    frame.getContentPane().add(Title, "cell 1 2,growx");
-    Title.addItem("");
-    Title.addItem("Mr.");
-    Title.addItem("Mrs.");
-    Title.addItem("Miss");
+    titleCombo = new JComboBox();
+    frame.getContentPane().add(titleCombo, "cell 1 2,growx");
+    titleCombo.addItem("");
+    titleCombo.addItem("Mr.");
+    titleCombo.addItem("Mrs.");
+    titleCombo.addItem("Miss");
 
 
     rdbtnMale = new JRadioButton("Male");
@@ -171,48 +172,47 @@ public class MainProgramSeveralComponents {
     frame.getContentPane().add(lblListOfHobbies, "cell 0 7");
 
     DefaultListModel<String> listModel = new DefaultListModel<String>();
-    
+
     scrollPane = new JScrollPane();
     frame.getContentPane().add(scrollPane, "cell 1 7,grow");
-    
+
     list = new JList(listModel);
     scrollPane.setViewportView(list);
 
-    
+
     JButton btnDelete = new JButton("Delete");
     btnDelete.addMouseListener(new MouseAdapter() {
-    	@Override
-    	public void mouseClicked(MouseEvent e) {
-    		int idx = list.getSelectedIndex();
-    		if ( idx != -1){
-    				try{
-    					((DefaultListModel<String>)list.getModel()).remove(idx);
-    				}finally{
-    					
-    				}
-    				
-    		}
-    	}
+      @Override
+      public void mouseClicked(MouseEvent e) {
+        if ( list.getSelectedIndex() != -1){
+          int indeces[] = list.getSelectedIndices();
+          DefaultListModel model = (DefaultListModel) list.getModel();
+          for(int idx = indeces.length - 1; idx >=0 ; idx--){
+            System.out.println("removing: " + model.getElementAt(indeces[idx]).toString());
+            model.remove(indeces[idx]);
+          }
+        }
+      }
     });
     frame.getContentPane().add(btnDelete, "cell 2 7");
-    
+
     txtHobbie = new JTextField();
     frame.getContentPane().add(txtHobbie, "cell 1 8,growx");
     txtHobbie.setColumns(10);
-    
+
     btnAdd = new JButton("Add");
     btnAdd.addActionListener(new ActionListener() {
-    	public void actionPerformed(ActionEvent arg0) {
-    	}
+      public void actionPerformed(ActionEvent arg0) {
+      }
     });
     btnAdd.addMouseListener(new MouseAdapter() {
-    	@Override
-    	public void mouseClicked(MouseEvent e) {
-    		if(! txtHobbie.getText().trim().equals("")){
-				DefaultListModel<String> defaultListModel = (DefaultListModel<String>) list.getModel();
-				defaultListModel.addElement(txtHobbie.getText().trim());       		    			
-    		}
-    	}
+      @Override
+      public void mouseClicked(MouseEvent e) {
+        if(! txtHobbie.getText().trim().equals("")){
+          DefaultListModel defaultListModel = (DefaultListModel) list.getModel();
+          defaultListModel.addElement(txtHobbie.getText().trim());       		    			
+        }
+      }
     });
     frame.getContentPane().add(btnAdd, "cell 2 8,aligny baseline");
 
@@ -224,6 +224,7 @@ public class MainProgramSeveralComponents {
 
     spinner = new JSpinner();
     frame.getContentPane().add(spinner, "cell 1 9");
+    spinner.setValue(40);
 
     JLabel lblObservations = new JLabel("Observations");
     frame.getContentPane().add(lblObservations, "cell 0 10");
@@ -252,10 +253,11 @@ public class MainProgramSeveralComponents {
           for (int i = 0; i< model.getSize(); i++){
             hobbies.addElement(model.getElementAt(i));
           }
-          
+
+
           System.out.println(getSpinner().getValue());
 
-          Data data = new Data (
+          PersonalData data = new PersonalData (
               getTxtName().getText(),
               getTitle().getSelectedItem().toString(),
               getChckbxReceiveNotifications().isSelected(),
@@ -284,9 +286,9 @@ public class MainProgramSeveralComponents {
         try{
           FileInputStream f = new FileInputStream("data.bin");
           ObjectInputStream in = new ObjectInputStream(f);
-          
-          Data data = (Data) in.readObject();
-          
+
+          PersonalData data = (PersonalData) in.readObject();
+
           getTxtName().setText(data.name);
           getChckbxReceiveNotifications().setSelected(data.notification);
           getPwdPassword().setText(data.password);
@@ -294,7 +296,7 @@ public class MainProgramSeveralComponents {
           getRdbtnMale().setSelected(data.male);
           getRdbtnFemale().setSelected(!data.male);
           getSpinner().setValue(data.age);
-                      
+
           Vector<String> hobbies = new Vector<String>(); 
           ListModel<String > model = getList().getModel();
 
@@ -302,16 +304,16 @@ public class MainProgramSeveralComponents {
             hobbies.addElement(model.getElementAt(i));
           }
 
-//          Data data = new Data (
-//              getTxtName().getText(),
-//              getTitle().getSelectedItem().toString(),
-//              getChckbxReceiveNotifications().isSelected(),
-//              new String(getPwdPassword().getPassword()),
-//              hobbies,
-//              (int) getSpinner().getValue(),
-//              getTextObservations().getText()                
-//              );  
-//          out.writeObject(data);
+          //          Data data = new Data (
+          //              getTxtName().getText(),
+          //              getTitle().getSelectedItem().toString(),
+          //              getChckbxReceiveNotifications().isSelected(),
+          //              new String(getPwdPassword().getPassword()),
+          //              hobbies,
+          //              (int) getSpinner().getValue(),
+          //              getTextObservations().getText()                
+          //              );  
+          //          out.writeObject(data);
           in.close();
           f.close();
         }catch(Exception ex){
@@ -339,7 +341,7 @@ public class MainProgramSeveralComponents {
     return txtEmail;
   }
   public JComboBox getTitle() {
-    return Title;
+    return titleCombo;
   }
   public JRadioButton getRdbtnMale() {
     return rdbtnMale;
@@ -359,7 +361,7 @@ public class MainProgramSeveralComponents {
   public JTextArea getTextObservations() {
     return textObservations;
   }
-	protected JTextField getTxtHobbie() {
-		return txtHobbie;
-	}
+  protected JTextField getTxtHobbie() {
+    return txtHobbie;
+  }
 }
