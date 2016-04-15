@@ -1,4 +1,4 @@
-package images;
+
 
 import java.awt.EventQueue;
 
