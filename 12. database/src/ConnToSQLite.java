@@ -6,13 +6,13 @@ public class ConnToSQLite {
 	static final String JDBC_DRIVER = "org.sqlite.JDBC";  
 	static final String DB_URL = "jdbc:sqlite:test.sqlite";
 
-
+	
 	public static void main(String[] args) {
 		Connection conn = null;
 		Statement stmt = null;
 		try{
 			//STEP 2: Register JDBC driver
-			Class.forName(JDBC_DRIVER);
+			Class.forName(JDBC_DRIVER); 
 
 			//STEP 3: Open a connection
 			System.out.println("Connecting to database...");

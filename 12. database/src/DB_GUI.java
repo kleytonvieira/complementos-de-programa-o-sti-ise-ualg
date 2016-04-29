@@ -60,7 +60,10 @@ public class DB_GUI {
     frame.setBounds(100, 100, 450, 572);
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-    frame.getContentPane().setLayout(new MigLayout("", "[213px][213px]", "[532px]"));
+    frame.getContentPane().setLayout(new MigLayout("", "[213px][213px]", "[][][532px]"));
+
+    animalsTable = new JTable(getAnimalsDataModel());
+    animalsTable.removeColumn(animalsTable.getColumnModel().getColumn(0));    // hide id column 
     ownersTable = new JTable(getOwnerDataModel());
     ownersTable.removeColumn(ownersTable.getColumnModel().getColumn(0));     // hide id column
     
@@ -70,11 +73,8 @@ public class DB_GUI {
         updateAnimals();
       }
     });
-    frame.getContentPane().add(ownersTable, "cell 0 0,grow");
-
-    animalsTable = new JTable(getAnimalsDataModel());
-    animalsTable.removeColumn(animalsTable.getColumnModel().getColumn(0));    // hide id column 
-    frame.getContentPane().add(animalsTable, "cell 1 0,grow");
+    frame.getContentPane().add(ownersTable, "cell 0 1 1 2,grow");
+    frame.getContentPane().add(animalsTable, "cell 1 2,grow");
    
   }
 
