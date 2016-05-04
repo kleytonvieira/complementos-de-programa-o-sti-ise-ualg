@@ -24,6 +24,8 @@ import java.awt.CardLayout;
 import javax.swing.JScrollPane;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
+import java.awt.event.FocusAdapter;
+import java.awt.event.FocusEvent;
 
 public class StoreDB {
 
@@ -36,11 +38,12 @@ public class StoreDB {
 	static final String JDBC_DRIVER = "org.sqlite.JDBC";  
 	static final String DB_URL = "jdbc:sqlite:store.sqlite";
 	private Connection conn = null;
-	private ResultSet rsClient;
 	private JTextField txtFilter;
 	private JList listClients;
 	private JPanel MainPanel;
 	private JPanel ClientPanel;
+	private JButton btnNewClient;
+	private JButton btnDeleteClient;
 
 
 	/**
@@ -80,7 +83,7 @@ public class StoreDB {
 		MainPanel.setLayout(null);
 
 		JLabel lblFilter = new JLabel("Filter");
-		lblFilter.setBounds(45, 93, 70, 15);
+		lblFilter.setBounds(45, 35, 70, 15);
 		MainPanel.add(lblFilter);
 
 		txtFilter = new JTextField();
@@ -94,7 +97,7 @@ public class StoreDB {
 				loadClientTable(sql);
 			}
 		});
-		txtFilter.setBounds(92, 91, 114, 19);
+		txtFilter.setBounds(92, 33, 114, 19);
 		MainPanel.add(txtFilter);
 		txtFilter.setColumns(10);
 
@@ -104,17 +107,26 @@ public class StoreDB {
 			@Override
 			public void mouseClicked(MouseEvent e) {
 				if(e.getClickCount() == 2){
-					MainPanel.setVisible(false);
-					ClientPanel.setVisible(true);
-					Client c = (Client) listClients.getSelectedValue();
-					txtClientId.setText("" + c.getClientId());
-					txtClientName.setText(c.getClientName());
-					txtClientAdress.setText(c.getClientAdress());
+					loadSelectedClient();
 				}
 			}
 		});
-		listClients.setBounds(45, 136, 406, 243);
+		listClients.setBounds(45, 64, 406, 243);
 		MainPanel.add(listClients);
+		
+		btnNewClient = new JButton("New");
+		btnNewClient.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseClicked(MouseEvent e) {
+				insertNewClient();
+			}
+		});
+		btnNewClient.setBounds(45, 334, 117, 25);
+		MainPanel.add(btnNewClient);
+		
+		btnDeleteClient = new JButton("Delete");
+		btnDeleteClient.setBounds(174, 334, 117, 25);
+		MainPanel.add(btnDeleteClient);
 
 
 		ClientPanel = new JPanel();
@@ -130,16 +142,31 @@ public class StoreDB {
 		ClientPanel.add(lblId);
 
 		txtClientAdress = new JTextField();
+		txtClientAdress.addFocusListener(new FocusAdapter() {
+			@Override
+			public void focusLost(FocusEvent e) {
+				updateClient();
+			}
+		});
 		txtClientAdress.setBounds(113, 138, 320, 19);
 		ClientPanel.add(txtClientAdress);
 		txtClientAdress.setColumns(10);
 
 		txtClientName = new JTextField();
+		txtClientName.addFocusListener(new FocusAdapter() {
+			@Override
+			public void focusLost(FocusEvent e) {
+				updateClient();
+			}
+		});
+
+		
 		txtClientName.setBounds(113, 107, 320, 19);
 		ClientPanel.add(txtClientName);
 		txtClientName.setColumns(10);
 
 		txtClientId = new JTextField();
+		txtClientId.setEnabled(false);
 		txtClientId.setBounds(113, 81, 114, 19);
 		ClientPanel.add(txtClientId);
 		txtClientId.setColumns(10);
@@ -162,6 +189,18 @@ public class StoreDB {
 
 		tableBuy = new JTable();
 		scrollPane.setViewportView(tableBuy);
+		
+		JButton btnBack = new JButton("Back");
+		btnBack.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseClicked(MouseEvent e) {
+				MainPanel.setVisible(true);
+				ClientPanel.setVisible(false);
+
+			}
+		});
+		btnBack.setBounds(337, 34, 117, 25);
+		ClientPanel.add(btnBack);
 
 		openConnection();
 		loadClientTable("SELECT * FROM Client");
@@ -182,26 +221,75 @@ public class StoreDB {
 
 	}
 
+	
+	protected void updateClient(){
+		String sql = "UPDATE Client SET ClientName = '" + txtClientName.getText() + 
+				"', ClientAdress = '" + txtClientAdress.getText() + 
+				"' WHERE ClientId = " + txtClientId.getText();
+		try{
+			Statement stmt = conn.createStatement();
+			stmt.executeUpdate(sql);
+			stmt.close();
+		}catch(SQLException e){
+			System.out.println(sql + e.getMessage());
+		}
+		
+		Client c = (Client) listClients.getSelectedValue();
+		c.setClientName(txtClientName.getText());
+		c.setClientAdress(txtClientAdress.getText());
+	}
+	
 
 	protected void loadClientTable(String sql) {
 		Statement stmt = null;
 		try{
 			System.out.println("loadClientTable: Quering database...");
 			stmt = conn.createStatement();
-			rsClient = stmt.executeQuery(sql);
+			ResultSet rsClient = stmt.executeQuery(sql);
 
-			Vector<Client> vc = new Vector<Client>();   
+			DefaultListModel<Client> vc = new DefaultListModel<Client>();   
 			while (rsClient.next()){
 				vc.addElement(new Client(rsClient.getInt("ClientId"), rsClient.getString("ClientName"), rsClient.getString("Clientadress")));
 			}
-			
-			listClients.setListData(vc);
+			listClients.setModel(vc);
+			stmt.close();
 
 		}catch(Exception e){
 			System.out.println(e.getMessage());
 		}
 	}
 	
+	
+	
+	
+	private void insertNewClient(){
+		try{
+			Statement stmt = conn.createStatement();
+			stmt.executeUpdate("INSERT INTO Client (ClientName, ClientAdress) VALUES ('-', '-')");
+			ResultSet rs = stmt.getGeneratedKeys();
+			if(rs.next()){
+				DefaultListModel lm = (DefaultListModel) listClients.getModel();
+				lm.addElement(new Client(rs.getInt(1), "", ""));
+				listClients.setSelectedIndex(listClients.getLastVisibleIndex());
+				listClients.setSelectedIndex(lm.getSize());
+				loadSelectedClient();				
+			}
+			stmt.close();
+
+		}catch(Exception e){
+			System.out.println(e.getMessage());
+		}
+		
+	}
+	
+	private void loadSelectedClient(){
+		MainPanel.setVisible(false);
+		ClientPanel.setVisible(true);
+		Client c = (Client) listClients.getSelectedValue();
+		txtClientId.setText("" + c.getClientId());
+		txtClientName.setText(c.getClientName());
+		txtClientAdress.setText(c.getClientAdress());
+	}
 	
 	protected JList getListClients() {
 		return listClients;
