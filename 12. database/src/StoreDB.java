@@ -26,6 +26,8 @@ import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.awt.event.FocusAdapter;
 import java.awt.event.FocusEvent;
+import javax.swing.JComboBox;
+import java.awt.Font;
 
 // TODO: Auto-generated Javadoc
 /**
@@ -45,9 +47,6 @@ public class StoreDB {
   /** The txt client id. */
   private JTextField txtClientId;
 
-  /** The table buy. */
-  private JTable tableBuy;
-
   /** The Constant JDBC_DRIVER. */
   static final String JDBC_DRIVER = "org.sqlite.JDBC";
 
@@ -64,10 +63,10 @@ public class StoreDB {
   private JList listClients;
 
   /** The Main panel. */
-  private JPanel MainPanel;
+  private JPanel mainPanel;
 
   /** The Client panel. */
-  private JPanel ClientPanel;
+  private JPanel clientPanel;
 
   /** The btn new client. */
   private JButton btnNewClient;
@@ -75,6 +74,13 @@ public class StoreDB {
   /** The btn delete client. */
   private JButton btnDeleteClient;
   private JScrollPane scrollPane_1;
+  private JPanel orderDetailsPanel;
+  private JTextField txtFilterProduct;
+  private JLabel lblFilterProduct;
+  private JTable tableOrders;
+  private JTable tableProducts;
+  private JTextField txtQuantity;
+  private JTable tableDetails;
 
   /**
    * Launch the application.
@@ -111,13 +117,13 @@ public class StoreDB {
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     frame.getContentPane().setLayout(new CardLayout(0, 0));
 
-    MainPanel = new JPanel();
-    frame.getContentPane().add(MainPanel, "name_12995790341051");
-    MainPanel.setLayout(null);
+    mainPanel = new JPanel();
+    frame.getContentPane().add(mainPanel, "name_12995790341051");
+    mainPanel.setLayout(null);
 
     JLabel lblFilter = new JLabel("Filter");
     lblFilter.setBounds(45, 35, 70, 15);
-    MainPanel.add(lblFilter);
+    mainPanel.add(lblFilter);
 
     txtFilter = new JTextField();
     txtFilter.addKeyListener(new KeyAdapter() {
@@ -131,14 +137,14 @@ public class StoreDB {
       }
     });
     txtFilter.setBounds(92, 33, 114, 19);
-    MainPanel.add(txtFilter);
+    mainPanel.add(txtFilter);
     txtFilter.setColumns(10);
 
     DefaultListModel<String> clientsListModel = new DefaultListModel<String>();
 
     scrollPane_1 = new JScrollPane();
     scrollPane_1.setBounds(45, 64, 406, 243);
-    MainPanel.add(scrollPane_1);
+    mainPanel.add(scrollPane_1);
     listClients = new JList(clientsListModel);
     scrollPane_1.setViewportView(listClients);
     listClients.addMouseListener(new MouseAdapter() {
@@ -158,7 +164,7 @@ public class StoreDB {
       }
     });
     btnNewClient.setBounds(45, 334, 117, 25);
-    MainPanel.add(btnNewClient);
+    mainPanel.add(btnNewClient);
 
     btnDeleteClient = new JButton("Delete");
     btnDeleteClient.addMouseListener(new MouseAdapter() {
@@ -182,19 +188,19 @@ public class StoreDB {
       }
     });
     btnDeleteClient.setBounds(174, 334, 117, 25);
-    MainPanel.add(btnDeleteClient);
+    mainPanel.add(btnDeleteClient);
 
-    ClientPanel = new JPanel();
-    frame.getContentPane().add(ClientPanel, "name_12982376766486");
-    ClientPanel.setLayout(null);
+    clientPanel = new JPanel();
+    frame.getContentPane().add(clientPanel, "name_12982376766486");
+    clientPanel.setLayout(null);
 
     JLabel lblAdress = new JLabel("Adress");
     lblAdress.setBounds(46, 140, 49, 15);
-    ClientPanel.add(lblAdress);
+    clientPanel.add(lblAdress);
 
     JLabel lblId = new JLabel("Id");
     lblId.setBounds(46, 83, 13, 15);
-    ClientPanel.add(lblId);
+    clientPanel.add(lblId);
 
     txtClientAdress = new JTextField();
     txtClientAdress.addFocusListener(new FocusAdapter() {
@@ -204,7 +210,7 @@ public class StoreDB {
       }
     });
     txtClientAdress.setBounds(113, 138, 320, 19);
-    ClientPanel.add(txtClientAdress);
+    clientPanel.add(txtClientAdress);
     txtClientAdress.setColumns(10);
 
     txtClientName = new JTextField();
@@ -216,43 +222,95 @@ public class StoreDB {
     });
 
     txtClientName.setBounds(113, 107, 320, 19);
-    ClientPanel.add(txtClientName);
+    clientPanel.add(txtClientName);
     txtClientName.setColumns(10);
 
     txtClientId = new JTextField();
     txtClientId.setEnabled(false);
     txtClientId.setBounds(113, 81, 114, 19);
-    ClientPanel.add(txtClientId);
+    clientPanel.add(txtClientId);
     txtClientId.setColumns(10);
 
     JLabel lblClients = new JLabel("-- Clients-- ");
-    lblClients.setBounds(11, 34, 77, 15);
-    ClientPanel.add(lblClients);
+    lblClients.setFont(new Font("Dialog", Font.BOLD, 14));
+    lblClients.setBounds(167, 39, 131, 15);
+    clientPanel.add(lblClients);
 
     JLabel lblName = new JLabel("Name");
     lblName.setBounds(46, 110, 40, 15);
-    ClientPanel.add(lblName);
-
-    JScrollPane scrollPane = new JScrollPane();
-    scrollPane.setBounds(46, 182, 397, 190);
-    ClientPanel.add(scrollPane);
+    clientPanel.add(lblName);
 
     DefaultTableColumnModel tcm = new DefaultTableColumnModel();
 
-    tableBuy = new JTable();
-    scrollPane.setViewportView(tableBuy);
-
     JButton btnBack = new JButton("Back");
+    btnBack.addActionListener(new ActionListener() {
+    	public void actionPerformed(ActionEvent e) {
+    	}
+    });
     btnBack.addMouseListener(new MouseAdapter() {
       @Override
       public void mouseClicked(MouseEvent e) {
-        MainPanel.setVisible(true);
-        ClientPanel.setVisible(false);
+        mainPanel.setVisible(true);
+        clientPanel.setVisible(false);
 
       }
     });
-    btnBack.setBounds(337, 34, 117, 25);
-    ClientPanel.add(btnBack);
+    btnBack.setBounds(292, 78, 117, 25);
+    clientPanel.add(btnBack);
+    
+    tableOrders = new JTable();
+    tableOrders.setBounds(46, 196, 387, 166);
+    clientPanel.add(tableOrders);
+    
+    JLabel lblOrders = new JLabel("Orders");
+    lblOrders.setBounds(46, 169, 70, 15);
+    clientPanel.add(lblOrders);
+    
+    JButton btnNewOrder = new JButton("New Order");
+    btnNewOrder.setBounds(46, 374, 387, 25);
+    clientPanel.add(btnNewOrder);
+    
+    orderDetailsPanel = new JPanel();
+    frame.getContentPane().add(orderDetailsPanel, "name_816572195878041");
+    orderDetailsPanel.setLayout(null);
+    
+    lblFilterProduct = new JLabel("Filter product");
+    lblFilterProduct.setBounds(40, 24, 96, 15);
+    orderDetailsPanel.add(lblFilterProduct);
+    
+    txtFilterProduct = new JTextField();
+    txtFilterProduct.setBounds(154, 22, 114, 19);
+    orderDetailsPanel.add(txtFilterProduct);
+    txtFilterProduct.setColumns(10);
+    
+    tableProducts = new JTable();
+    tableProducts.setBounds(40, 63, 414, 115);
+    orderDetailsPanel.add(tableProducts);
+    
+    JLabel lblQuantity = new JLabel("Quantity");
+    lblQuantity.setBounds(40, 206, 70, 15);
+    orderDetailsPanel.add(lblQuantity);
+    
+    txtQuantity = new JTextField();
+    txtQuantity.setBounds(114, 204, 114, 19);
+    orderDetailsPanel.add(txtQuantity);
+    txtQuantity.setColumns(10);
+    
+    tableDetails = new JTable();
+    tableDetails.setBounds(40, 233, 414, 138);
+    orderDetailsPanel.add(tableDetails);
+    
+    JButton btnDone = new JButton("Done");
+    btnDone.setBounds(337, 386, 117, 25);
+    orderDetailsPanel.add(btnDone);
+    
+    JButton btnAddToBasket = new JButton("Add To Basket");
+    btnAddToBasket.addActionListener(new ActionListener() {
+    	public void actionPerformed(ActionEvent e) {
+    	}
+    });
+    btnAddToBasket.setBounds(252, 201, 176, 25);
+    orderDetailsPanel.add(btnAddToBasket);
 
     openConnection();
     loadClientTable("SELECT * FROM Client");
@@ -355,8 +413,8 @@ public class StoreDB {
    * Load selected client.
    */
   private void loadSelectedClient() {
-    MainPanel.setVisible(false);
-    ClientPanel.setVisible(true);
+    mainPanel.setVisible(false);
+    clientPanel.setVisible(true);
     Client c = (Client) listClients.getSelectedValue();
     txtClientId.setText("" + c.getClientId());
     txtClientName.setText(c.getClientName());
@@ -378,7 +436,7 @@ public class StoreDB {
    * @return the main panel
    */
   protected JPanel getMainPanel() {
-    return MainPanel;
+    return mainPanel;
   }
 
   /**
@@ -387,6 +445,9 @@ public class StoreDB {
    * @return the client panel
    */
   protected JPanel getClientPanel() {
-    return ClientPanel;
+    return clientPanel;
   }
 }
+
+
+
