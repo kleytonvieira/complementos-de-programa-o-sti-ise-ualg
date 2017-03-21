@@ -255,7 +255,7 @@ public class MainProgramSeveralComponents {
           
           System.out.println(getSpinner().getValue());
 
-          Data data = new Data (
+          PersonalData data = new PersonalData (
               getTxtName().getText(),
               getTitle().getSelectedItem().toString(),
               getChckbxReceiveNotifications().isSelected(),
@@ -285,7 +285,7 @@ public class MainProgramSeveralComponents {
           FileInputStream f = new FileInputStream("data.bin");
           ObjectInputStream in = new ObjectInputStream(f);
           
-          Data data = (Data) in.readObject();
+          PersonalData data = (PersonalData) in.readObject();
           
           getTxtName().setText(data.name);
           getChckbxReceiveNotifications().setSelected(data.notification);
