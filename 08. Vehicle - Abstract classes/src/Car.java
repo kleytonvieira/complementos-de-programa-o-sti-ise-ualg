@@ -1,30 +1,44 @@
 
-// TODO: Auto-generated Javadoc
-/**
- * The Class Car.
- */
-public class Car extends LandVehicle {
-  
-  /**  The total filled fuel. */
+public class Car 
+	extends LandVehicle 
+	implements CirculationTax,
+//				Insurance,
+				Comparable,
+				Cloneable
+				{
+	
   private double filledFuel;
-                 
-  /** The total car kms. */
   private double kms;
-                 
-  /** The number of doors. */
   private int    numberOfDoors;
-                 
-  /**
-   * Instantiates a new car.
-   *
-   * @param owner the owner
-   * @param brand the brand
-   * @param model the model
-   * @param numberOfPassengers the number of passengers
-   * @param landVelocity the land velocity
-   * @param numberOfWheels the number of wheels
-   * @param numberOfDoors the number of doors
-   */
+  private float tax;
+
+  @Override
+  public Car clone() {
+	  return new Car(getOwner(), getBrand(), getModel(),
+			  getNumberOfPassengers(), getLandVelocity(),
+			  getNumberOfWheels(), getNumberOfDoors());
+  }
+  
+  @Override
+	public int compareTo(Object o) {
+	  Car c = (Car)o;
+	  if (getLandVelocity() < c.getLandVelocity())
+		  return -1;
+	  if (getLandVelocity() > c.getLandVelocity())
+		  return 1;		
+		return 0;
+	}
+  
+  @Override
+  public void setTax(float tax) {
+	  this.tax = tax;
+  }
+  
+  @Override
+  public float getTax() {
+	  return this.tax;
+  }
+ 
   public Car(Person owner, String brand, String model, int numberOfPassengers, float landVelocity, int numberOfWheels,
       int numberOfDoors) {
     super(owner, brand, model, numberOfPassengers, landVelocity, numberOfWheels);
@@ -32,11 +46,6 @@ public class Car extends LandVehicle {
     this.numberOfDoors = numberOfDoors;
   }
   
-  /**
-   * the average consumption (l/100km) of the vehicle in its life.
-   *
-   * @return the double
-   */
   public double consumption() {
     return this.filledFuel / this.kms * 100;
   }
@@ -120,7 +129,7 @@ public class Car extends LandVehicle {
    * @see LandVehicle#vehicleInfo()
    */
   public String vehicleInfo() {
-    return "This vehicle is a " + this.getBrand() + " " + this.getModel() + " has " + this.getNumberOfWheels()
+    return this.getLandVelocity() + " -- This vehicle is a " + this.getBrand() + " " + this.getModel() + " has " + this.getNumberOfWheels()
         + " wheels and is owned by " + this.getOwner().getName();
   }
   
