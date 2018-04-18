@@ -1,4 +1,7 @@
-
+// TODO: Auto-generated Javadoc
+/**
+ * The Class Vehicle.
+ */
 abstract class Vehicle {
   
   /** The brand. */
