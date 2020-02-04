@@ -4,3 +4,4 @@ RemoteSystemsTempFiles/*
 .recommenders/*
 
 *.class
+.idea/*
