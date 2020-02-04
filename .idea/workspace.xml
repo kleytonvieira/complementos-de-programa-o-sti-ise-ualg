@@ -2,55 +2,245 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b072411-07a9-4f84-8f14-5343ae3322df" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/11. My First GUI/bin/.gitignore" afterPath="$PROJECT_DIR$/11. My First GUI/bin/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HelloWorld/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/Java/01.HelloWorld/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HelloWorld/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Java/01.HelloWorld/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HelloWorld/.project" beforeDir="false" afterPath="$PROJECT_DIR$/Java/01.HelloWorld/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HelloWorld/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/Java/01.HelloWorld/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HelloWorld/src/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/01.HelloWorld/src/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.CodeWithErrors/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/Java/02.CodeWithErrors/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.CodeWithErrors/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Java/02.CodeWithErrors/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.CodeWithErrors/.project" beforeDir="false" afterPath="$PROJECT_DIR$/Java/02.CodeWithErrors/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.CodeWithErrors/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/Java/02.CodeWithErrors/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.CodeWithErrors/src/CodeWithErrors.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/02.CodeWithErrors/src/CodeWithErrors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.WithLogicalErrors/.checkstyle" beforeDir="false" afterPath="$PROJECT_DIR$/Java/03.WithLogicalErrors/.checkstyle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.WithLogicalErrors/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/Java/03.WithLogicalErrors/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.WithLogicalErrors/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Java/03.WithLogicalErrors/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.WithLogicalErrors/.project" beforeDir="false" afterPath="$PROJECT_DIR$/Java/03.WithLogicalErrors/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.WithLogicalErrors/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/Java/03.WithLogicalErrors/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.WithLogicalErrors/src/WithLogicalErrors.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/03.WithLogicalErrors/src/WithLogicalErrors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04.Vehicle/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/Java/04.Vehicle/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04.Vehicle/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Java/04.Vehicle/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04.Vehicle/.project" beforeDir="false" afterPath="$PROJECT_DIR$/Java/04.Vehicle/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04.Vehicle/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/Java/04.Vehicle/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04.Vehicle/src/04.Vehicle.uml" beforeDir="false" afterPath="$PROJECT_DIR$/Java/04.Vehicle/src/04.Vehicle.uml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04.Vehicle/src/04.Vehicle.umlcd" beforeDir="false" afterPath="$PROJECT_DIR$/Java/04.Vehicle/src/04.Vehicle.umlcd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04.Vehicle/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/04.Vehicle/src/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04.Vehicle/src/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/04.Vehicle/src/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04.Vehicle/src/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/04.Vehicle/src/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04.Vehicle/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/04.Vehicle/src/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04.Vehicle/src/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/04.Vehicle/src/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04.Vehicle/src/Program2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/04.Vehicle/src/Program2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05.Vehicle Simplified - (des)constructers and encapsulation/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/Java/05.Vehicle Simplified - (des)constructers and encapsulation/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05.Vehicle Simplified - (des)constructers and encapsulation/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Java/05.Vehicle Simplified - (des)constructers and encapsulation/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05.Vehicle Simplified - (des)constructers and encapsulation/.project" beforeDir="false" afterPath="$PROJECT_DIR$/Java/05.Vehicle Simplified - (des)constructers and encapsulation/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05.Vehicle Simplified - (des)constructers and encapsulation/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/Java/05.Vehicle Simplified - (des)constructers and encapsulation/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05.Vehicle Simplified - (des)constructers and encapsulation/src/05.Vehicle Simplified - (des)constructers and encapsulation.uml" beforeDir="false" afterPath="$PROJECT_DIR$/Java/05.Vehicle Simplified - (des)constructers and encapsulation/src/05.Vehicle Simplified - (des)constructers and encapsulation.uml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05.Vehicle Simplified - (des)constructers and encapsulation/src/05.Vehicle Simplified - (des)constructers and encapsulation.umlcd" beforeDir="false" afterPath="$PROJECT_DIR$/Java/05.Vehicle Simplified - (des)constructers and encapsulation/src/05.Vehicle Simplified - (des)constructers and encapsulation.umlcd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05.Vehicle Simplified - (des)constructers and encapsulation/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/05.Vehicle Simplified - (des)constructers and encapsulation/src/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05.Vehicle Simplified - (des)constructers and encapsulation/src/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/05.Vehicle Simplified - (des)constructers and encapsulation/src/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05.Vehicle Simplified - (des)constructers and encapsulation/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/05.Vehicle Simplified - (des)constructers and encapsulation/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05.Vehicle Simplified - (des)constructers and encapsulation/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/05.Vehicle Simplified - (des)constructers and encapsulation/src/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.vehicle - inheritance/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/Java/06.vehicle - inheritance/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.vehicle - inheritance/.project" beforeDir="false" afterPath="$PROJECT_DIR$/Java/06.vehicle - inheritance/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.vehicle - inheritance/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/Java/06.vehicle - inheritance/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.vehicle - inheritance/06.vehicle - inheritance.uml" beforeDir="false" afterPath="$PROJECT_DIR$/Java/06.vehicle - inheritance/06.vehicle - inheritance.uml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.vehicle - inheritance/06.vehicle - inheritance.umlcd" beforeDir="false" afterPath="$PROJECT_DIR$/Java/06.vehicle - inheritance/06.vehicle - inheritance.umlcd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.vehicle - inheritance/bin/AirVehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.vehicle - inheritance/bin/Bicycle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.vehicle - inheritance/bin/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.vehicle - inheritance/bin/Copter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.vehicle - inheritance/bin/Engine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.vehicle - inheritance/bin/LandVehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.vehicle - inheritance/bin/MainOverloadExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.vehicle - inheritance/bin/MainOverrideExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.vehicle - inheritance/bin/MainProgram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.vehicle - inheritance/bin/MotorBoat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.vehicle - inheritance/bin/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.vehicle - inheritance/bin/PolymorphismExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.vehicle - inheritance/bin/SaillingBoat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.vehicle - inheritance/bin/Vehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.vehicle - inheritance/bin/WaterVehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.vehicle - inheritance/bin/Wheel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.vehicle - inheritance/bin/Winged.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.vehicle - inheritance/src/AirVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/06.vehicle - inheritance/src/AirVehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.vehicle - inheritance/src/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/06.vehicle - inheritance/src/Bicycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.vehicle - inheritance/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/06.vehicle - inheritance/src/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.vehicle - inheritance/src/Copter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/06.vehicle - inheritance/src/Copter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.vehicle - inheritance/src/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/06.vehicle - inheritance/src/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.vehicle - inheritance/src/LandVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/06.vehicle - inheritance/src/LandVehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.vehicle - inheritance/src/MainOverloadExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/06.vehicle - inheritance/src/MainOverloadExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.vehicle - inheritance/src/MainOverrideExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/06.vehicle - inheritance/src/MainOverrideExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.vehicle - inheritance/src/MainProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/06.vehicle - inheritance/src/MainProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.vehicle - inheritance/src/MotorBoat.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/06.vehicle - inheritance/src/MotorBoat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.vehicle - inheritance/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/06.vehicle - inheritance/src/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.vehicle - inheritance/src/PolymorphismExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/06.vehicle - inheritance/src/PolymorphismExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.vehicle - inheritance/src/SaillingBoat.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/06.vehicle - inheritance/src/SaillingBoat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.vehicle - inheritance/src/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/06.vehicle - inheritance/src/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.vehicle - inheritance/src/WaterVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/06.vehicle - inheritance/src/WaterVehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.vehicle - inheritance/src/Wheel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/06.vehicle - inheritance/src/Wheel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.vehicle - inheritance/src/Winged.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/06.vehicle - inheritance/src/Winged.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07. private vs Protected vs public vs default/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/Java/07. private vs Protected vs public vs default/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07. private vs Protected vs public vs default/.project" beforeDir="false" afterPath="$PROJECT_DIR$/Java/07. private vs Protected vs public vs default/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07. private vs Protected vs public vs default/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/Java/07. private vs Protected vs public vs default/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07. private vs Protected vs public vs default/bin/DaughterOutsidePackage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07. private vs Protected vs public vs default/bin/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07. private vs Protected vs public vs default/bin/UnrelatedOutsidePackage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07. private vs Protected vs public vs default/bin/cp/pack/DaughterInsidePackage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07. private vs Protected vs public vs default/bin/cp/pack/Mother.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07. private vs Protected vs public vs default/bin/cp/pack/UnrelatedInsidePackage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07. private vs Protected vs public vs default/src/DaughterOutsidePackage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/07. private vs Protected vs public vs default/src/DaughterOutsidePackage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07. private vs Protected vs public vs default/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/07. private vs Protected vs public vs default/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07. private vs Protected vs public vs default/src/UnrelatedOutsidePackage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/07. private vs Protected vs public vs default/src/UnrelatedOutsidePackage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07. private vs Protected vs public vs default/src/cp/pack/DaughterInsidePackage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/07. private vs Protected vs public vs default/src/cp/pack/DaughterInsidePackage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07. private vs Protected vs public vs default/src/cp/pack/Mother.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/07. private vs Protected vs public vs default/src/cp/pack/Mother.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07. private vs Protected vs public vs default/src/cp/pack/UnrelatedInsidePackage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/07. private vs Protected vs public vs default/src/cp/pack/UnrelatedInsidePackage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08. Vehicle - Abstract classes/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/Java/08. Vehicle - Abstract classes/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08. Vehicle - Abstract classes/.project" beforeDir="false" afterPath="$PROJECT_DIR$/Java/08. Vehicle - Abstract classes/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08. Vehicle - Abstract classes/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/Java/08. Vehicle - Abstract classes/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08. Vehicle - Abstract classes/08. Vehicle - Abstract classes.uml" beforeDir="false" afterPath="$PROJECT_DIR$/Java/08. Vehicle - Abstract classes/08. Vehicle - Abstract classes.uml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08. Vehicle - Abstract classes/08. Vehicle - Abstract classes.umlcd" beforeDir="false" afterPath="$PROJECT_DIR$/Java/08. Vehicle - Abstract classes/08. Vehicle - Abstract classes.umlcd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08. Vehicle - Abstract classes/bin/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08. Vehicle - Abstract classes/bin/LandVehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08. Vehicle - Abstract classes/bin/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08. Vehicle - Abstract classes/bin/Vehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08. Vehicle - Abstract classes/bin/mainProgram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08. Vehicle - Abstract classes/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/08. Vehicle - Abstract classes/src/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08. Vehicle - Abstract classes/src/LandVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/08. Vehicle - Abstract classes/src/LandVehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08. Vehicle - Abstract classes/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/08. Vehicle - Abstract classes/src/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08. Vehicle - Abstract classes/src/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/08. Vehicle - Abstract classes/src/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08. Vehicle - Abstract classes/src/mainProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/08. Vehicle - Abstract classes/src/mainProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09. Interfaces/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/Java/09. Interfaces/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09. Interfaces/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Java/09. Interfaces/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09. Interfaces/.project" beforeDir="false" afterPath="$PROJECT_DIR$/Java/09. Interfaces/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09. Interfaces/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/Java/09. Interfaces/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09. Interfaces/09. Interfaces.uml" beforeDir="false" afterPath="$PROJECT_DIR$/Java/09. Interfaces/09. Interfaces.uml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09. Interfaces/09. Interfaces.umlcd" beforeDir="false" afterPath="$PROJECT_DIR$/Java/09. Interfaces/09. Interfaces.umlcd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09. Interfaces/src/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/09. Interfaces/src/Bicycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09. Interfaces/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/09. Interfaces/src/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09. Interfaces/src/Car.java.orig" beforeDir="false" afterPath="$PROJECT_DIR$/Java/09. Interfaces/src/Car.java.orig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09. Interfaces/src/CirculationTax.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/09. Interfaces/src/CirculationTax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09. Interfaces/src/Insurance.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/09. Interfaces/src/Insurance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09. Interfaces/src/LandVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/09. Interfaces/src/LandVehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09. Interfaces/src/MotorBoat.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/09. Interfaces/src/MotorBoat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09. Interfaces/src/RowBoat.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/09. Interfaces/src/RowBoat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09. Interfaces/src/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/09. Interfaces/src/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09. Interfaces/src/WaterVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/09. Interfaces/src/WaterVehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09. Interfaces/src/mainProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/09. Interfaces/src/mainProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09. Interfaces/src/mainProgram.java.orig" beforeDir="false" afterPath="$PROJECT_DIR$/Java/09. Interfaces/src/mainProgram.java.orig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09. Interfaces/src/mainProgram2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/09. Interfaces/src/mainProgram2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10. Exceptions/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/Java/10. Exceptions/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10. Exceptions/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Java/10. Exceptions/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10. Exceptions/.project" beforeDir="false" afterPath="$PROJECT_DIR$/Java/10. Exceptions/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10. Exceptions/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/Java/10. Exceptions/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10. Exceptions/src/my/AccessErrorException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/10. Exceptions/src/my/AccessErrorException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10. Exceptions/src/my/Date.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/10. Exceptions/src/my/Date.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10. Exceptions/src/my/MainProgramDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/10. Exceptions/src/my/MainProgramDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10. Exceptions/src/my/MainProgramFinally.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/10. Exceptions/src/my/MainProgramFinally.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10. Exceptions/src/my/MainProgramMultiLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/10. Exceptions/src/my/MainProgramMultiLevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10. Exceptions/src/my/MainProgramWithMyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/10. Exceptions/src/my/MainProgramWithMyException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10. Exceptions/src/my/file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Java/10. Exceptions/src/my/file.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10. Exceptions/src/my/mainProgramArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/10. Exceptions/src/my/mainProgramArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10. Exceptions/src/my/mainProgramDivisionByZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/10. Exceptions/src/my/mainProgramDivisionByZero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10. Exceptions/src/my/mainProgramFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/10. Exceptions/src/my/mainProgramFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10. Exceptions/src/my/mainProgramMultiCatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/10. Exceptions/src/my/mainProgramMultiCatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10. Exceptions/src/my/mainProgramMultiCatchMyThrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/10. Exceptions/src/my/mainProgramMultiCatchMyThrow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. My First GUI/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/Java/11. My First GUI/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. My First GUI/.project" beforeDir="false" afterPath="$PROJECT_DIR$/Java/11. My First GUI/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. My First GUI/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/Java/11. My First GUI/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. My First GUI/bin/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. My First GUI/bin/HelloWorldLabel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. My First GUI/bin/LayoutTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. My First GUI/bin/MainHelloWorldLabelAndButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. My First GUI/bin/MainProgramFormAndTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. My First GUI/bin/MainProgramSeveralComponents.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. My First GUI/bin/OptionPaneExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. My First GUI/bin/PersonalData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. My First GUI/bin/images/Contacts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. My First GUI/bin/images/helloWorld.png" beforeDir="false" afterPath="$PROJECT_DIR$/Java/11. My First GUI/bin/images/helloWorld.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. My First GUI/bin/selected2Title.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. My First GUI/data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Java/11. My First GUI/data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. My First GUI/jgoodies-forms-1.8.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Java/11. My First GUI/jgoodies-forms-1.8.0-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. My First GUI/jgoodies-forms-1.8.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Java/11. My First GUI/jgoodies-forms-1.8.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. My First GUI/miglayout-src.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Java/11. My First GUI/miglayout-src.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. My First GUI/miglayout15-swing.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Java/11. My First GUI/miglayout15-swing.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. My First GUI/src/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/11. My First GUI/src/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. My First GUI/src/HelloWorldLabel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/11. My First GUI/src/HelloWorldLabel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. My First GUI/src/LayoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/11. My First GUI/src/LayoutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. My First GUI/src/MainHelloWorldLabelAndButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/11. My First GUI/src/MainHelloWorldLabelAndButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. My First GUI/src/MainProgramFormAndTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/11. My First GUI/src/MainProgramFormAndTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. My First GUI/src/MainProgramSeveralComponents.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/11. My First GUI/src/MainProgramSeveralComponents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. My First GUI/src/OptionPaneExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/11. My First GUI/src/OptionPaneExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. My First GUI/src/PersonalData.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/11. My First GUI/src/PersonalData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. My First GUI/src/images/Contacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/11. My First GUI/src/images/Contacts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. My First GUI/src/images/helloWorld.png" beforeDir="false" afterPath="$PROJECT_DIR$/Java/11. My First GUI/src/images/helloWorld.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. My First GUI/src/selected2Title.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/11. My First GUI/src/selected2Title.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12. database/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/Java/12. database/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12. database/.project" beforeDir="false" afterPath="$PROJECT_DIR$/Java/12. database/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12. database/bin/sqlite-jdbc-3.8.11.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Java/12. database/bin/sqlite-jdbc-3.8.11.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12. database/jars/sqlite-jdbc-3.8.11.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Java/12. database/jars/sqlite-jdbc-3.8.11.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12. database/jgoodies-forms-1.8.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Java/12. database/jgoodies-forms-1.8.0-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12. database/jgoodies-forms-1.8.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Java/12. database/jgoodies-forms-1.8.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12. database/miglayout-src.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Java/12. database/miglayout-src.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12. database/miglayout15-swing.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Java/12. database/miglayout15-swing.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12. database/src/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/12. database/src/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12. database/src/Animals.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/12. database/src/Animals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12. database/src/AnimalsGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/12. database/src/AnimalsGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12. database/src/AnimalsGUI_V2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/12. database/src/AnimalsGUI_V2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12. database/src/ConnToSQLite.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/12. database/src/ConnToSQLite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12. database/src/DB_GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/12. database/src/DB_GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12. database/src/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/12. database/src/Owner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12. database/src/StoreDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/12. database/src/StoreDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12. database/src/connectingToMySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/12. database/src/connectingToMySQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12. database/src/sqlite-jdbc-3.8.11.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Java/12. database/src/sqlite-jdbc-3.8.11.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12. database/store.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Java/12. database/store.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12. database/store.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/Java/12. database/store.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12. database/test.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/Java/12. database/test.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12. database/teste.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/Java/12. database/teste.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CartaoWeb/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/Java/CartaoWeb/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CartaoWeb/.project" beforeDir="false" afterPath="$PROJECT_DIR$/Java/CartaoWeb/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CartaoWeb/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/Java/CartaoWeb/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex.Bank/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/Java/Ex.Bank/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex.Bank/Ex.Bank.uml" beforeDir="false" afterPath="$PROJECT_DIR$/Java/Ex.Bank/Ex.Bank.uml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex.Bank/Ex.Bank.umlcd" beforeDir="false" afterPath="$PROJECT_DIR$/Java/Ex.Bank/Ex.Bank.umlcd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/src/BirthdayCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/Exercises/src/BirthdayCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/src/ChristmasCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/Exercises/src/ChristmasCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/src/Date.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/Exercises/src/Date.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/Exercises/src/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/src/MainProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/Exercises/src/MainProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/src/WebCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/Exercises/src/WebCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/src/mainProgramWebCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/Exercises/src/mainProgramWebCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/Java/README" afterDir="false" />
     </list>
     <ignored path="complementos-de-programa-o-sti-ise-ualg.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="complementos-de-programa-o-sti-ise-ualg" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainProgramFinally.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/10. Exceptions/src/my/MainProgramFinally.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java/12. database/src/Animals.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="HelloWorld.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/11. My First GUI/src/HelloWorld.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-              <folding>
-                <element signature="e#822#823#0" expanded="false" />
-                <element signature="e#844#845#0" expanded="false" />
-                <element signature="e#2656#2657#0" expanded="false" />
-                <element signature="e#2699#2700#0" expanded="false" />
-                <element signature="e#3317#3318#0" expanded="false" />
-                <element signature="e#3342#3343#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java/Exercises/src/ChristmasCard.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Java/README">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -65,8 +255,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1366" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-245" />
+    <option name="y" value="-15" />
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
@@ -101,68 +292,45 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
-  </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="complementos-de-programa-o-sti-ise-ualg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="complementos-de-programa-o-sti-ise-ualg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="complementos-de-programa-o-sti-ise-ualg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="complementos-de-programa-o-sti-ise-ualg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="complementos-de-programa-o-sti-ise-ualg" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager">
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -184,6 +352,12 @@
       <module name="" />
       <envs />
       <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <envs />
@@ -235,21 +409,21 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-    </configuration>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -258,34 +432,46 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1458593367344</updated>
+      <workItem from="1580804983358" duration="252000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="252000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="1366" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17395833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17430703" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -295,78 +481,37 @@
       <collection />
     </option>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/10. Exceptions/src/my/MainProgramFinally.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10. Exceptions/src/my/MainProgramFinally.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10. Exceptions/src/my/MainProgramFinally.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10. Exceptions/src/my/MainProgramFinally.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10. Exceptions/src/my/MainProgramFinally.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11. My First GUI/src/HelloWorld.java">
+    <entry file="file://$PROJECT_DIR$/Java/11. My First GUI/src/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
-            <element signature="e#822#823#0" expanded="false" />
-            <element signature="e#844#845#0" expanded="false" />
-            <element signature="e#2656#2657#0" expanded="false" />
-            <element signature="e#2699#2700#0" expanded="false" />
-            <element signature="e#3317#3318#0" expanded="false" />
-            <element signature="e#3342#3343#0" expanded="false" />
+            <element signature="e#822#823#0" />
+            <element signature="e#844#845#0" />
+            <element signature="e#2656#2657#0" />
+            <element signature="e#2699#2700#0" />
+            <element signature="e#3317#3318#0" />
+            <element signature="e#3342#3343#0" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/10. Exceptions/src/my/MainProgramFinally.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/12. database/src/Animals.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/Exercises/src/ChristmasCard.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/README">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
