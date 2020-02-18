@@ -6,4 +6,6 @@ RemoteSystemsTempFiles/*
 *.class
 .idea/*
 venv/
+*ipynb_checkpoints*
+*.pyc
 /.project
