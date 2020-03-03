@@ -10,5 +10,6 @@ for f in $*
 do
   echo $f
 #   jupyter-nbconvert $f --to slides --SlidesExporter.reveal_scroll=True 
-  jupyter-nbconvert $f --to html 
+#   jupyter-nbconvert $f --to html 
+  jupyter-nbconvert $f --to pdf
 done
