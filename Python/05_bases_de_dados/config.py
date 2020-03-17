@@ -1,6 +1,6 @@
 config = {
     'host' : 'localhost',
-    'user' : 'sensors',
+    'user' : 'sensor',
     'password' : '##sensors##',
     'db' : 'sensors'
 }
