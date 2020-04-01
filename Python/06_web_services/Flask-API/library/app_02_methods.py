@@ -1,3 +1,4 @@
+
 from flask import Flask, jsonify, request, abort, make_response
 
 app = Flask(__name__)
@@ -31,7 +32,7 @@ things_counter = 2
 # função para manipular erros por código ou classe de exceção.
 @app.errorhandler(404)
 def not_found(error):
-    return make_response(jsonify({'Erro': 'Não encontrada'}), 404)
+    return jsonify({'Erro': 'Não encontrada'}), 404
 
 
 @app.route('/iot/api/v1.0/things/', methods=['GET'])
@@ -42,13 +43,13 @@ def get_things():
 @app.route('/iot/api/v1.0/things/<int:thing_id>', methods=['GET'])
 def get_thing(thing_id):
 
-    for thing in things:
-        if thing['id'] == thing_id:
+    for t in things:
+        if t['id'] == thing_id:
             break
     else:
         abort(404)
 
-    return jsonify({'thing': thing})
+    return jsonify({'thing': t})
 
 
 @app.route('/iot/api/v1.0/things/', methods=['POST'])
@@ -58,7 +59,10 @@ def create_thing():
     # only one request at a time, the request data can be considered global to that worker during that request.
 
     # request.json terá os dados da solicitação, mas somente se vierem marcados como JSON.
-    if not request.json or 'name' not in request.json or 'local' not in request.json or 'sensors' not in request.json:
+    if not request.json or \
+            'name' not in request.json or \
+            'local' not in request.json or \
+            'sensors' not in request.json:
         # See https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
         # 400 Bad Request - The server could not understand the request due to invalid syntax.
         abort(400)
@@ -82,20 +86,20 @@ def create_thing():
 @app.route('/iot/api/v1.0/things/<int:thing_id>', methods=['PUT'])
 def update_thing(thing_id):
 
-    for thing in things:
-        if thing['id'] == thing_id:
+    if not request.json:
+        abort(400) # 400 Bad Request
+
+    for t in things:
+        if t['id'] == thing_id:
             break
     else:
         abort(404)
 
-    if not request.json:
-        abort(400) # 400 Bad Request
+    t['name'] = request.json.get('name', t['name'])
+    t['local'] = request.json.get('local', t['local'])
+    t['sensors'] = request.json.get('sensors', t['sensors'])
 
-    thing['name'] = request.json.get('name', thing['name'])
-    thing['local'] = request.json.get('local', thing['local'])
-    thing['sensors'] = request.json.get('sensors', thing['sensors'])
-
-    return jsonify({'thing': thing})
+    return jsonify({'thing': t})
 
 
 @app.route('/iot/api/v1.0/things/<int:thing_id>', methods=['DELETE'])
