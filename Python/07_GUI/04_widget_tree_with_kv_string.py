@@ -8,7 +8,7 @@ Builder.load_string('''
     Label:
         text: "Nome"
     TextInput:
-
+        multiline: False
     BoxLayout:
         orientation: "vertical"
         Button:
@@ -16,7 +16,8 @@ Builder.load_string('''
         Button:
             text:
                 "Cancelar"
-    ''')
+    '''
+                    )
 
 
 
