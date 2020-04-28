@@ -2,6 +2,10 @@ from kivy.app import App
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.label import Label
 from kivy.uix.textinput import TextInput
+from kivy.core.audio import SoundLoader
+
+from kivy.core.window import Window
+Window.size = (2000, 600)
 
 class Pessoa:
     def __init__(self, nome, email, tem_carro, genero, pais):
@@ -30,6 +34,7 @@ class FormularioWidget(BoxLayout):
     def proximo(self):
         self.idx = (self.idx + 1) % len(self.lista_pessoas)
         self.preenche_formulario()
+
 
     def anterior(self):
         self.idx -= 1
