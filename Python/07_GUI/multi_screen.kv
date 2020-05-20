@@ -1,0 +1,36 @@
+<LoginScreen>:
+    BoxLayout:
+        orientation: "vertical"
+        GridLayout:
+            cols:2
+            Label:
+                text: "User"
+            TextInput:
+                id: user
+
+            Label:
+                text: "Password"
+            TextInput:
+                id: password
+
+        Button:
+            text: "OK"
+            on_release: root.login()
+
+
+<MainScreen>:
+    BoxLayout:
+        orientation: "vertical"
+        GridLayout:
+            cols: 3
+            Label:
+                text: "cenas"
+            Label:
+                text: "mais cenas"
+            Label:
+                text: "ainda mais cenas"
+
+        Button:
+            text: "Logout!"
+            on_release: root.logout()
+
